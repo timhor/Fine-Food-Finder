@@ -1,8 +1,19 @@
-# Fine-Food-Finder
-[SENG2011 Project](https://webcms3.cse.unsw.edu.au/SENG2011/17s1/resources/6277)
+# thinkster-django-angular-boilerplate
 
-## Formatting commit messages
-- To keep commit messages consistent, use:
-  1. Present tense
-  2. Sentence case (only capitalise first letter of first word)
-- Example: `git commit -m "Update foo() function"`
+## Installation
+
+*NOTE: Requires [virtualenv](http://virtualenv.readthedocs.org/en/latest/),
+[virtualenvwrapper](http://virtualenvwrapper.readthedocs.org/en/latest/) and
+[Node.js](http://nodejs.org/).*
+
+* Fork this repository.
+* `$ git clone git@github.com:<your username>/thinkster-django-angular-boilerplate.git`
+* `$ mkvirtualenv thinkster-djangular`
+* `$ cd thinkster-django-angular-boilerplate/`
+* `$ pip install -r requirements.txt`
+* `$ npm install -g bower`
+* `$ npm install`
+* `$ bower install`
+* `$ python manage.py migrate`
+* `$ python manage.py runserver`
+
