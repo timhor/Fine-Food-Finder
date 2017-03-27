@@ -6,3 +6,8 @@
   1. Present tense
   2. Sentence case (only capitalise first letter of first word)
 - Example: `git commit -m "Update foo() function"`
+
+## Development & testing
+- Run `grunt` for building and `grunt serve` for preview
+- Run `grunt test` to run the unit tests with karma
+- Generated with [yo angular generator](https://github.com/yeoman/generator-angular) version 0.16.0
