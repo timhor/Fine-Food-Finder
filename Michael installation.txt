@@ -1,6 +1,0 @@
-pip install Django
-curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
-sudo apt-get install nodejs
-npm install -g bower
-npm install
-bower install
