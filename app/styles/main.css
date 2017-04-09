@@ -81,3 +81,17 @@ body {
     border-bottom: 0;
   }
 }
+
+.searchbar{
+  margin:0 auto;
+  width:50%;
+}
+
+#search {
+  background-color: #e6f0ff;
+  font-weight: bold;
+  color: #000a1a;
+  border-color: #0066ff;
+  border-width: 2px;
+  border-radius: 20px;
+}
