@@ -9,7 +9,7 @@
  */
 angular.module('fineFoodFinderApp')
   .controller('restCtrl', function ($scope, $http){
-        $http.get('/backend/restdata.json').success(function(data) {
-          $scope.restdata = data;
+        $http.get('/backend/restdata.json').then(function(response) {
+          $scope.restdata = response.data;
 	    });
     });
