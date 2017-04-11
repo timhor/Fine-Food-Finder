@@ -1,6 +1,6 @@
 [
 	{
-		"id":"1",
+		"id":1,
 		"name":"Curry World",
 		"address":"5 Temple St, Richmond, NSW",
 		"postcode":"2173",
@@ -8,7 +8,7 @@
 		"contactnumber":"0423960364"
 	},
 	{
-		"id":"2",
+		"id":2,
 		"name":"Grand Pacific",
 		"address":"18 Pete St, Cabramatta, NSW",
 		"postcode":"2171",
@@ -16,7 +16,7 @@
 		"contactnumber":"0454546768"
 	},
 	{
-		"id":"3",
+		"id":3,
 		"name":"Chinese Noodles",
 		"address":"55 George St, Liverpool, NSW",
 		"postcode":"2170",
@@ -24,7 +24,7 @@
 		"contactnumber":"0478624345"
 	},
 	{
-		"id":"4",
+		"id":4,
 		"name":"Heart Cafe",
 		"address":"18 George St, Town Hall, NSW",
 		"postcode":"2050",
@@ -32,7 +32,7 @@
 		"contactnumber":"0453569091"
 	},
 	{
-		"id":"5",
+		"id":5,
 		"name":"Chocolatier",
 		"address":"1 High St, Kensington, NSW",
 		"postcode":"2052",
@@ -40,7 +40,7 @@
 		"contactnumber":"0455543521"
 	},
 	{
-		"id":"6",
+		"id":6,
 		"name":"Eleven Bridge",
 		"address":"3 George St, Town Hall, NSW",
 		"postcode":"2050",
@@ -48,7 +48,7 @@
 		"contactnumber":"0402483725"
 	},
 		{
-		"id":"7",
+		"id":7,
 		"name":"Mario's Italian Cusine",
 		"address":"118 Richard Ave, Lidcombe, NSW",
 		"postcode":"2066",
@@ -56,7 +56,7 @@
 		"contactnumber":"0466790123"
 	},
 	{
-		"id":"8",
+		"id":8,
 		"name":"Willy Wonka's Chocolate Factory",
 		"address":"50 Heaven Lane, Kensington, NSW",
 		"postcode":"2052",
@@ -64,7 +64,7 @@
 		"contactnumber":"0477122177"
 	},
 		{
-		"id":"9",
+		"id":9,
 		"name":"Seafood Palace",
 		"address":"153 Harbour Road, Manly, NSW",
 		"postcode":"2095",
@@ -72,7 +72,7 @@
 		"contactnumber":"0422131454"
 	},
 	{
-		"id":"10",
+		"id":10,
 		"name":"McDonald's Liverpool",
 		"address":"Westfield Shopping Centre, Liverpool, NSW",
 		"postcode":"2170",
