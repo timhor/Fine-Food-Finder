@@ -117,3 +117,8 @@ body {
 .glyphicon.glyphicon-search {
     font-size: 25px;
 }
+
+html { 
+  overflow-x:auto; 
+  overflow-y:scroll; 
+}

@@ -81,3 +81,8 @@ body {
     border-bottom: 0;
   }
 }
+
+html { 
+  overflow-x:auto; 
+  overflow-y:scroll; 
+}
