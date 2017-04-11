@@ -1,0 +1,27 @@
+<link rel="stylesheet" href="styles/about.css">
+
+<div class="jumbotron">
+  <h1>Restaurants</h1>
+  <br>
+</div>
+<body ng-controller="restCtrl">
+  	<h2>Test</h2>
+	<table>
+	  <tr>
+	    <th>ID</th>
+	    <th>Name</th>
+	    <th>Address</th>
+	    <th>Postcode</th>
+	    <th>Email</th>
+	    <th>Contact Number</th>
+	  </tr>
+	  <tr ng-repeat="rest in restdata | orderBy: 'id' ">
+	    <td>{{rest.id}}</td>
+	    <td>{{rest.name}}</td>
+	    <td>{{rest.address}}</td>
+	    <td>{{rest.postcode}}</td>
+	    <td>{{rest.email}}</td>
+	    <td>{{rest.contactnumber}}</td>
+	  </tr>
+	</table>
+</body>
