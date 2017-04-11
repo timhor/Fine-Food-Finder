@@ -1,3 +1,4 @@
+<p id="time"></p>
 <div class="jumbotron">
   <h1>Find some food!</h1>
   <br>
@@ -17,6 +18,8 @@
 		</div>
 	</form>
 </div>
+
+
 <div class="Search box">
     <button type="button"
     onclick="document.getElementById('demo').innerHTML = Date()">Search!</button>
@@ -34,3 +37,26 @@
   <h4>Feature 3</h4>
   <p>Feature 3 Description</p>
 </div>
+
+<script>
+    $(document).ready(function () {
+    $('.nav li a').click(function(e) {
+
+        $('.nav li').removeClass('active');
+
+        var $parent = $(this).parent();
+        if (!$parent.hasClass('active')) {
+            $parent.addClass('active');
+        }
+
+    });
+});
+</script>
+
+<script>
+    var myVar = setInterval(myTimer, 1000);
+    function myTimer() {
+        var d = new Date();
+        document.getElementById("time").innerHTML = d.toLocaleTimeString();
+    }
+</script>
