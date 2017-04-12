@@ -28,13 +28,18 @@ angular
       })
       .when('/login', {
         templateUrl: 'views/login.html',
-        controller: 'AboutCtrl',
-        controllerAs: 'about'
+        controller: 'LoginCtrl',
+        controllerAs: 'login'
       })
       .when('/restaurants', {
         templateUrl: 'views/restaurants.html',
         controller: 'restCtrl',
         controllerAs: 'rest'
+      })
+      .when('/signup', {
+        templateUrl: 'views/signup.html',
+        controller: 'SignUpCtrl',
+        controllerAs: 'signup'
       })
       .otherwise({
         redirectTo: '/'
