@@ -65,6 +65,10 @@ body {
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
     border-bottom: 0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-blend-mode: overlay;
+    background-image: url(http://www.cfnltd.com/wp-content/uploads/temp2.jpg);
   }
 }
 
