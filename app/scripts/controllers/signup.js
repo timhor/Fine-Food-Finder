@@ -1,17 +1,14 @@
 'use strict';
 
-/**
- * @ngdoc function
- * @name fineFoodFinderApp.controller:restCtrl
- * @description
- * # SignUpCtrl
- * Controller of the fineFoodFinderApp
- */
 angular.module('fineFoodFinderApp')
-  .controller('SignUpCtrl', function (){
-  	this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-    });
+  .controller('SignUpCtrl', function($scope) {
+        $scope.list = [];
+        $scope.submit = function() {
+          if ($scope.email) {
+            $scope.list.push(this.username);
+            $scope.list.push(this.password1);
+            $scope.list.push(this.password2);
+            $scope.list.push(this.email);
+          }
+        };
+  });
