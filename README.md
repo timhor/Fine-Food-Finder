@@ -7,10 +7,10 @@
   2. Sentence case (only capitalise first letter of first word)
 - Example: `git commit -m "Update foo() function"`
 
-## How to run the web-app
+## Running the app
 - Run `grunt serve` for preview
-- Run `json-server --watch app\database.json` to start a JSON server which simulates a REST API
-- Note: both commands need to be running simultaneously
+- Run `json-server --watch app/database.json` to start a JSON server which simulates a REST API
+- Note: both commands need to be running simultaneously (use two terminal windows/tabs)
 
 ## Development & testing
 - Run `grunt` for building
