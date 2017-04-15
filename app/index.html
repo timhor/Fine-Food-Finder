@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
   </head>
-  <body ng-app="fineFoodFinderApp">
+  <body ng-app="fineFoodFinderApp" ng-controller="LoginCtrl">
     <div class="header">
       <div class="navbar navbar-default" role="navigation">
         <div class="container">
@@ -29,8 +29,8 @@
               <li><a ng-href="/#!/about">About</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="/#!/signup"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-              <li><a href="/#!/login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+              <li><a href="/#!/signup"><span class="glyphicon glyphicon-user"></span>&nbsp;{{signupBtnText}}</a></li>
+              <li><a href="/#!/login"><span class="glyphicon glyphicon-log-in"></span>&nbsp;{{loginBtnText}}</a></li>
             </ul>
           </div>
         </div>
