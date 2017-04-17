@@ -5,8 +5,10 @@ angular.module('fineFoodFinderApp')
         $scope.signupBtnText = "Sign up";
         $scope.loginBtnText = "Log in";
         $scope.allUsers = [];
+        $scope.name = "Guest";
         $scope.submit = function() {
             $http.get('http://localhost:3000/users').then(function(response) {
+
                 $scope.allUsers = response.data;
                 let loginSuccess = false;
                 for (let i = 0; i < $scope.allUsers.length; i++) {
@@ -14,6 +16,8 @@ angular.module('fineFoodFinderApp')
                     if ($scope.username === currentUser.username && $scope.password === currentUser.password) {
                         $log.log($scope.username + " logged in");
                         loginSuccess = true;
+                        update("HELLO");
+                        
                         break;
                     }
                 }
@@ -25,4 +29,9 @@ angular.module('fineFoodFinderApp')
                 }
             });
         };
+
+        function update(name) {
+            $scope.name = name;
+        }
+
   });
