@@ -8,12 +8,10 @@
  * Controller of the fineFoodFinderApp
  */
 angular.module('fineFoodFinderApp')
-  .controller('MainCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('MainCtrl', function($scope, $location) {
+    $scope.search = function() {
+        $location.path('/results').search({query: $scope.query});
+    };
   });
 
 $(document).ready(function () {

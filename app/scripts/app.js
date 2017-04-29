@@ -31,10 +31,10 @@ angular
         controller: 'LoginCtrl',
         controllerAs: 'login'
       })
-      .when('/restaurants', {
-        templateUrl: 'views/restaurants.html',
-        controller: 'restCtrl',
-        controllerAs: 'rest'
+      .when('/results', {
+        templateUrl: 'views/results.html',
+        controller: 'resultsCtrl',
+        controllerAs: 'result'
       })
       .when('/signup', {
         templateUrl: 'views/signup.html',

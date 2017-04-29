@@ -1,0 +1,26 @@
+<link rel="stylesheet" href="styles/about.css">
+
+<h1>Restaurants</h1>
+<br>
+<div ng-controller="resultsCtrl">
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Postcode</th>
+        <th>Email</th>
+        <th>Contact Number</th>
+      </tr>
+    </thead>
+    <tr ng-repeat="rest in restdata | filter: query">
+      <td>{{rest.id}}</td>
+      <td>{{rest.name}}</td>
+      <td>{{rest.address}}</td>
+      <td>{{rest.postcode}}</td>
+      <td>{{rest.email}}</td>
+      <td>{{rest.contactnumber}}</td>
+    </tr>
+  </table>
+</div>

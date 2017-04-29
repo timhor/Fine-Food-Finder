@@ -1,7 +1,6 @@
-<div style="text-align: center">
+<!-- <div style="text-align: center">
   <iframe src="http://free.timeanddate.com/clock/i5oasirh/n240/tlau/fn9/fs20/tct/pct/ftb/bas4/bat4/bac40e0d0/pa10/tt0/tw1/th2/ts1/tb4" frameborder="0" width="263" height="74" allowTransparency="true"></iframe>
-</div>
-<br>
+</div> -->
 
 <div>
 <h1>Hi {{name}}!</h1>
@@ -10,42 +9,22 @@
 <div class="jumbotron">
   <h1 style="color:black; text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;">Find some food!</h1>
   <br>	
-	<form> 
+	<form ng-submit="search()"> 
   	<div class="input-group" style="width: 100%" id="search-form">
-  		<input type="text" style="color: black; font-weight: bold;" class="form-control" placeholder="What do you feel like eating today?" ng-model="searchtext" />
-  		<!-- <div class="input-group-btn">
+  		<input type="text" style="color: black; font-weight: bold;" class="form-control" placeholder="What do you feel like eating today?" ng-model="query" />
+     
+  		<div class="input-group-btn">
   			<button class="btn btn-primary" id="search-button" type="submit">
   				<span class="glyphicon glyphicon-search"></span>
   			</button>
-  		</div> -->
+  		</div>
   	</div>
+    <br>
   	<br>
-	<p><a class="btn btn-lg btn-success" ng-href="/#!/restaurants">Restaurant List</a></p>
+    <br>
 	</form>
 </div>
 
-<div ng-controller="restCtrl">
-  <table class="table table-hover">
-    <thead>
-      <tr>
-        <th>ID</th>
-        <th>Name</th>
-        <th>Address</th>
-        <th>Postcode</th>
-        <th>Email</th>
-        <th>Contact Number</th>
-      </tr>
-    </thead>
-    <tr ng-repeat="rest in restdata | filter: searchtext">
-      <td>{{rest.id}}</td>
-      <td>{{rest.name}}</td>
-      <td>{{rest.address}}</td>
-      <td>{{rest.postcode}}</td>
-      <td>{{rest.email}}</td>
-      <td>{{rest.contactnumber}}</td>
-    </tr>
-  </table>
-</div>
 
 <div class="row marketing">
   <h3>Discover new restaurants</h3>
