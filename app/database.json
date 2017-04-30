@@ -80,6 +80,86 @@
       "email": "contact@maccasliverpool.com",
       "contactnumber": "0410809434"
     }
+    {
+      "id": 11,
+      "name": "McDonald's Burwood",
+      "address": "Westfield Shopping Centre, Burwood, NSW",
+      "postcode": "2134",
+      "email": "contact@maccasburwood.com",
+      "contactnumber": "97238915"
+    }
+    {
+      "id": 12,
+      "name": "Sushi Train",
+      "address": "13 Harbringer Road, Town Hall, NSW",
+      "postcode": "2050",
+      "email": "sushitrain@yahoo.com",
+      "contactnumber": "91475037"
+    }
+    {
+      "id": 13,
+      "name": "Luigi's Italian House",
+      "address": "143 Westminster Street, Town Hall, NSW",
+      "postcode": "2050",
+      "email": "luigisitalian@yahoo.com",
+      "contactnumber": "97284038"
+    }
+    {
+      "id": 14,
+      "name": "Dex's Diner",
+      "address": "231 Evergreen Road, Richmond, NSW",
+      "postcode": "2173",
+      "email": "contact@dexsdiner.com",
+      "contactnumber": "91350538"
+    }
+    {
+      "id": 15,
+      "name": "Joe's Hutt",
+      "address": "92 Hermit Street, Ryde, NSW",
+      "postcode": "2112",
+      "email": "sloppyjoes@gmail.com",
+      "contactnumber": "93175532"
+    }
+    {
+      "id": 16,
+      "name": "Smokey's Kebabs",
+      "address": "109 George's River Road, Croydon Park, NSW",
+      "postcode": "2133",
+      "email": "contact@smokeyskebabs.com",
+      "contactnumber": "93427443"
+    }
+    {
+      "id": 17,
+      "name": "Paul's Pies",
+      "address": "75 Hydra Street, North Ryde, NSW",
+      "postcode": "2113",
+      "email": "paulspies@gmail.com",
+      "contactnumber": "93401592"
+    }
+    {
+      "id": 18,
+      "name": "Wrap King",
+      "address": "46 Robert Street, Glebe, NSW",
+      "postcode": "2037",
+      "email": "wrapking@yahoo.com",
+      "contactnumber": "97128932"
+    }
+    {
+      "id": 19,
+      "name": "KFC Burwood",
+      "address": "Westfield Shopping Centre, Burwood, NSW",
+      "postcode": "2134",
+      "email": "contact@kfcburwood.com",
+      "contactnumber": "97869502"
+    }
+    {
+      "id": 20,
+      "name": "Turkish Paradise",
+      "address": "77 Mozart Road, Auburn, NSW",
+      "postcode": "2144",
+      "email": "contact@turkishparadise.com",
+      "contactnumber": "99819204"
+    }
   ],
   "users": [
     {
