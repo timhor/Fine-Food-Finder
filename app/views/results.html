@@ -1,8 +1,20 @@
 <link rel="stylesheet" href="styles/about.css">
-
 <h1>Restaurants</h1>
 <br>
+<form> 
+  <div class="input-group" style="width: 100%" id="search-form">
+    <input type="text" style="color: black; font-weight: bold;" class="form-control" placeholder="What do you feel like eating today?" ng-model="query.address" ng-keypress="($event.charCode==13)? search() : return"/>
+   
+    <div class="input-group-btn">
+      <button class="btn btn-primary" id="search-button" type="submit">
+        <span class="glyphicon glyphicon-search"></span>
+      </button>
+    </div>
+  </div>
+</form>
+<br>
 <div ng-controller="resultsCtrl">
+<div ng-hide="(rest = (restdata | filter: query)).length = 0" ng-cloak >
   <table class="table table-hover">
     <thead>
       <tr>
@@ -23,6 +35,7 @@
       <td>{{rest.contactnumber}}</td>
     </tr>
   </table>
+</div>
 </div>
 <form action="#!/">
   <button type="submit" class="btn btn-success">Return to Search</button>
