@@ -32,8 +32,5 @@ angular.module('fineFoodFinderApp')
           }
 
 	    });
-	    $scope.search = function() {
-	    	$location.path('/results').search({query: $scope.query});
-	    };
     });
 
