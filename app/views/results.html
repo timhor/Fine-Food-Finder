@@ -14,7 +14,7 @@
         <th>Contact Number</th>
       </tr>
     </thead>
-    <tr ng-repeat="rest in restdata | filter: query">
+    <tr ng-repeat="rest in restdata"> <!--| filter: query">-->
       <td>{{rest.id}}</td>
       <td>{{rest.name}}</td>
       <td>{{rest.address}}</td>
