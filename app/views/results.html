@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="styles/about.css">
+<link rel="stylesheet" href="styles/results.css">
 <h1>Restaurants</h1>
 <div ng-controller="resultsCtrl">
 <div ng-cloak >
@@ -14,12 +14,12 @@
       </tr>
     </thead>
     <tr ng-repeat="rest in restdata"> <!--| filter: query">-->
-      <td>{{rest.id}}</td>
-      <td>{{rest.name}}</td>
-      <td>{{rest.address}}</td>
-      <td>{{rest.postcode}}</td>
-      <td>{{rest.email}}</td>
-      <td>{{rest.contactnumber}}</td>
+      <td><a ng-href="{{rest.name}}">{{rest.id}}</a></td>
+      <td><a ng-href="{{rest.name}}">{{rest.name}}</a></td>
+      <td><a ng-href="{{rest.name}}">{{rest.address}}</a></td>
+      <td><a ng-href="{{rest.name}}">{{rest.postcode}}</a></td>
+      <td><a ng-href="{{rest.name}}">{{rest.email}}</a></td>
+      <td><a ng-href="{{rest.name}}">{{rest.contactnumber}}</a></td>
     </tr>
   </table>
 </div>
