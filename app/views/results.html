@@ -3,7 +3,7 @@
 <h1>Restaurants</h1>
 <div ng-controller="resultsCtrl">
 <div ng-cloak >
-  <table class="table table-hover">
+  <table class="table table-hover" ng-hide="!restdata.length">
     <thead>
       <tr>
         <th>ID</th>
@@ -25,6 +25,8 @@
   </table>
 </div>
 </div>
+<h3 ng-hide="restdata.length">No Restaurants Found</h3>
+<br>
 <form action="#!/">
   <button type="submit" class="btn btn-success">Return to Search</button>
 </form>
