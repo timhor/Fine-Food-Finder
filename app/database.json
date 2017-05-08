@@ -6,7 +6,8 @@
       "address": "5 Temple Street, Richmond, NSW",
       "postcode": "2173",
       "email": "curryworld@gmail.com",
-      "contactnumber": "0423960364"
+      "contactnumber": "0423960364",
+      "link": "#!/login"
     },
     {
       "id": 2,
