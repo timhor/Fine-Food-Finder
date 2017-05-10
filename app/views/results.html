@@ -14,13 +14,13 @@
         <th>Contact Number</th>
       </tr>
     </thead>
-    <tr ng-repeat="rest in restdata"> <!--| filter: query">-->
-      <td><a ng-href="{{rest.link}}">{{rest.id}}</a></td>
-      <td><a ng-href="{{rest.link}}">{{rest.name}}</a></td>
-      <td><a ng-href="{{rest.link}}">{{rest.address}}</a></td>
-      <td><a ng-href="{{rest.link}}">{{rest.postcode}}</a></td>
-      <td><a ng-href="{{rest.link}}">{{rest.email}}</a></td>
-      <td><a ng-href="{{rest.link}}">{{rest.contactnumber}}</a></td>
+    <tr ng-repeat="(key,val) in restdata"> <!--| filter: query">-->
+      <td ng-click="myFunc(val.id)">{{val.id}}</td>
+      <td ng-click="myFunc(val.id)">{{val.name}}</td>
+      <td ng-click="myFunc(val.id)">{{val.address}}</td>
+      <td ng-click="myFunc(val.id)">{{val.postcode}}</td>
+      <td ng-click="myFunc(val.id)">{{val.email}}</td>
+      <td ng-click="myFunc(val.id)">{{val.contactnumber}}</td>
     </tr>
   </table>
 </div>
