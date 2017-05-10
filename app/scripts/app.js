@@ -41,6 +41,11 @@ angular
         controller: 'SignUpCtrl',
         controllerAs: 'signup'
       })
+      .when('/restaurant', {
+        templateUrl: 'views/restaurant.html',
+        controller: 'RestCtrl',
+        controllerAs: 'rest'
+      })
       .otherwise({
         redirectTo: '/'
       });
