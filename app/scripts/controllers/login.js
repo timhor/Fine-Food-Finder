@@ -33,7 +33,6 @@ angular.module('fineFoodFinderApp')
     };
 
     $scope.logout = function() {
-      $log.log(loginService.loginVars.loggedIn);
       if (loginService.loginVars.loggedIn) {
         loginService.loginVars.loggedIn = false;
         loginService.loginVars.loginBtnText = "Log in";
