@@ -2,10 +2,12 @@
 
 angular.module('fineFoodFinderApp')
   .controller('LoginCtrl', function($scope, $http, $log, $location, loginService) {
-    $scope.signupBtnText = loginService.getSignupBtnText();
-    $scope.loginBtnText = loginService.getLoginBtnText();
-    $scope.name = loginService.getLoggedInUser();
     $scope.loginService = loginService;
+    $scope.loginVars = function() {
+      return loginService.loginVars;
+    };
+    $scope.currentUser = loginService.currentUser;
+
     $scope.allUsers = [];
     $scope.submit = function() {
       $http.get('http://localhost:3000/users').then(function(response) {
@@ -21,51 +23,30 @@ angular.module('fineFoodFinderApp')
         }
         if (loginSuccess) {
           $location.path('/');
-          loginService.setLoginBtnText("Log out");
-          loginService.setSignupBtnText("");
-          loginService.setLoggedInUser($scope.username);
-          $scope.signupBtnText = loginService.getSignupBtnText();
-          $scope.loginBtnText = loginService.getLoginBtnText();
-          $scope.name = loginService.getLoggedInUser();
-          $log.log(loginService.getLoginBtnText());
+          loginService.loginVars.loggedIn = true;
+          loginService.loginVars.loginBtnText = "Log out";
+          loginService.loginVars.currentUser = ", " + $scope.username;
         } else {
           $log.log("Invalid credentials");
         }
       });
     };
+
+    $scope.logout = function() {
+      $log.log(loginService.loginVars.loggedIn);
+      if (loginService.loginVars.loggedIn) {
+        loginService.loginVars.loggedIn = false;
+        loginService.loginVars.loginBtnText = "Log in";
+        loginService.loginVars.currentUser = "";
+      }
+    }
   });
 
 angular.module('fineFoodFinderApp')
-  .factory('loginService', function() {
-    var service = {};
-
-    var signupBtnText = "Sign up";
-    var loginBtnText = "Log in";
-    var loggedInUser = "Guest";
-
-    service.getSignupBtnText = function() {
-      return signupBtnText;
-    }
-
-    service.setSignupBtnText = function(text) {
-      signupBtnText = text;
-    }
-
-    service.getLoginBtnText = function() {
-      return loginBtnText;
-    }
-
-    service.setLoginBtnText = function(text) {
-      loginBtnText = text;
-    }
-
-    service.getLoggedInUser = function() {
-      return loggedInUser;
-    }
-
-    service.setLoggedInUser = function(text) {
-      loggedInUser = text;
-    }
-
-    return service;
+  .service("loginService", function() {
+    this.loginVars = {
+      loginBtnText: "Log in",
+      currentUser: "",
+      loggedIn: false
+    };
   });

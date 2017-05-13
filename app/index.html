@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Fine Food Finder</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -29,8 +29,8 @@
               <li><a ng-href="/#!/about">About</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="/#!/signup"><span class="glyphicon glyphicon-user"></span>&nbsp;{{signupBtnText}}</a></li>
-              <li><a href="/#!/login"><span class="glyphicon glyphicon-log-in"></span>&nbsp;{{loginBtnText}}</a></li>
+              <li ng-if="!loginVars().loggedIn"><a href="/#!/signup"><span class="glyphicon glyphicon-user"></span>&nbsp;Sign up</a></li>
+              <li ng-click="logout()"><a href="/#!/login"><span class="glyphicon glyphicon-log-in"></span>&nbsp;&nbsp;{{loginVars().loginBtnText}}</a></li>
             </ul>
           </div>
         </div>

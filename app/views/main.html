@@ -1,12 +1,7 @@
-<!-- <div style="text-align: center">
-  <iframe src="http://free.timeanddate.com/clock/i5oasirh/n240/tlau/fn9/fs20/tct/pct/ftb/bas4/bat4/bac40e0d0/pa10/tt0/tw1/th2/ts1/tb4" frameborder="0" width="263" height="74" allowTransparency="true"></iframe>
-</div> -->
-
-<div>
-<h1>Hi {{name}}!</h1>
-</div>
-
 <div class="jumbotron">
+  <div ng-app="fineFoodFinderApp" ng-controller="LoginCtrl">
+    <h3 class="text-center">WELCOME{{loginVars().currentUser | uppercase}}</h3>
+  </div>
   <h1 style="color:black; text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;">Find some food!</h1>
   <br>	
 	<form ng-submit="search()"> 
@@ -24,7 +19,6 @@
   <br>
   <br>
 </div>
-
 
 <div class="row marketing">
   <h3>Discover new restaurants</h3>
