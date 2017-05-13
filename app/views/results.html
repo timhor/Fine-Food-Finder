@@ -1,9 +1,13 @@
 <link rel="stylesheet" href="styles/about.css">
 <link rel="stylesheet" href="styles/results.css">
+
 <h1>Restaurants</h1>
+
+<h4 ng-if="!restdata.length"><br>No restaurants found. Try searching for something else.</h4>
+
 <div ng-controller="resultsCtrl">
-<div ng-cloak >
-  <table class="table table-hover" ng-hide="!restdata.length">
+<div ng-cloak>
+  <table class="table table-hover" ng-if="restdata.length">
     <thead>
       <tr>
         <th>ID</th>
@@ -15,18 +19,17 @@
       </tr>
     </thead>
     <tr ng-repeat="(key,val) in restdata"> <!--| filter: query">-->
-      <td ng-click="myFunc(val.id)">{{val.id}}</td>
-      <td ng-click="myFunc(val.id)">{{val.name}}</td>
-      <td ng-click="myFunc(val.id)">{{val.address}}</td>
-      <td ng-click="myFunc(val.id)">{{val.postcode}}</td>
-      <td ng-click="myFunc(val.id)">{{val.email}}</td>
-      <td ng-click="myFunc(val.id)">{{val.contactnumber}}</td>
+      <td ng-click="viewRestaurant(val.id)">{{val.id}}</td>
+      <td ng-click="viewRestaurant(val.id)">{{val.name}}</td>
+      <td ng-click="viewRestaurant(val.id)">{{val.address}}</td>
+      <td ng-click="viewRestaurant(val.id)">{{val.postcode}}</td>
+      <td ng-click="viewRestaurant(val.id)">{{val.email}}</td>
+      <td ng-click="viewRestaurant(val.id)">{{val.contactnumber}}</td>
     </tr>
   </table>
 </div>
 </div>
-<h3 ng-hide="restdata.length">No Restaurants Found</h3>
 <br>
 <form action="#!/">
-  <button type="submit" class="btn btn-success">Return to Search</button>
+  <button type="submit" class="btn btn-success">Back to home</button>
 </form>

@@ -6,7 +6,7 @@
   <br>	
 	<form ng-submit="search()"> 
   	<div class="input-group" style="width: 100%" id="search-form">
-  		<input type="text" style="color: black; font-weight: bold;" class="form-control" placeholder="What do you feel like eating today?" ng-model="query.address" />
+  		<input type="text" style="color: black; font-weight: bold;" class="form-control" placeholder="Where do you feel like eating today? (Search for an address or postcode)" ng-model="query.address" required>
      
   		<div class="input-group-btn">
   			<button class="btn btn-primary" id="search-button" type="submit">
