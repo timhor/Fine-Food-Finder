@@ -19,12 +19,12 @@
       </tr>
     </thead>
     <tr ng-repeat="(key,val) in restdata"> <!--| filter: query">-->
-      <td ng-click="viewRestaurant(val.id)">{{val.id}}</td>
-      <td ng-click="viewRestaurant(val.id)">{{val.name}}</td>
-      <td ng-click="viewRestaurant(val.id)">{{val.address}}</td>
-      <td ng-click="viewRestaurant(val.id)">{{val.postcode}}</td>
-      <td ng-click="viewRestaurant(val.id)">{{val.email}}</td>
-      <td ng-click="viewRestaurant(val.id)">{{val.contactnumber}}</td>
+      <td ng-click="viewRestaurant(val)">{{val.id}}</td>
+      <td ng-click="viewRestaurant(val)">{{val.name}}</td>
+      <td ng-click="viewRestaurant(val)">{{val.address}}</td>
+      <td ng-click="viewRestaurant(val)">{{val.postcode}}</td>
+      <td ng-click="viewRestaurant(val)">{{val.email}}</td>
+      <td ng-click="viewRestaurant(val)">{{val.contactnumber}}</td>
     </tr>
   </table>
 </div>

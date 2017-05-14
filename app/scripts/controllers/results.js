@@ -37,7 +37,7 @@ angular.module('fineFoodFinderApp')
       }
     });
     $scope.viewRestaurant = function(value) {
-      $location.path('/restaurant').search({key: value});
+      $location.path('/restaurant').search({restdata: value});
     };
   });
 
