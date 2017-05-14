@@ -1,15 +1,20 @@
+<div ng-controller="LoginCtrl" style = "background-color: white; opacity: 0.8">
+  <h3 class="text-center" style="color:blue; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;" >Welcome{{loginVars().currentUser | uppercase}} !</h3>
+</div>
 <div class="jumbotron">
-  <div ng-controller="LoginCtrl">
-    <h3 class="text-center">WELCOME{{loginVars().currentUser | uppercase}}</h3>
-  </div>
-  <h1 style="color:black; text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;">Find some food!</h1>
-  <br>	
+ <br>	
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
 	<form ng-submit="search()"> 
   	<div class="input-group" style="width: 100%" id="search-form">
-  		<input type="text" style="color: black; font-weight: bold;" class="form-control" placeholder="Where do you feel like eating today? (Search for an address or postcode)" ng-model="query.address" required>
+  		<input type="text" style="color: black; font-weight: bold; border-width: 1.5px; border-right-width: 0px; border-color: black; height: 40px;" class="form-control" placeholder="Where do you feel like eating today? (Search for an address)" ng-model="query.address" required>
      
   		<div class="input-group-btn">
-  			<button class="btn btn-primary" id="search-button" type="submit">
+  			<button class="btn btn-primary" id="search-button" type="submit" style="border-width: 1.5px; border-left-width: 0px; border-color: black; height: 40px;">
   				<span class="glyphicon glyphicon-search"></span>
   			</button>
   		</div>

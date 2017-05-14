@@ -16,6 +16,13 @@
     <!-- endbuild -->
   </head>
   <body ng-app="fineFoodFinderApp" ng-controller="LoginCtrl">
+    <style>
+      body{
+        background-image: url("images/food_background.jpg");
+        background-size: 100%;
+        background-repeat: repeat-y;
+      }
+    </style>
     <div class="header">
       <div class="navbar navbar-default" role="navigation">
         <div class="container">
@@ -41,7 +48,7 @@
     <div ng-view=""></div>
     </div>
 
-    <div class="footer">
+    <div class="footer" style="border-top-width: 0px;">
       <div class="container">
         <p>SENG2011 17s1 - Team Pangolins</p>
       </div>

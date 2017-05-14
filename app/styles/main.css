@@ -24,7 +24,6 @@ body {
 
 /* Custom page footer */
 .footer {
-  padding-top: 19px;
   color: #777;
   border-top: 1px solid #e5e5e5;
 }
@@ -67,12 +66,16 @@ body {
     border-bottom: 0;
     background-repeat: no-repeat;
     background-size: 100%;
-    background-blend-mode: overlay;
-    background-image: url(../images/food_background.jpg);
+    background-image: url(../images/FindSomeFood.png);
   }
 }
 
 html { 
   overflow-x:auto; 
   overflow-y:scroll; 
+}
+
+#search-form {
+  border-width: 2px;
+  border-color: black;
 }
