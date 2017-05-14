@@ -4,9 +4,6 @@ angular.module('fineFoodFinderApp')
   .controller('resultsCtrl', function($scope, $routeParams, $location, $http, $log){
     $scope.query = $routeParams.query;
     $http.get('http://localhost:3000/restaurants').then(function(response) {
-      if ($log.log(!$scope.query)) {
-        $scope.restdata = response.data;
-      } else {
         $scope.restdata = [];
         angular.forEach(response.data, function(value) {
           if ($scope.query.address != undefined) {
@@ -34,7 +31,6 @@ angular.module('fineFoodFinderApp')
           }
           i -= 1;
         }
-      }
     });
     $scope.viewRestaurant = function(value) {
       $location.path('/restaurant').search({restdata: value});
