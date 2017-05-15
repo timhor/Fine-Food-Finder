@@ -26,8 +26,9 @@ body {
 .footer {
   color: #777;
   border-top: 1px solid #e5e5e5;
+  width: 100%;
+  text-align: center;
 }
-
 .container-narrow > hr {
   margin: 30px 0;
 }
@@ -78,4 +79,12 @@ html {
 #search-form {
   border-width: 2px;
   border-color: black;
+}
+
+.grow{
+  transition: all 0.2s ease-in-out;
+}
+
+.grow:hover{
+  transform: scale(1.1);
 }

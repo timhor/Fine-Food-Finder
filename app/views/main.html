@@ -1,5 +1,5 @@
-<div ng-controller="LoginCtrl" style = "background-color: white; opacity: 0.8">
-  <h3 class="text-center" style="color:blue; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;" >Welcome{{loginVars().currentUser | uppercase}} !</h3>
+<div ng-controller="LoginCtrl">
+  <h3 class="text-center" style="color:black; font-weight: bold; text-transform: capitalize;" >Welcome{{loginVars().currentUser}} !</h3>
 </div>
 <div class="jumbotron">
  <br>	
@@ -10,7 +10,7 @@
  <br>
  <br>
 	<form ng-submit="search()"> 
-  	<div class="input-group" style="width: 100%" id="search-form">
+  	<div class="input-group grow grow:hover" style="width: 100%" id="search-form">
   		<input type="text" style="color: black; font-weight: bold; border-width: 1.5px; border-right-width: 0px; border-color: black; height: 40px;" class="form-control" placeholder="Where do you feel like eating today? (Search for an address)" ng-model="query.address" required>
      
   		<div class="input-group-btn">

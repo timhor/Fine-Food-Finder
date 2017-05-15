@@ -6,7 +6,9 @@
       "address": "5 Temple Street, Richmond, NSW",
       "postcode": "2173",
       "email": "curryworld@gmail.com",
-      "contactnumber": "0423960364"
+      "contactnumber": "0423960364",
+      "imageUrl": "images/restaurant_images/CurryWorld.png",
+      "info" : "Using the freshest ingredients, Curry World offers  flavorful curries from Thailand, India, Japan, and other countries.  Pick a hearty deep red Mussaman curry from northern Thailand.  Or, how about a creamy and rich Tikka Masala?  A smooth traditional Japanese brown curry?  No matter what flavor your customers desire, Curry World has the right variety to satisfy your curry cravings."
     },
     {
       "id": 2,
@@ -14,7 +16,9 @@
       "address": "18 Pete Street, Cabramatta, NSW",
       "postcode": "2171",
       "email": "contact@grandpacific.com",
-      "contactnumber": "0454546768"
+      "contactnumber": "0454546768",
+      "imageurl": "images/restaurant_images/GrandPacific.png",
+      "info": "Our restaurant is relaxing and friendly, with large floor to ceiling windows to take in the stunning views."
     },
     {
       "id": 3,
@@ -78,7 +82,9 @@
       "address": "Westfield Shopping Centre, Liverpool, NSW",
       "postcode": "2170",
       "email": "contact@maccasliverpool.com",
-      "contactnumber": "0410809434"
+      "contactnumber": "0410809434",
+      "imageUrl": "images/restaurant_images/McDonald'sLiverpool.png",
+      "info" : "With more than one million of you coming through our restaurants every day, it’s our priority to maintain your trust and integrity. To do this we make sure our customers and employees receive the respect they deserve."
     },
     {
       "id": 11,
@@ -136,7 +142,7 @@
       "email": "paulspies@gmail.com",
       "contactnumber": "93401592"
     },
-        {
+    {
       "id": 18,
       "name": "Wrap King",
       "address": "46 Robert Street, Glebe, NSW",
@@ -333,6 +339,12 @@
       "username": "test",
       "password": "password",
       "email": "test@example.com"
+    },
+    {
+      "id": 3,
+      "username": "soham",
+      "password": "sohamisthebest",
+      "email": "soham@soham.com"
     }
   ]
 }
