@@ -1,0 +1,12 @@
+#lowerBorder{
+  border-color: darkblue;
+  border-width: 1px;
+  background-color: #f2ffe5;
+}
+
+#mainBorder{
+  border-color: black;
+  border-width: 2px;
+  background-color:  #e5fff2;
+
+}

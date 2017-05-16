@@ -1,17 +1,17 @@
-<link rel="stylesheet" href="styles/restuarant.css">
+<link rel="stylesheet" href="styles/restaurant.css">
 <br>
 <div ng-controller="RestCtrl" class="container text-center">    
   <div class="row" style="padding-right: 15px;">
-    <div class="col-sm-4 well">
-      <div class="well">
+    <div class="col-sm-4 well" id="mainBorder">
+      <div class="well" id="lowerBorder">
         <h2>{{rest.name}}</h2>
         <img src="{{rest.imageUrl}}" class="img" height="100" alt="Avatar">
       </div>
-      <div class="well" align="left">
-        <h2>About Us</h2>
+      <div class="well" align="left" id="lowerBorder">
+        <h2>About Us:</h2>
         <p>{{rest.info}}</p>
       </div>
-      <div class="well" align="left" style="word-wrap: normal;">
+      <div class="well" align="left" style="word-wrap: break-word;" id="lowerBorder">
         <h2>Details:</h2>
         <p>{{rest.address}}</p>
         <p>{{rest.postcode}}</p>
@@ -22,7 +22,7 @@
     <div class="col-sm-8">
       <div class="row">
         <div class="col-sm-12">
-          <div class="panel panel-default">
+          <div class="panel panel-default" id="mainBorder">
             <div class="panel-body">
               <h2>Menu</h2>
             </div>
@@ -32,11 +32,11 @@
       
       <div class="row">
         <div class="col-sm-12">
-          <div class="well" align="left">
+          <div class="well" align="left" id="lowerBorder">
             <p>Menu items here...</p>
           </div>
         </div>
-      </div>   
+      </div> 
     </div>
   </div>
 </div>

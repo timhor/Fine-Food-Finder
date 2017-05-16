@@ -8,7 +8,7 @@
       "email": "curryworld@gmail.com",
       "contactnumber": "0423960364",
       "imageUrl": "images/restaurant_images/CurryWorld.png",
-      "info" : "Using the freshest ingredients, Curry World offers  flavorful curries from Thailand, India, Japan, and other countries.  Pick a hearty deep red Mussaman curry from northern Thailand.  Or, how about a creamy and rich Tikka Masala?  A smooth traditional Japanese brown curry?  No matter what flavor your customers desire, Curry World has the right variety to satisfy your curry cravings."
+      "info": "Using the freshest ingredients, Curry World offers  flavorful curries from Thailand, India, Japan, and other countries.  Pick a hearty deep red Mussaman curry from northern Thailand.  Or, how about a creamy and rich Tikka Masala?  A smooth traditional Japanese brown curry?  No matter what flavor your customers desire, Curry World has the right variety to satisfy your curry cravings."
     },
     {
       "id": 2,
@@ -26,7 +26,9 @@
       "address": "55 George Street, Liverpool, NSW",
       "postcode": "2170",
       "email": "chinesenoodles@yahoo.com",
-      "contactnumber": "0478624345"
+      "contactnumber": "0478624345",
+      "imageUrl": "images/restaurant_images/ChineseNoodles.png",
+      "info": "We are specialised in the art of noodle making. With over 30 years of experiece, Chinese Noodles is bound to satisfy your needs of various noodle varieties."
     },
     {
       "id": 4,
@@ -34,7 +36,9 @@
       "address": "18 George Street, Town Hall, NSW",
       "postcode": "2050",
       "email": "support@hearcafe.com",
-      "contactnumber": "0453569091"
+      "contactnumber": "0453569091",
+      "imageUrl": "images/restaurant_images/HeartCafe.png",
+      "info": "Heart Cafe is now nourishing both the body and the soul with organic, gluten free and vegan options in a warm, connecting space where friends and neighbors come together."
     },
     {
       "id": 5,
@@ -84,7 +88,7 @@
       "email": "contact@maccasliverpool.com",
       "contactnumber": "0410809434",
       "imageUrl": "images/restaurant_images/McDonald'sLiverpool.png",
-      "info" : "With more than one million of you coming through our restaurants every day, it’s our priority to maintain your trust and integrity. To do this we make sure our customers and employees receive the respect they deserve."
+      "info": "With more than one million of you coming through our restaurants every day, it’s our priority to maintain your trust and integrity. To do this we make sure our customers and employees receive the respect they deserve."
     },
     {
       "id": 11,
@@ -343,7 +347,37 @@
     {
       "id": 3,
       "username": "soham",
-      "password": "sohamisthebest",
+      "password": "soham",
+      "email": "soham@soham.com"
+    },
+    {
+      "id": 4,
+      "username": "vintony",
+      "password": "vintony",
+      "email": "vintony@vintony.com"
+    },
+    {
+      "id": 5,
+      "username": "michael",
+      "password": "michael",
+      "email": "michael@michael.com"
+    },
+    {
+      "id": 6,
+      "username": "tim",
+      "password": "tim",
+      "email": "tim@tim.com"
+    },
+    {
+      "id": 7,
+      "username": "aydin",
+      "password": "aydin",
+      "email": "aydin@aydin.com"
+    },
+    {
+      "id": 8,
+      "username": "soham",
+      "password": "helloworld",
       "email": "soham@soham.com"
     }
   ]
