@@ -8,7 +8,8 @@
       "email": "curryworld@gmail.com",
       "contactnumber": "0423960364",
       "imageUrl": "images/restaurant_images/CurryWorld.png",
-      "info": "Using the freshest ingredients, Curry World offers  flavorful curries from Thailand, India, Japan, and other countries.  Pick a hearty deep red Mussaman curry from northern Thailand.  Or, how about a creamy and rich Tikka Masala?  A smooth traditional Japanese brown curry?  No matter what flavor your customers desire, Curry World has the right variety to satisfy your curry cravings."
+      "info": "Using the freshest ingredients, Curry World offers  flavorful curries from Thailand, India, Japan, and other countries.  Pick a hearty deep red Mussaman curry from northern Thailand.  Or, how about a creamy and rich Tikka Masala?  A smooth traditional Japanese brown curry?  No matter what flavor your customers desire, Curry World has the right variety to satisfy your curry cravings.",
+      "rating": 4
     },
     {
       "id": 2,
@@ -18,7 +19,8 @@
       "email": "contact@grandpacific.com",
       "contactnumber": "0454546768",
       "imageurl": "images/restaurant_images/GrandPacific.png",
-      "info": "Our restaurant is relaxing and friendly, with large floor to ceiling windows to take in the stunning views."
+      "info": "Our restaurant is relaxing and friendly, with large floor to ceiling windows to take in the stunning views.",
+      "rating": 3
     },
     {
       "id": 3,
@@ -28,7 +30,8 @@
       "email": "chinesenoodles@yahoo.com",
       "contactnumber": "0478624345",
       "imageUrl": "images/restaurant_images/ChineseNoodles.png",
-      "info": "We are specialised in the art of noodle making. With over 30 years of experiece, Chinese Noodles is bound to satisfy your needs of various noodle varieties."
+      "info": "We are specialised in the art of noodle making. With over 30 years of experiece, Chinese Noodles is bound to satisfy your needs of various noodle varieties.",
+      "rating": 5
     },
     {
       "id": 4,
@@ -38,7 +41,8 @@
       "email": "support@hearcafe.com",
       "contactnumber": "0453569091",
       "imageUrl": "images/restaurant_images/HeartCafe.png",
-      "info": "Heart Cafe is now nourishing both the body and the soul with organic, gluten free and vegan options in a warm, connecting space where friends and neighbors come together."
+      "info": "Heart Cafe is now nourishing both the body and the soul with organic, gluten free and vegan options in a warm, connecting space where friends and neighbors come together.",
+      "rating": 5
     },
     {
       "id": 5,
@@ -46,7 +50,8 @@
       "address": "1 High Street, Kensington, NSW",
       "postcode": "2052",
       "email": "contact@chocolatier.com",
-      "contactnumber": "0455543521"
+      "contactnumber": "0455543521",
+      "rating": 3
     },
     {
       "id": 6,
@@ -54,7 +59,8 @@
       "address": "3 George Street, Town Hall, NSW",
       "postcode": "2050",
       "email": "elevenbridge@gmail.com",
-      "contactnumber": "0402483725"
+      "contactnumber": "0402483725",
+      "rating": 1
     },
     {
       "id": 7,
@@ -62,7 +68,8 @@
       "address": "118 Richard Ave, Lidcombe, NSW",
       "postcode": "2066",
       "email": "mariositalian@yahoo.com",
-      "contactnumber": "0466790123"
+      "contactnumber": "0466790123",
+      "rating": 3
     },
     {
       "id": 8,
@@ -70,7 +77,8 @@
       "address": "50 Heaven Lane, Kensington, NSW",
       "postcode": "2052",
       "email": "contact@chocolatefactory.com",
-      "contactnumber": "0477122177"
+      "contactnumber": "0477122177",
+      "rating": 5
     },
     {
       "id": 9,
@@ -78,7 +86,8 @@
       "address": "153 Harbour Road, Manly, NSW",
       "postcode": "2095",
       "email": "seafoodpalace@yahoo.com",
-      "contactnumber": "0422131454"
+      "contactnumber": "0422131454",
+      "rating": 4
     },
     {
       "id": 10,
@@ -88,7 +97,8 @@
       "email": "contact@maccasliverpool.com",
       "contactnumber": "0410809434",
       "imageUrl": "images/restaurant_images/McDonald'sLiverpool.png",
-      "info": "With more than one million of you coming through our restaurants every day, it’s our priority to maintain your trust and integrity. To do this we make sure our customers and employees receive the respect they deserve."
+      "info": "With more than one million of you coming through our restaurants every day, it’s our priority to maintain your trust and integrity. To do this we make sure our customers and employees receive the respect they deserve.",
+      "rating": 4
     },
     {
       "id": 11,

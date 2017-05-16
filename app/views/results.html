@@ -10,21 +10,17 @@
   <table class="table table-hover" ng-if="restdata.length">
     <thead>
       <tr>
-        <th>ID</th>
         <th>Name</th>
         <th>Address</th>
         <th>Postcode</th>
-        <th>Email</th>
-        <th>Contact Number</th>
+        <th>Rating</th>
       </tr>
     </thead>
     <tr ng-repeat="(key,val) in restdata"> <!--| filter: query">-->
-      <td ng-click="viewRestaurant(val)">{{val.id}}</td>
       <td ng-click="viewRestaurant(val)">{{val.name}}</td>
       <td ng-click="viewRestaurant(val)">{{val.address}}</td>
       <td ng-click="viewRestaurant(val)">{{val.postcode}}</td>
-      <td ng-click="viewRestaurant(val)">{{val.email}}</td>
-      <td ng-click="viewRestaurant(val)">{{val.contactnumber}}</td>
+      <td ng-click="viewRestaurant(val)">{{val.rating}}/5</td>
     </tr>
   </table>
 </div>

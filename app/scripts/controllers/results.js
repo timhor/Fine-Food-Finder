@@ -6,7 +6,7 @@ angular.module('fineFoodFinderApp')
     $http.get('http://localhost:3000/restaurants').then(function(response) {
         $scope.restdata = [];
         angular.forEach(response.data, function(value) {
-          if ($scope.query.address != undefined) {
+          if ($scope.query.address !== undefined) {
             $log.log(value.name + " has address " + value.address);
             $log.log("addr: " + $scope.query.address);
             if (value.address.toLowerCase().includes($scope.query.address.toLowerCase())) {
@@ -21,7 +21,7 @@ angular.module('fineFoodFinderApp')
         while (i > 0) {
         var j  = 0;
           while (j < i) {
-            if ($scope.restdata[j].postcode > $scope.restdata[j+1].postcode) {
+            if ($scope.restdata[j].rating < $scope.restdata[j+1].rating) {
               var temp = $scope.restdata[j];
               $scope.restdata[j] = $scope.restdata[j+1];
               $scope.restdata[j+1] = temp;
