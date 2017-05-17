@@ -106,7 +106,8 @@
       "address": "Westfield Shopping Centre, Burwood, NSW",
       "postcode": "2134",
       "email": "contact@maccasburwood.com",
-      "contactnumber": "97238915"
+      "contactnumber": "97238915",
+      "rating": 5
     },
     {
       "id": 12,
@@ -114,7 +115,8 @@
       "address": "13 Harbringer Road, Town Hall, NSW",
       "postcode": "2050",
       "email": "sushitrain@yahoo.com",
-      "contactnumber": "91475037"
+      "contactnumber": "91475037",
+      "rating": 4
     },
     {
       "id": 13,
@@ -122,7 +124,8 @@
       "address": "143 Westminster Street, Town Hall, NSW",
       "postcode": "2050",
       "email": "luigisitalian@yahoo.com",
-      "contactnumber": "97284038"
+      "contactnumber": "97284038",
+      "rating": 2
     },
     {
       "id": 14,
@@ -130,7 +133,8 @@
       "address": "231 Evergreen Road, Richmond, NSW",
       "postcode": "2173",
       "email": "contact@dexsdiner.com",
-      "contactnumber": "91350538"
+      "contactnumber": "91350538",
+      "rating": 4
     },
     {
       "id": 15,
@@ -138,7 +142,8 @@
       "address": "92 Hermit Street, Ryde, NSW",
       "postcode": "2112",
       "email": "sloppyjoes@gmail.com",
-      "contactnumber": "93175532"
+      "contactnumber": "93175532",
+      "rating": 3
     },
     {
       "id": 16,
@@ -146,7 +151,8 @@
       "address": "109 George's River Road, Croydon Park, NSW",
       "postcode": "2133",
       "email": "contact@smokeyskebabs.com",
-      "contactnumber": "93427443"
+      "contactnumber": "93427443",
+      "rating": 1
     },
     {
       "id": 17,
@@ -154,7 +160,8 @@
       "address": "75 Hydra Street, North Ryde, NSW",
       "postcode": "2113",
       "email": "paulspies@gmail.com",
-      "contactnumber": "93401592"
+      "contactnumber": "93401592",
+      "rating": 2
     },
     {
       "id": 18,
@@ -162,7 +169,8 @@
       "address": "46 Robert Street, Glebe, NSW",
       "postcode": "2037",
       "email": "wrapking@yahoo.com",
-      "contactnumber": "97128932"
+      "contactnumber": "97128932",
+      "rating": 1
     },
     {
       "id": 19,
@@ -170,7 +178,8 @@
       "address": "Westfield Shopping Centre, Burwood, NSW",
       "postcode": "2134",
       "email": "contact@kfcburwood.com",
-      "contactnumber": "97869502"
+      "contactnumber": "97869502",
+      "rating": 2
     },
     {
       "id": 20,
@@ -178,7 +187,8 @@
       "address": "77 Mozart Road, Auburn, NSW",
       "postcode": "2144",
       "email": "contact@turkishparadise.com",
-      "contactnumber": "99819204"
+      "contactnumber": "99819204",
+      "rating": 4
     },
     {
       "id": 21,
@@ -186,7 +196,8 @@
       "address": "211 Horcrux Lane, Auburn, NSW",
       "postcode": "2144",
       "email": "contact@lebanesehouse@gmail.com",
-      "contactnumber": "91023752"
+      "contactnumber": "91023752",
+      "rating": 3
     },
     {
       "id": 22,
@@ -194,7 +205,8 @@
       "address": "97 Rupert Street, Croydon, NSW",
       "postcode": "2132",
       "email": "redrooster@yahoo.com",
-      "contactnumber": "92374827"
+      "contactnumber": "92374827",
+      "rating": 5
     },
     {
       "id": 23,
@@ -202,7 +214,8 @@
       "address": "56 Rupert Street, Croydon, NSW",
       "postcode": "2132",
       "email": "hungryjackscroydon@yahoo.com",
-      "contactnumber": "99934666"
+      "contactnumber": "99934666",
+      "rating": 4
     },
     {
       "id": 24,
@@ -210,7 +223,8 @@
       "address": "33 Georges River Road, Croydon Park, NSW",
       "postcode": "2133",
       "email": "subwaycroydonpark@yahoo.com",
-      "contactnumber": "97000003"
+      "contactnumber": "97000003",
+      "rating": 5
     },
     {
       "id": 25,
@@ -218,7 +232,8 @@
       "address": "1 Hilton Road, Concord, NSW",
       "postcode": "2137",
       "email": "stans@gmail.com",
-      "contactnumber": "91023456"
+      "contactnumber": "91023456",
+      "rating": 4
     },
     {
       "id": 26,
@@ -226,7 +241,8 @@
       "address": "66 Breakers Lane, Bankstown, NSW",
       "postcode": "2200",
       "email": "contact@bobsburgers.com",
-      "contactnumber": "90504030"
+      "contactnumber": "90504030",
+      "rating": 3
     },
     {
       "id": 27,
@@ -234,7 +250,8 @@
       "address": "49 Hill Road, Leichhardt, NSW",
       "postcode": "2040",
       "email": "pastapalace@gmai.com",
-      "contactnumber": "90807060"
+      "contactnumber": "90807060",
+      "rating": 1
     },
     {
       "id": 28,
@@ -242,7 +259,8 @@
       "address": "13 Butcher's Lane, Strathfield, NSW",
       "postcode": "2135",
       "email": "outbacksteakhouse@yahoo.com",
-      "contactnumber": "91122334"
+      "contactnumber": "91122334",
+      "rating": 2
     },
     {
       "id": 29,
@@ -250,7 +268,8 @@
       "address": "Westfield Shopping Centre, Strathfield, NSW",
       "postcode": "2135",
       "email": "oportostrathfield@yahoo.com",
-      "contactnumber": "99887766"
+      "contactnumber": "99887766",
+      "rating": 1
     },
     {
       "id": 30,
@@ -258,7 +277,8 @@
       "address": "Westfield Shopping Centre, Lakemba, NSW",
       "postcode": "2195",
       "email": "oportolakemba@yahoo.com",
-      "contactnumber": "98979695"
+      "contactnumber": "98979695",
+      "rating": 5
     },
     {
       "id": 31,
@@ -266,7 +286,8 @@
       "address": "343 Owen Street, West Ryde, NSW",
       "postcode": "2114",
       "email": "contact@shermansseafood.com",
-      "contactnumber": "95837415"
+      "contactnumber": "95837415",
+      "rating": 4
     },
     {
       "id": 32,
@@ -274,7 +295,8 @@
       "address": "498 Coronation Parade, Strathfield, NSW",
       "postcode": "2135",
       "email": "contact@koreanbbq.com",
-      "contactnumber": "91234567"
+      "contactnumber": "91234567",
+      "rating": 5
     },
     {
       "id": 33,
@@ -282,7 +304,8 @@
       "address": "1092 Riders Lane, North Ryde, NSW",
       "postcode": "2113",
       "email": "alexanderssweets@gmail.com",
-      "contactnumber": "98765432"
+      "contactnumber": "98765432",
+      "rating": 4
     },
     {
       "id": 34,
@@ -290,7 +313,8 @@
       "address": "291 Elizabeth Road, Ashfield, NSW",
       "postcode": "2131",
       "email": "sweettoothheaven@gmail.com",
-      "contactnumber": "91827364"
+      "contactnumber": "91827364",
+      "rating": 3
     },
     {
       "id": 35,
@@ -298,7 +322,8 @@
       "address": "6 Hugh Street, Richmond, NSW",
       "postcode": "3121",
       "email": "subwayrichmond@yahoo.com",
-      "contactnumber": "97999999"
+      "contactnumber": "97999999",
+      "rating": 1
     },
     {
       "id": 36,
@@ -306,7 +331,8 @@
       "address": "98 Burwood Road, Burwood, NSW",
       "postcode": "2134",
       "email": "contact@chocolatedelmundo.com",
-      "contactnumber": "90898081"
+      "contactnumber": "90898081",
+      "rating": 4
     },
     {
       "id": 37,
@@ -314,7 +340,8 @@
       "address": "56 Burwood Road, Burwood, NSW",
       "postcode": "2134",
       "email": "georgescafe@gmail.com",
-      "contactnumber": "97648392"
+      "contactnumber": "97648392",
+      "rating": 2
     },
     {
       "id": 38,
@@ -322,7 +349,8 @@
       "address": "198 Parramatta Road, Parramatta, NSW",
       "postcode": "2150",
       "email": "contact@harryscafedewheels.com",
-      "contactnumber": "90837232"
+      "contactnumber": "90837232",
+      "rating": 4
     },
     {
       "id": 39,
@@ -330,7 +358,8 @@
       "address": "100 Peterson Road, Haberfield, NSW",
       "postcode": "2045",
       "email": "patrickspizzeria@gmail.com",
-      "contactnumber": "94749732"
+      "contactnumber": "94749732",
+      "rating": 5
     },
     {
       "id": 40,
@@ -338,7 +367,8 @@
       "address": "35 Everton Street, Lakemba, NSW",
       "postcode": "2195",
       "email": "destinysplatoon@yahoo.com",
-      "contactnumber": "94803920"
+      "contactnumber": "94803920",
+      "rating": 1
     }
   ],
   "users": [
