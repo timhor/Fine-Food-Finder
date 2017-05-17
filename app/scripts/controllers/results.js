@@ -21,7 +21,7 @@ angular.module('fineFoodFinderApp')
           while (i < $scope.restdata.length) {
             var j = $scope.restdata.length - 1;
             while (j > i) {
-              if ($scope.restdata[j].rating < $scope.restdata[j-1].rating) {
+              if ($scope.restdata[j].rating > $scope.restdata[j-1].rating) {
                 var t = $scope.restdata[j];
                 $scope.restdata[j] = $scope.restdata[j-1];
                 $scope.restdata[j-1] = t;
