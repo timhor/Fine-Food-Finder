@@ -8,7 +8,7 @@
         <img src="{{rest.imageUrl}}" class="img" height="100" alt="Avatar">
       </div>
       <div class="well" align="left" id="starBorder">
-        <div fundoo-rating rating-value="rating" max="5"></div>
+        <div fundoo-rating rating-value="rating" max="5" class="inactiveLink"></div>
       </div>
       <div class="well" align="left" id="lowerBorder">
         <h2>About Us:</h2>
@@ -27,7 +27,7 @@
         <div class="col-sm-12">
           <div class="panel panel-default" id="mainBorder">
             <div class="panel-body">
-              <h2>Menu</h2>
+              <h2>Menu:</h2>
             </div>
           </div>
         </div>
@@ -49,13 +49,13 @@
             <table class="table table-hover" ng-if="menuData.length">
               <thead>
                 <tr>
-                  <th>What's Available</th>
-                  <th>Price</th>
+                  <th id="tableHeadSize">What's Available</th>
+                  <th id="tableHeadSize">Price</th>
                 </tr>
               </thead>
               <tr ng-repeat="menu in menuData">
                 <td ng-click="show = !show">
-                  {{menu.name}}
+                  <u>{{menu.name}}</u>
                   <br>
                   <p ng-show="show">
                     <br>

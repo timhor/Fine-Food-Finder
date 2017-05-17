@@ -52,3 +52,16 @@ ul.rating {
 .starSize {
 	font-size: 20px;
 }
+
+#tableHeadSize{
+  font-size: 18px;
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th{
+  background-color: gainsboro;
+}
+
+.inactiveLink {
+   pointer-events: none;
+   cursor: default;
+}
