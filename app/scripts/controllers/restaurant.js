@@ -4,6 +4,17 @@ angular.module('fineFoodFinderApp')
   .controller('RestCtrl', function($scope, $routeParams, $location, $http){
 	$scope.rest = $routeParams.restdata;
     $scope.rating = $scope.rest.rating;
+    $http.get('http://localhost:3000/menus').then(function(response) {
+		angular.forEach(response.data, function(value) {
+       		if (value.id === $scope.rest.id) {
+       			console.log("found");
+           		$scope.menuData = value.items;
+           		angular.forEach($scope.menuData, function(value1) {
+           			value1.price = (parseFloat(value1.price)).toFixed(2);
+           		});
+       		}
+		});
+	});
   })
   .directive('fundooRating', function () {
     return {

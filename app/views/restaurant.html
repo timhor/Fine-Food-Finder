@@ -35,8 +35,32 @@
 
       <div class="row">
         <div class="col-sm-12">
-          <div class="well" align="left" id="lowerBorder">
-            <p>Menu items here...</p>
+          <div class="well" align="left" id="lowerBorder" ng-init="count=0">
+            <button type="button" class="btn btn-labeled btn-default" style="float: right;" ng-click="count=count+1" ng-hide="count==1">
+                <span class="btn-label"><i class="glyphicon glyphicon-chevron-up"></i></span> $</button>
+            <button type="button" class="btn btn-labeled btn-default" style="float: right;" ng-click="count=count-1" ng-hide="count==0">
+                <span class="btn-label"><i class="glyphicon glyphicon-chevron-down"></i></span> $</button>
+            <button type="button" class="btn btn-labeled btn-default" style="float: right;">
+                <span class="btn-label"><i class="glyphicon glyphicon-refresh"></i></span></button>
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  <th>What's Available</th>
+                  <th>Price</th>
+                </tr>
+              </thead>
+              <tr ng-repeat="(key,val) in menuData">
+                <td ng-click="show = !show">
+                  {{val.name}}
+                  <br>
+                  <p ng-show="show">
+                    <br>
+                    <i>{{val.description}}</i>
+                  </p>
+                </td>
+                <td>${{val.price}}</td>
+              </tr>
+            </table>
           </div>
         </div>
       </div> 
