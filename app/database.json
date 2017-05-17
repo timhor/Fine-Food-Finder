@@ -442,7 +442,7 @@
         },
         {
           "name": "Yellow Curry (Thailand)",
-          "desciption": "Our vegan Thai offering. Mild peppers, lemon grass, ginger and lots of spices make this the most "Curry" tasting Thai.",
+          "desciption": "Our vegan Thai offering. Mild peppers, lemon grass, ginger and lots of spices make this the most 'Curry' tasting Thai.",
           "price": 9.29
         },
         {
@@ -454,7 +454,7 @@
           "name": "Murgh Masala",
           "desciption": "Classic Indian tomato based curry. Kind of like a standard tikka masala.",
           "price": 8.99         
-        }
+        },
         {
           "name": "Coconut Ice Cream",
           "desciption": "Handmade in our very own kitchen topped with toasted cocunut.",
@@ -499,7 +499,7 @@
           "name": "Chicken Breast",
           "desciption": "Potatoes, carrot pudding souffles and mango relish.",
           "price": 35        
-        }
+        },
         {
           "name": "Lemon Tart",
           "desciption": "Cream or ice cream.",
@@ -544,7 +544,7 @@
           "name": "Spicy Jelly Noodles",
           "desciption": "Jelly noodles made with starch and water, with a spicy flavor.",
           "price": 7.00        
-        }
+        },
         {
           "name": "Dumplings in Veggie Soup",
           "desciption": "Dumplings served in a mixed vegetable soup.",
@@ -589,7 +589,7 @@
           "name": "Banana, Pear or Raspberry Bread",
           "desciption": "Choice of bread with Banana, Pear or Raspberry falvor.",
           "price": 4.00        
-        }
+        },
         {
           "name": "Chocolate Frappe",
           "desciption": "Iced drink with blended chocolate explosion topped with whipped cream and chocolate drizzle.",
@@ -634,7 +634,7 @@
           "name": "Opera",
           "desciption": "A layered cake of dark chocolate ganache, coffee buttercream and almond sponge.",
           "price": 11.00        
-        }
+        },
         {
           "name": "Signature Waffle",
           "desciption": "A freshly made waffle served with vanilla white chocolate ice cream and a pot of chocolate.",
@@ -679,7 +679,7 @@
           "name": "Passionfruit Souffle",
           "desciption": "Passionfruit souffle served with passionfruit ice cream.",
           "price": 25.00
-        }
+        },
         {
           "name": "Date Tart",
           "desciption": "Interplay between the barely sweet aromatic custard, the sticky candy sweet dates and crisp short pastry.",
@@ -724,7 +724,7 @@
           "name": "Lasagne di Casa",
           "desciption": "Homemade pasta sheets, béchamel, bolognese, parmesan.",
           "price": 25.90
-        }
+        },
         {
           "name": "Mexicana Pizza",
           "desciption": "Ham, pepperoni, capsicum, onion.",
@@ -769,7 +769,7 @@
           "name": "Banana Split",
           "desciption": "The classic split. With vanilla, strawberry, and chocolate ice cream and strawberry, pineapple and chocolate toppings.",
           "price": 8.39
-        }
+        },
         {
           "name": "The Cornucopia",
           "desciption": "There’s four pounds of ice cream in this horn of plenty! All the good things The Chocolate Factory has to offer, including all the toppings. Feeds ten adults or one hungry teenager.",
@@ -814,7 +814,7 @@
           "name": "Crème Brulee",
           "desciption": "Served with a Chocolate & Almond Biscotti.",
           "price": 16.00
-        }
+        },
         {
           "name": "Dessert Extravaganza (to Share)",
           "desciption": "Platter of Chocolate Coated Crunchy Tiramisu with Salted Caramel & Hazelnut Crunch Filling served with a Macaron & Snickers Ice Cream, Crème Brulee of the day with Chocolate & Almond Biscotti & Seasonal fruits.",
@@ -859,7 +859,7 @@
           "name": "Apple Pie",
           "desciption": "Crisp pastry, lovingly filled with aussie apples for that extra sweet taste. Served piping hot.",
           "price": 2.55
-        }
+        },
         {
           "name": "Choc Whirl Frappe",
           "desciption": "Creamy chocolate syrup with whipped cream.",
@@ -904,7 +904,7 @@
           "name": "Apple Pie",
           "desciption": "Crisp pastry, lovingly filled with aussie apples for that extra sweet taste. Served piping hot.",
           "price": 2.55
-        }
+        },
         {
           "name": "Choc Whirl Frappe",
           "desciption": "Creamy chocolate syrup with whipped cream.",
