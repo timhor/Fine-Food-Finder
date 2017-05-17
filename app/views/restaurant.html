@@ -36,31 +36,38 @@
       <div class="row">
         <div class="col-sm-12">
           <div class="well" align="left" id="lowerBorder" ng-init="count=0">
-            <button type="button" class="btn btn-labeled btn-default" style="float: right;" ng-click="count=count+1" ng-hide="count==1">
-                <span class="btn-label"><i class="glyphicon glyphicon-chevron-up"></i></span> $</button>
-            <button type="button" class="btn btn-labeled btn-default" style="float: right;" ng-click="count=count-1" ng-hide="count==0">
-                <span class="btn-label"><i class="glyphicon glyphicon-chevron-down"></i></span> $</button>
-            <button type="button" class="btn btn-labeled btn-default" style="float: right;">
-                <span class="btn-label"><i class="glyphicon glyphicon-refresh"></i></span></button>
-            <table class="table table-hover">
+            <div ng-if="menuData.length" style="float: right;">
+              <button type="button" class="btn btn-labeled btn-default">
+                  <span class="btn-label"><i class="glyphicon glyphicon-refresh"></i></span></button>
+              <button type="button" class="btn btn-labeled btn-default" ng-click="count=count+1" ng-hide="count==1">
+                  <span class="btn-label"><i class="glyphicon glyphicon-chevron-up"></i></span> $</button>
+              <button type="button" class="btn btn-labeled btn-default" ng-click="count=count-1" ng-hide="count==0">
+                  <span class="btn-label"><i class="glyphicon glyphicon-chevron-down"></i></span> $</button>
+              <br>
+              <br>
+            </div>
+            <table class="table table-hover" ng-if="menuData.length">
               <thead>
                 <tr>
                   <th>What's Available</th>
                   <th>Price</th>
                 </tr>
               </thead>
-              <tr ng-repeat="(key,val) in menuData">
+              <tr ng-repeat="menu in menuData">
                 <td ng-click="show = !show">
-                  {{val.name}}
+                  {{menu.name}}
                   <br>
                   <p ng-show="show">
                     <br>
-                    <i>{{val.description}}</i>
+                    <i>{{menu.description}}</i>
                   </p>
                 </td>
-                <td>${{val.price}}</td>
+                <td>${{menu.price}}</td>
               </tr>
             </table>
+            <p ng-if="!menuData.length">
+              <i>No menu currently available</i>
+            </p>
           </div>
         </div>
       </div> 
