@@ -420,5 +420,502 @@
       "password": "helloworld",
       "email": "soham@soham.com"
     }
+  ],
+  "menus": [
+    {
+      "id": 1,
+      "items": [
+        {
+          "name": "Naan Bread",
+          "desciption": "Indian style bread cooked to order in our tandoori clay oven.",
+          "price": 2.99
+        },
+        {
+          "name": "Garlic Naan",
+          "desciption": "Our original Naan Bread brushed with our fresh garlic spread.",
+          "price": 3.49
+        },
+        {
+          "name": "Samosa",
+          "desciption": "A spiced potato and green pea filled indian dumpling served with coriander chutney.",
+          "price": 2.50
+        },
+        {
+          "name": "Yellow Curry (Thailand)",
+          "desciption": "Our vegan Thai offering. Mild peppers, lemon grass, ginger and lots of spices make this the most "Curry" tasting Thai.",
+          "price": 9.29
+        },
+        {
+          "name": "Tikka Masala (England)",
+          "desciption": "Our Tikka is a bit more Evolved than most and it shows in its' big flavor. Thick, rich & creamy.",
+          "price": 9.29
+        },
+        {
+          "name": "Murgh Masala",
+          "desciption": "Classic Indian tomato based curry. Kind of like a standard tikka masala.",
+          "price": 8.99         
+        }
+        {
+          "name": "Coconut Ice Cream",
+          "desciption": "Handmade in our very own kitchen topped with toasted cocunut.",
+          "price": 2.75
+        },
+        {
+          "name": "Banana Fritters",
+          "desciption": "A banana sprinkled with sugar, fried in a crispy egg roll wrapper and drizzled with caramel sauce.",
+          "price": 3.50
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "items": [
+        {
+          "name": "House Loaf",
+          "desciption": "Aged balsamic vinegar, virgin olive oil & olive tapenade.",
+          "price": 9.00
+        },
+        {
+          "name": "Soup Of The Day",
+          "desciption": "Fresh crusty bread.",
+          "price": 12.00
+        },
+        {
+          "name": "Potato Gnocchi",
+          "desciption": "Tomato & okra ragu.",
+          "price": 25.00
+        },
+        {
+          "name": "Tasmanian Black Mussels",
+          "desciption": "Steamed thai green curry sauce, basmati rice & bok choi.",
+          "price": 25.00
+        },
+        {
+          "name": "Linguini Pasta",
+          "desciption": "Black mussels, tiger prawns, scallops, chilli, garlic, fresh herbs & olive oil.",
+          "price": 31.00
+        },
+        {
+          "name": "Chicken Breast",
+          "desciption": "Potatoes, carrot pudding souffles and mango relish.",
+          "price": 35        
+        }
+        {
+          "name": "Lemon Tart",
+          "desciption": "Cream or ice cream.",
+          "price": 12.00
+        },
+        {
+          "name": "Warm Chocolate Cake",
+          "desciption": "With cream or ice cream.",
+          "price": 12.00
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "items": [
+        {
+          "name": "Shallot Pancakes",
+          "desciption": "Unleavened flatbread folded with oil and minced scallions.",
+          "price": 6.00
+        },
+        {
+          "name": "Hot & Sour Soup with Pork",
+          "desciption": "Meat soup with day lily buds, wood ear fungus, bamboo shoots, and tofu flavored with pork blood.",
+          "price": 9.80
+        },
+        {
+          "name": "Fried Rice",
+          "desciption": "Fried rice with individual grains and is lightly seasoned to allow the flavor of the rice to dominate.",
+          "price": 10.00
+        },
+        {
+          "name": "Stirfried Noodles",
+          "desciption": "Noodles fried with ginger, garlic, carrot, pepper and mangetout, and frozen peas.",
+          "price": 10.80
+        },
+        {
+          "name": "Egg and Tomato Vegetarian Stir-fry",
+          "desciption": "Juicy tomatoes mingle with softly scrambled eggs in a saucy dish that's delicious over rice.",
+          "price": 13.80
+        },
+        {
+          "name": "Spicy Jelly Noodles",
+          "desciption": "Jelly noodles made with starch and water, with a spicy flavor.",
+          "price": 7.00        
+        }
+        {
+          "name": "Dumplings in Veggie Soup",
+          "desciption": "Dumplings served in a mixed vegetable soup.",
+          "price": 10.90
+        },
+        {
+          "name": "Softdrink",
+          "desciption": "Choice between Fanta, Coke, Solo and Mountain Dew.",
+          "price": 2.00
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "items": [
+        {
+          "name": "Brekkie Wrap",
+          "desciption": "Scrambled eggs, baby spinach & bacon on toasted wrap.",
+          "price": 13.50
+        },
+        {
+          "name": "Omlette",
+          "desciption": "Omlette with roasted vegetables and cheese.",
+          "price": 15.90
+        },
+        {
+          "name": "Eggs on Toast",
+          "desciption": "Two free range eggs on toast with house made tomato relish.",
+          "price": 9.50
+        },
+        {
+          "name": "Fruit Salad",
+          "desciption": "Seasonal fruit salad with creamy vanilla yoghurt and house muesli.",
+          "price": 11.50
+        },
+        {
+          "name": "Vanilla Pancakes",
+          "desciption": "Pancakes served with maple syrup, chocolate sause & nutella.",
+          "price": 15.00
+        },
+        {
+          "name": "Banana, Pear or Raspberry Bread",
+          "desciption": "Choice of bread with Banana, Pear or Raspberry falvor.",
+          "price": 4.00        
+        }
+        {
+          "name": "Chocolate Frappe",
+          "desciption": "Iced drink with blended chocolate explosion topped with whipped cream and chocolate drizzle.",
+          "price": 6.50
+        },
+        {
+          "name": "Iced Coffee, Iced Chocolate, Spiders",
+          "desciption": "Irresistable cold beverages, Iced Coffee, Iced Chocolate or Spiders.",
+          "price": 6.50
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "items": [
+        {
+          "name": "Signature Hot Chocolate",
+          "desciption": "Our finest flowing milk or dark chocolate, combined with freshly frothed milk for a pure chocolate indulgence.",
+          "price": 7.70
+        },
+        {
+          "name": "Iced Chocolate",
+          "desciption": "Choose from milk or dark chocolate, blended with ice cream, ice, milk and topped with ice cream and chocolate flakes.",
+          "price": 9.00
+        },
+        {
+          "name": "Ham and Cheese Croissant",
+          "desciption": "Crossiant served warm made with ham and melted cheese.",
+          "price": 7.30
+        },
+        {
+          "name": "Chicken and Herb Roll",
+          "desciption": "Chicken with garlic and herb mayonnaise on a seeded roll.",
+          "price": 11.50
+        },
+        {
+          "name": "Salted Caramel Cake",
+          "desciption": "Dark chocolate mousse, crunchy hazelnut and salted caramel ganache on a Lindt chocolate brownie base.",
+          "price": 11.00
+        },
+        {
+          "name": "Opera",
+          "desciption": "A layered cake of dark chocolate ganache, coffee buttercream and almond sponge.",
+          "price": 11.00        
+        }
+        {
+          "name": "Signature Waffle",
+          "desciption": "A freshly made waffle served with vanilla white chocolate ice cream and a pot of chocolate.",
+          "price": 15.00
+        },
+        {
+          "name": "Molten Lava Cake",
+          "desciption": "An indulgent chocolate cake with a molten chocolate centre served with vanilla white chocolate ice cream.",
+          "price": 12.00
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "items": [
+        {
+          "name": "Mud Crab Salad",
+          "desciption": "Hand-picked mud crab salad with salted duck egg mayonnaise.",
+          "price": 54.00
+        },
+        {
+          "name": "Sashimi",
+          "desciption": "Hiramasa Kingfish sashimi with sushi rice, celery and aged mirin.",
+          "price": 36.00
+        },
+        {
+          "name": "Chinese Roast Pigeon",
+          "desciption": "Chinese roast pigeon with native tamarind, shark's fin melon, hot sweet and sour sauce.",
+          "price": 72.00
+        },
+        {
+          "name": "Lamb Pastrami",
+          "desciption": "Tea smoked lamb pastrami with lap chuong, eggplant and black bean sauce.",
+          "price": 59.00
+        },
+        {
+          "name": "Chestnut and Artichoke Pie",
+          "desciption": "Chestnut and Jerusalem artichoke pie with barigoule sauce.",
+          "price": 42.00
+        },
+        {
+          "name": "Passionfruit Souffle",
+          "desciption": "Passionfruit souffle served with passionfruit ice cream.",
+          "price": 25.00
+        }
+        {
+          "name": "Date Tart",
+          "desciption": "Interplay between the barely sweet aromatic custard, the sticky candy sweet dates and crisp short pastry.",
+          "price": 20.00
+        },
+        {
+          "name": "Apricot Fondant",
+          "desciption": "Warm apricot fondant with spiced biscuit and almond ice cream.",
+          "price": 26.00
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "items": [
+        {
+          "name": "Minestrone Soup",
+          "desciption": "Seasonal vegetables, white beans, kidney beans, borlotti beans, parmesan cheese, crusty Italian bread.",
+          "price": 10.90
+        },
+        {
+          "name": "Bruschetta di Pomodoro",
+          "desciption": "Cherry tomatoes, Spanish onion, basil, salt, extra virgin olive oil, balsamic reduction, parmesan, crusty ciabatta.",
+          "price": 14.00
+        },
+        {
+          "name": "Oven Baked Crusty Ciabatta Bread",
+          "desciption": "Crusty Italian bread, pesto or semi-dried tomato tapenade.",
+          "price": 8.90
+        },
+        {
+          "name": "Spaghetti Meatballs",
+          "desciption": "Traditional home-made meatballs, Napoli sauce.",
+          "price": 26.90
+        },
+        {
+          "name": "Carbonara",
+          "desciption": "Smoky bacon, garlic, cracked pepper, shallots, egg, cream, parmesan cheese sauce.",
+          "price": 26.90
+        },
+        {
+          "name": "Lasagne di Casa",
+          "desciption": "Homemade pasta sheets, béchamel, bolognese, parmesan.",
+          "price": 25.90
+        }
+        {
+          "name": "Mexicana Pizza",
+          "desciption": "Ham, pepperoni, capsicum, onion.",
+          "price": 21.90
+        },
+        {
+          "name": "Vegetarian Pizza",
+          "desciption": "Mushrooms, onion, capsicum, pineapple, olives.",
+          "price": 21.90
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "items": [
+        {
+          "name": "Double Chocolate Fudge Sundae",
+          "desciption": "Two scoops of our rich chocolate ice cream topped with hot fudge.",
+          "price": 6.49
+        },
+        {
+          "name": "Chocolate Factory Special Sundae",
+          "desciption": "Two scoops of Chocolate Factory Special ice cream (swiss chocolate mint with fudge and chips) topped with hot fudge.",
+          "price": 5.99
+        },
+        {
+          "name": "Fudge Pecan Sundae",
+          "desciption": "Two scoops of vanilla ice cream covered with hot fudge and pecans. (no almonds)",
+          "price": 7.49
+        },
+        {
+          "name": "Fudge Brownie",
+          "desciption": "Fudge Brownie without any nuts.",
+          "price": 3.49
+        },
+        {
+          "name": "Hot Chocolate",
+          "desciption": "Hot Chocolate topped with whipped cream and chocolate chips.",
+          "price": 3.99
+        },
+        {
+          "name": "Banana Split",
+          "desciption": "The classic split. With vanilla, strawberry, and chocolate ice cream and strawberry, pineapple and chocolate toppings.",
+          "price": 8.39
+        }
+        {
+          "name": "The Cornucopia",
+          "desciption": "There’s four pounds of ice cream in this horn of plenty! All the good things The Chocolate Factory has to offer, including all the toppings. Feeds ten adults or one hungry teenager.",
+          "price": 36.29
+        },
+        {
+          "name": "Oh Fudge!",
+          "desciption": "Our very own homemade milk chocolate hot fudge sundae. The star of our show. Two scoops of vanilla ice cream and hot fudge.",
+          "price": 6.99
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "items": [
+        {
+          "name": "Entree Platter For Two",
+          "desciption": "Hervey Bay Scallops served in shell, Chargrilled King Prawns, Assorted Mixed Mornay and Kilpatrick Oysters.",
+          "price": 85.00
+        },
+        {
+          "name": "Fisherman’s Basket",
+          "desciption": "Fried Catch of the Day , Tempura Soft Shell Crab, Golden Tempura King Prawns, Panko Crumbed Calamari Rings with Chips & Homemade Tartare Sauce.",
+          "price": 40.00
+        },
+        {
+          "name": "Vegetable Linguine",
+          "desciption": "In a Roast Tomato & Chilli Sauce with assorted seasonal Sauteed Vegetables & Parmesan.",
+          "price": 32.00
+        },
+        {
+          "name": "Crab Ravioli",
+          "desciption": "Wilted Baby Spinach and Pernod Cream.",
+          "price": 22.00
+        },
+        {
+          "name": "Salt and Pepper Calamari",
+          "desciption": "Baby Calamari with Passionfruit Dressing.",
+          "price": 24.00
+        },
+        {
+          "name": "Crème Brulee",
+          "desciption": "Served with a Chocolate & Almond Biscotti.",
+          "price": 16.00
+        }
+        {
+          "name": "Dessert Extravaganza (to Share)",
+          "desciption": "Platter of Chocolate Coated Crunchy Tiramisu with Salted Caramel & Hazelnut Crunch Filling served with a Macaron & Snickers Ice Cream, Crème Brulee of the day with Chocolate & Almond Biscotti & Seasonal fruits.",
+          "price": 40.00
+        },
+        {
+          "name": "Sundae Dream",
+          "desciption": "Trio of Ice Creams, Marshmallows & Chocolate Surprise.",
+          "price": 15.00
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "items": [
+        {
+          "name": "Big Mac",
+          "desciption": "Big Mac® Bun, Big Mac® Sauce, Regular Onions, Shredded Lettuce, Pickles, Sliced Cheese, 2 x Regular Meat Patties, Salt & Pepper.",
+          "price": 6.50
+        },
+        {
+          "name": "Filet-O-Fish",
+          "desciption": "Regular Bun, Tartare Sauce, Fillet- O- Fish® Portion, 1/2 Cheese Slice.",
+          "price": 5.50
+        },
+        {
+          "name": "Double Quarter Pounder Value Meal",
+          "desciption": "Quarter Pounder® Bun, Mustard, Ketchup, Slivered Onions, Pickles, Sliced Cheese, Qtr lb Meat Patty, Salt and Pepper.",
+          "price": 12.65
+        },
+        {
+          "name": "Hotcakes with Butter & Syrup",
+          "desciption": "Start your day the McDonald's® way, with the great feeling of pouring sweet syrup over melting whipped butter, watching while it seeps between the layers of fluffy, warm hotcakes. Soft, sweet and delicious breakfast.",
+          "price": 4.90
+        },
+        {
+          "name": "Hash Brown",
+          "desciption": "Get 'em hot. A crunchy, golden brown crust with steaming, fluffy potato inside.",
+          "price": 2.35
+        },
+        {
+          "name": "Apple Pie",
+          "desciption": "Crisp pastry, lovingly filled with aussie apples for that extra sweet taste. Served piping hot.",
+          "price": 2.55
+        }
+        {
+          "name": "Choc Whirl Frappe",
+          "desciption": "Creamy chocolate syrup with whipped cream.",
+          "price": 5.60
+        },
+        {
+          "name": "Frozen Coke",
+          "desciption": "Thirst-quenching made extra cold and extra refreshing.",
+          "price": 1.00
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "items": [
+        {
+          "name": "Big Mac",
+          "desciption": "Big Mac® Bun, Big Mac® Sauce, Regular Onions, Shredded Lettuce, Pickles, Sliced Cheese, 2 x Regular Meat Patties, Salt & Pepper.",
+          "price": 6.50
+        },
+        {
+          "name": "Filet-O-Fish",
+          "desciption": "Regular Bun, Tartare Sauce, Fillet- O- Fish® Portion, 1/2 Cheese Slice.",
+          "price": 5.50
+        },
+        {
+          "name": "Double Quarter Pounder Value Meal",
+          "desciption": "Quarter Pounder® Bun, Mustard, Ketchup, Slivered Onions, Pickles, Sliced Cheese, Qtr lb Meat Patty, Salt and Pepper.",
+          "price": 12.65
+        },
+        {
+          "name": "Hotcakes with Butter & Syrup",
+          "desciption": "Start your day the McDonald's® way, with the great feeling of pouring sweet syrup over melting whipped butter, watching while it seeps between the layers of fluffy, warm hotcakes. Soft, sweet and delicious breakfast.",
+          "price": 4.90
+        },
+        {
+          "name": "Hash Brown",
+          "desciption": "Get 'em hot. A crunchy, golden brown crust with steaming, fluffy potato inside.",
+          "price": 2.35
+        },
+        {
+          "name": "Apple Pie",
+          "desciption": "Crisp pastry, lovingly filled with aussie apples for that extra sweet taste. Served piping hot.",
+          "price": 2.55
+        }
+        {
+          "name": "Choc Whirl Frappe",
+          "desciption": "Creamy chocolate syrup with whipped cream.",
+          "price": 5.60
+        },
+        {
+          "name": "Frozen Coke",
+          "desciption": "Thirst-quenching made extra cold and extra refreshing.",
+          "price": 1.00
+        }
+      ]
+    }
   ]
 }
