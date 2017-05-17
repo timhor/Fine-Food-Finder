@@ -8,7 +8,13 @@ angular.module('fineFoodFinderApp')
   });
 
 // highlights active tab in navbar
-$(".nav a").on("click", function(){
-   $(".nav").find(".active").removeClass("active");
-   $(this).parent().addClass("active");
-});
+// $(".nav a").on("click", function(){
+//    $(".nav").find(".active").removeClass("active");
+//    $(this).parent().addClass("active");
+// });
+$(document).ready(function() {
+    $(".nav a").on("click", function(){
+        $(".nav").find(".active").removeClass("active");
+        $(this).parent().addClass("active");
+    });
+}); 
