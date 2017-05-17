@@ -26,7 +26,9 @@ angular.module('fineFoodFinderApp')
                 $scope.restdata[j] = $scope.restdata[j-1];
                 $scope.restdata[j-1] = t;
               }
+              j = j - 1;
             }
+            i = i + 1;
           }
         }
 
