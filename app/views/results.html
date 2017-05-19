@@ -6,14 +6,24 @@
 <h4 ng-if="!restdata.length"><br>No restaurants found. Try searching for something else.</h4>
 
 <div ng-controller="resultsCtrl">
-<div ng-cloak>
-  <table class="table table-hover" ng-if="restdata.length">
+<div ng-cloak ng-if="restdata.length">
+  <div style="float: right;">
+    <label>Sort by: </label> 
+    <div class="btn-group demoPadder" role="group" aria-label="Default button group">
+      <button type="button" class="btn btn-default">Rating</button>
+      <button type="button" class="btn btn-default">Avg. Price</button>
+    </div>
+  </div>
+  <br>
+  <br>
+  <table class="table table-hover">
     <thead>
       <tr>
         <th>Name</th>
         <th>Address</th>
         <th>Postcode</th>
         <th>Rating</th>
+        <th>Avg. Price</th>
       </tr>
     </thead>
     <tr ng-repeat="(key,val) in restdata"> <!--| filter: query">-->
@@ -21,6 +31,7 @@
       <td ng-click="viewRestaurant(val)">{{val.address}}</td>
       <td ng-click="viewRestaurant(val)">{{val.postcode}}</td>
       <td ng-click="viewRestaurant(val)">{{val.rating}}/5</td>
+      <td ng-click="viewRestaurant(val)">{{val.avgPrice}}</td>
     </tr>
   </table>
 </div>
