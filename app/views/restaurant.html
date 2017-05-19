@@ -37,7 +37,7 @@
         <div class="col-sm-12">
           <div class="well" align="left" id="lowerBorder" ng-init="count=0">
             <div ng-if="menuData.length" style="float: right;">
-              <button type="button" class="btn btn-labeled btn-default">
+              <button type="button" class="btn btn-labeled btn-default" ng-click="resetMenu()">
                   <span class="btn-label"><i class="glyphicon glyphicon-refresh"></i></span></button>
               <button type="button" class="btn btn-labeled btn-default" ng-click="count=count+1; descendingSort()" ng-hide="count==1">
                   <span class="btn-label"><i class="glyphicon glyphicon-chevron-up"></i></span> $</button>
