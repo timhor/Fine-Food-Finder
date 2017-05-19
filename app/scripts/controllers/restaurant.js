@@ -14,8 +14,51 @@ angular.module('fineFoodFinderApp')
            		});
        		}
 		});
+    $scope.ascendingSort = function() {
+      console.log("Clicked Ascending!");
+      if ($scope.menuData.length > 1) {
+        var i = 0;
+        while (i < $scope.menuData.length) {
+          var j = $scope.menuData.length - 1;
+          while (j > i) {
+            if (parseFloat($scope.menuData[j].price) < parseFloat($scope.menuData[j-1].price)) {
+              var t = $scope.menuData[j];
+              $scope.menuData[j] = $scope.menuData[j-1];
+              $scope.menuData[j-1] = t;
+            }
+            j = j - 1;
+          }
+          i = i + 1;
+        }
+      }
+    };
+    $scope.descendingSort = function() {
+      console.log("Clicked Descending!");
+
+      if ($scope.menuData.length > 1) {
+        var i = 0;
+        while (i < $scope.menuData.length) {
+          var j = $scope.menuData.length - 1;
+          while (j > i) {
+            if (parseFloat($scope.menuData[j].price) > parseFloat($scope.menuData[j-1].price)) {
+              var t = $scope.menuData[j];
+              $scope.menuData[j] = $scope.menuData[j-1];
+              $scope.menuData[j-1] = t;
+            }
+            j = j - 1;
+          }
+          i = i + 1;
+        }
+      }
+    };
 	});
+    /*
+  $scope.ascendingSort = function() {
+    console.log("Clicked!");
+  };
+  */
   })
+
   .directive('fundooRating', function () {
     return {
       restrict: 'A',
@@ -50,5 +93,9 @@ angular.module('fineFoodFinderApp')
         });
       }
     };
+  })
+  /*
+  .directive('ascendingSort', function() {
+    return console.log("Clicked!");
   });
-
+  */

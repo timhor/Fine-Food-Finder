@@ -39,9 +39,9 @@
             <div ng-if="menuData.length" style="float: right;">
               <button type="button" class="btn btn-labeled btn-default">
                   <span class="btn-label"><i class="glyphicon glyphicon-refresh"></i></span></button>
-              <button type="button" class="btn btn-labeled btn-default" ng-click="count=count+1" ng-hide="count==1">
+              <button type="button" class="btn btn-labeled btn-default" ng-click="count=count+1; descendingSort()" ng-hide="count==1">
                   <span class="btn-label"><i class="glyphicon glyphicon-chevron-up"></i></span> $</button>
-              <button type="button" class="btn btn-labeled btn-default" ng-click="count=count-1" ng-hide="count==0">
+              <button type="button" class="btn btn-labeled btn-default" ng-click="count=count-1; ascendingSort()" ng-hide="count==0">
                   <span class="btn-label"><i class="glyphicon glyphicon-chevron-down"></i></span> $</button>
               <br>
               <br>

@@ -7,14 +7,14 @@ angular.module('fineFoodFinderApp')
         $scope.restdata = [];
         angular.forEach(response.data, function(value) {
           if ($scope.query.address !== undefined) {
-            $log.log(value.name + " has address " + value.address);
-            $log.log("addr: " + $scope.query.address);
+            //$log.log(value.name + " has address " + value.address);
+            //$log.log("addr: " + $scope.query.address);
             if (value.address.toLowerCase().includes($scope.query.address.toLowerCase())) {
               $scope.restdata.push(value);
             }
           }
         });
-        var listLen = $scope.restdata.length;
+        //var listLen = $scope.restdata.length;
 
         if ($scope.restdata.length > 1) {
           var i = 0;
