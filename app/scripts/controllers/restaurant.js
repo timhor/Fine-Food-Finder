@@ -18,36 +18,33 @@ angular.module('fineFoodFinderApp')
     $scope.ascendingSort = function() {
       console.log("Clicked Ascending!");
       if ($scope.menuData.length > 1) {
-        var i = 0;
+        var i = 1;
         while (i < $scope.menuData.length) {
-          var j = $scope.menuData.length - 1;
-          while (j > i) {
-            if (parseFloat($scope.menuData[j].price) < parseFloat($scope.menuData[j-1].price)) {
-              var t = $scope.menuData[j];
-              $scope.menuData[j] = $scope.menuData[j-1];
-              $scope.menuData[j-1] = t;
-            }
+          var j = i;
+          while (j > 0 && parseFloat($scope.menuData[j].price) < parseFloat($scope.menuData[j-1].price)) {
+            var t = $scope.menuData[j];
+            $scope.menuData[j] = $scope.menuData[j-1];
+            $scope.menuData[j-1] = t;
             j = j - 1;
           }
           i = i + 1;
         }
       }
+
     };
     $scope.descendingSort = function() {
       console.log("Clicked Descending!");
 
       if ($scope.menuData.length > 1) {
-        var i = 0;
+        var i = 1;
         while (i < $scope.menuData.length) {
-          var j = $scope.menuData.length - 1;
-          while (j > i) {
-            if (parseFloat($scope.menuData[j].price) > parseFloat($scope.menuData[j-1].price)) {
-              var t = $scope.menuData[j];
-              $scope.menuData[j] = $scope.menuData[j-1];
-              $scope.menuData[j-1] = t;
-            }
+          var j = i - 1;
+          var t = $scope.menuData[i];
+          while (j >= 0 && parseFloat(t.price) > parseFloat($scope.menuData[j].price)) {
+            $scope.menuData[j+1] = $scope.menuData[j];
             j = j - 1;
           }
+          $scope.menuData[j+1] = t;
           i = i + 1;
         }
       }
@@ -56,33 +53,10 @@ angular.module('fineFoodFinderApp')
     $scope.resetMenu = function() {
       console.log("Clicked Reset!");
       $scope.menuData = angular.copy($scope.originalMenu);
-      /*
-      if ($scope.menuData.length > 1) {
-        var i = 0;
-        while (i < $scope.menuData.length) {
-          var j = $scope.menuData.length - 1;
-          while (j > i) {
-            if ($scope.menuData[j].price < $scope.menuData[j-1]) {
-              var t = $scope.menuData[j];
-              $scope.menuData[j] = $scope.menuData[j-1];
-              $scope.menuData[j-1] = t;
-            }
-            j = j - 1;
-          }
-          i = i + 1;
-        }
-      }
-      */
-
-
     };
 
 	});
-    /*
-  $scope.ascendingSort = function() {
-    console.log("Clicked!");
-  };
-  */
+
   })
 
   .directive('fundooRating', function () {
@@ -120,8 +94,4 @@ angular.module('fineFoodFinderApp')
       }
     };
   })
-  /*
-  .directive('ascendingSort', function() {
-    return console.log("Clicked!");
-  });
-  */
+
