@@ -11,15 +11,14 @@
         <div fundoo-rating rating-value="rating" max="5" class="inactiveLink"></div>
       </div>
       <div class="well" align="left" id="lowerBorder">
-        <h2>About Us:</h2>
+        <h2>About</h2>
         <p>{{rest.info}}</p>
       </div>
       <div class="well" align="left" style="word-wrap: break-word;" id="lowerBorder">
-        <h2>Details:</h2>
-        <p>{{rest.address}}</p>
-        <p>{{rest.postcode}}</p>
-        <p>{{rest.email}}</p>
-        <p>{{rest.contactnumber}}</p>
+        <h2>Details</h2>
+        <p>{{rest.address}} {{rest.postcode}}</p>
+        <p><a href="mailto:{{rest.email}}">{{rest.email}}</a></p>
+        <p><a href="tel:{{rest.contactnumber}}">{{rest.contactnumber}}</a></p>
       </div>
     </div>
     <div class="col-sm-8">
@@ -27,7 +26,7 @@
         <div class="col-sm-12">
           <div class="panel panel-default" id="mainBorder">
             <div class="panel-body">
-              <h2>Menu:</h2>
+              <h2>MENU</h2>
             </div>
           </div>
         </div>
@@ -37,11 +36,11 @@
         <div class="col-sm-12">
           <div class="well" align="left" id="lowerBorder">
             <div ng-if="menuData.length" style="float: right;">
-              <button type="button" class="btn btn-labeled btn-default" ng-click="resetMenu(); count = 0">
+              <button type="button" class="btn btn-labeled btn-default" title="Reset price sorting" ng-click="resetMenu(); count = 0">
                   <span class="btn-label"><i class="glyphicon glyphicon-refresh"></i></span></button>
-              <button type="button" class="btn btn-labeled btn-default" ng-click="sort = !sort; ascendingSort()" ng-show="!sort">
+              <button type="button" class="btn btn-labeled btn-default" title="Sort prices in increasing order" ng-click="sort = !sort; ascendingSort()" ng-show="!sort">
                   <span class="btn-label"><i class="glyphicon glyphicon-chevron-up"></i></span> $</button>
-              <button type="button" class="btn btn-labeled btn-default" ng-click="sort = !sort; descendingSort()" ng-show="sort">
+              <button type="button" class="btn btn-labeled btn-default" title="Sort prices in decreasing order" ng-click="sort = !sort; descendingSort()" ng-show="sort">
                   <span class="btn-label"><i class="glyphicon glyphicon-chevron-down"></i></span> $</button>
               <br>
               <br>
@@ -49,7 +48,7 @@
             <table class="table table-hover" ng-if="menuData.length">
               <thead>
                 <tr>
-                  <th id="tableHeadSize">What's Available</th>
+                  <th id="tableHeadSize">Item</th>
                   <th id="tableHeadSize">Price</th>
                 </tr>
               </thead>
@@ -66,7 +65,7 @@
               </tr>
             </table>
             <p ng-if="!menuData.length">
-              <i>No menu currently available</i>
+              <i>Menu currently not available</i>
             </p>
           </div>
         </div>
