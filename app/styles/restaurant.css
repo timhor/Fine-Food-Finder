@@ -11,12 +11,6 @@
 
 }
 
-#starBorder{
-  border: 1px solid grey;
-  border-radius: 10px;
-  background-color:  #ffffff;
-}
-
 .rating{
   color: #a9a9a9;
   margin: 0;
@@ -44,6 +38,10 @@ ul.rating {
 
 .starSize {
 	font-size: 20px;
+}
+
+.rating .filled {
+  color: #ffd700;
 }
 
 #tableHeadSize{
