@@ -1,13 +1,13 @@
 #lowerBorder{
   border-color: darkblue;
   border-width: 1px;
-  background-color: #f2ffe5;
+  background-color: #fafafa;
 }
 
 #mainBorder{
   border-color: black;
   border-width: 2px;
-  background-color:  #e5fff2;
+  background-color:  #ffc107;
 
 }
 
