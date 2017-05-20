@@ -10,8 +10,14 @@
   <div style="float: right;">
     <label>Sort by: </label> 
     <div class="btn-group demoPadder" role="group" aria-label="Default button group">
-      <button type="button" class="btn btn-default">Rating</button>
-      <button type="button" class="btn btn-default">Avg. Price</button>
+      <button type="button" class="btn btn-labeled btn-default" ng-click="rating = !rating; sortRatings()" ng-show = "!rating">
+        <span class="btn-label"><i class="glyphicon glyphicon-chevron-up"></i></span> Rating</button>
+      <button type="button" class="btn btn-labeled btn-default" ng-click="rating = !rating; sortRatings()" ng-show = "rating">
+        <span class="btn-label"><i class="glyphicon glyphicon-chevron-down"></i></span> Rating</button>
+      <button type="button" class="btn btn-labeled btn-default" ng-click="price = !price; sortPrice()" ng-show = "!price">
+        <span class="btn-label"><i class="glyphicon glyphicon-chevron-up"></i></span> Avg. Price</button>
+      <button type="button" class="btn btn-labeled btn-default" ng-click="price = !price; sortPrice()" ng-show = "price">
+        <span class="btn-label"><i class="glyphicon glyphicon-chevron-down"></i></span> Avg. Price</button>
     </div>
   </div>
   <br>
@@ -31,7 +37,7 @@
       <td ng-click="viewRestaurant(val)">{{val.address}}</td>
       <td ng-click="viewRestaurant(val)">{{val.postcode}}</td>
       <td ng-click="viewRestaurant(val)">{{val.rating}}/5</td>
-      <td ng-click="viewRestaurant(val)">{{val.avgPrice}}</td>
+      <td ng-click="viewRestaurant(val)">${{val.avgPrice}}</td>
     </tr>
   </table>
 </div>
