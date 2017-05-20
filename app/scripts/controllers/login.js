@@ -38,7 +38,7 @@ angular.module('fineFoodFinderApp')
         loginService.loginVars.loginBtnText = "Log in";
         loginService.loginVars.currentUser = "";
       }
-    }
+    };
   });
 
 angular.module('fineFoodFinderApp')

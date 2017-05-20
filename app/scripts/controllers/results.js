@@ -15,7 +15,7 @@ angular.module('fineFoodFinderApp')
               $scope.counter = 0;
               // console.log("Set to " + $scope.priceSum);
               angular.forEach(response.data, function(menuVal) {
-                if (menuVal.id == value.id) {
+                if (menuVal.id === value.id) {
                   angular.forEach(menuVal.items, function(value1) {
                     // console.log("Adding " + value1.price);
                     $scope.priceSum = $scope.priceSum +  parseFloat(value1.price);
@@ -24,9 +24,9 @@ angular.module('fineFoodFinderApp')
                 }
               });
               var defaultPrice = 15;
-              if ($scope.priceSum != 0) {
+              if ($scope.priceSum !== 0) {
                 value.avgPrice = $scope.priceSum / $scope.counter;
-                value.avgPrice = value.avgPrice.toFixed(2)
+                value.avgPrice = value.avgPrice.toFixed(2);
               } else {
                 value.avgPrice = defaultPrice.toFixed(2);
               }
@@ -40,15 +40,15 @@ angular.module('fineFoodFinderApp')
     });
     $scope.sortRatings = function() {
       $scope.ratingsCount = ($scope.ratingsCount + 1) % 2;
-      if ($scope.ratingsCount == 1) {
+      if ($scope.ratingsCount === 1) {
         // TODO CHANGE TO NEW SORT
         if ($scope.restdata.length > 1) {
-          var i = 0;
+          let i = 0;
           while (i < $scope.restdata.length) {
-            var j = $scope.restdata.length - 1;
+            let j = $scope.restdata.length - 1;
             while (j > i) {
               if ($scope.restdata[j].rating > $scope.restdata[j-1].rating) {
-                var t = $scope.restdata[j];
+                let t = $scope.restdata[j];
                 $scope.restdata[j] = $scope.restdata[j-1];
                 $scope.restdata[j-1] = t;
               }
@@ -60,12 +60,12 @@ angular.module('fineFoodFinderApp')
       } else {
         // TODO CHANGE TO NEW SORT
         if ($scope.restdata.length > 1) {
-          var i = 0;
+          let i = 0;
           while (i < $scope.restdata.length) {
-            var j = $scope.restdata.length - 1;
+            let j = $scope.restdata.length - 1;
             while (j > i) {
               if ($scope.restdata[j].rating < $scope.restdata[j-1].rating) {
-                var t = $scope.restdata[j];
+                let t = $scope.restdata[j];
                 $scope.restdata[j] = $scope.restdata[j-1];
                 $scope.restdata[j-1] = t;
               }
@@ -75,19 +75,19 @@ angular.module('fineFoodFinderApp')
           }
         }
       }
-    }
+    };
 
     $scope.sortPrice = function() {
       $scope.priceCount = ($scope.priceCount + 1) % 2;
-      if ($scope.priceCount == 1) {
+      if ($scope.priceCount === 1) {
         // TODO CHANGE TO NEW SORT
         if ($scope.restdata.length > 1) {
-          var i = 0;
+          let i = 0;
           while (i < $scope.restdata.length) {
-            var j = $scope.restdata.length - 1;
+            let j = $scope.restdata.length - 1;
             while (j > i) {
               if (parseFloat($scope.restdata[j].avgPrice) > parseFloat($scope.restdata[j-1].avgPrice)) {
-                var t = $scope.restdata[j];
+                let t = $scope.restdata[j];
                 $scope.restdata[j] = $scope.restdata[j-1];
                 $scope.restdata[j-1] = t;
               }
@@ -99,12 +99,12 @@ angular.module('fineFoodFinderApp')
       } else {
         // TODO CHANGE TO NEW SORT
         if ($scope.restdata.length > 1) {
-          var i = 0;
+          let i = 0;
           while (i < $scope.restdata.length) {
-            var j = $scope.restdata.length - 1;
+            let j = $scope.restdata.length - 1;
             while (j > i) {
               if (parseFloat($scope.restdata[j].avgPrice) < parseFloat($scope.restdata[j-1].avgPrice)) {
-                var t = $scope.restdata[j];
+                let t = $scope.restdata[j];
                 $scope.restdata[j] = $scope.restdata[j-1];
                 $scope.restdata[j-1] = t;
               }
@@ -114,7 +114,7 @@ angular.module('fineFoodFinderApp')
           }
         }
       }
-    }
+    };
 
     $scope.viewRestaurant = function(value) {
       $location.path('/restaurant').search({restdata: value});
