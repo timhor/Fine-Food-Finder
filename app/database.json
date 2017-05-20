@@ -8,7 +8,7 @@
       "email": "curryworld@gmail.com",
       "contactnumber": "0423960364",
       "imageUrl": "images/restaurant_images/CurryWorld.png",
-      "info": "Using the freshest ingredients, Curry World offers  flavorful curries from Thailand, India, Japan, and other countries.  Pick a hearty deep red Mussaman curry from northern Thailand.  Or, how about a creamy and rich Tikka Masala?  A smooth traditional Japanese brown curry?  No matter what flavor your customers desire, Curry World has the right variety to satisfy your curry cravings.",
+      "info": "Using the freshest ingredients, Curry World offers flavorful curries from Thailand, India, Japan, and other countries. Pick a hearty deep red Mussaman curry from northern Thailand.  Or, how about a creamy and rich Tikka Masala?  A smooth traditional Japanese brown curry?  No matter what flavor your customers desire, Curry World has the right variety to satisfy your curry cravings.",
       "rating": 4
     },
     {
@@ -51,6 +51,8 @@
       "postcode": "2052",
       "email": "contact@chocolatier.com",
       "contactnumber": "0455543521",
+      "imageUrl": "images/restaurant_images/Chocolatier.png",
+      "info": "Chocolatier places you in a world of pleasure, fulfilling your chocolate desires.",
       "rating": 3
     },
     {
@@ -60,15 +62,19 @@
       "postcode": "2050",
       "email": "elevenbridge@gmail.com",
       "contactnumber": "0402483725",
+      "imageUrl": "images/restaurant_images/ElevenBridge.png",
+      "info": "Our goal is to provide excellent food and outstanding customer to service to all our guests.",
       "rating": 1
     },
     {
       "id": 7,
-      "name": "Mario's Italian Cusine",
+      "name": "Mario's Pizzeria & Restaurant",
       "address": "118 Richard Ave, Lidcombe, NSW",
       "postcode": "2066",
-      "email": "mariositalian@yahoo.com",
+      "email": "marios@yahoo.com",
       "contactnumber": "0466790123",
+      "imageUrl": "images/restaurant_images/Marios.png",
+      "info": "Mario's welcomes you to a delightful and intriguing restaurant to satisfy your Italian taste buds.",
       "rating": 3
     },
     {
@@ -78,15 +84,19 @@
       "postcode": "2052",
       "email": "contact@chocolatefactory.com",
       "contactnumber": "0477122177",
+      "imageUrl": "images/restaurant_images/Wonka.png",
+      "info": "The OG outlet for all the chocolate a customer could want.",
       "rating": 5
     },
     {
       "id": 9,
-      "name": "Seafood Palace",
+      "name": "Alvin's Seafood Palace",
       "address": "153 Harbour Road, Manly, NSW",
       "postcode": "2095",
-      "email": "seafoodpalace@yahoo.com",
+      "email": "alvinsseafoodpalace@yahoo.com",
       "contactnumber": "0422131454",
+      "imageUrl": "images/restaurant_images/SeafoodPalace.png",
+      "info": "If it isn't delicious, scrumptious seafood, it isn't Alvin's. A remarkable establishment providing seafood of a wide variety.",
       "rating": 4
     },
     {
@@ -118,6 +128,8 @@
       "postcode": "2050",
       "email": "sushitrain@yahoo.com",
       "contactnumber": "91475037",
+      "imageUrl": "images/restaurant_images/SushiTrain.png",
+      "info": "Ever wanted a sushi restaurant with an interesting twist? Well Sushi Train is the place for you, presenting their sushi dishes on a mobile conveyor belt for any customer to take.",
       "rating": 4
     },
     {
@@ -127,6 +139,8 @@
       "postcode": "2050",
       "email": "luigisitalian@yahoo.com",
       "contactnumber": "97284038",
+      "imageUrl": "images/restaurant_images/Luigis.png",
+      "info": "Luigi's welcomes you to a delightful and intriguing restaurant to satisfy your Italian taste buds.",
       "rating": 2
     },
     {
@@ -136,6 +150,8 @@
       "postcode": "2173",
       "email": "contact@dexsdiner.com",
       "contactnumber": "91350538",
+      "imageUrl": "images/restaurant_images/DexsDiner.png",
+      "info": "Our popular restaurant has just moved from Coruscant to a brand new location for Earth's inhabitants to enjoy, allowing humans to experience a new type of food.",
       "rating": 4
     },
     {
@@ -145,6 +161,8 @@
       "postcode": "2112",
       "email": "sloppyjoes@gmail.com",
       "contactnumber": "93175532",
+      "imageUrl": "images/restaurant_images/JoesHutt.png",
+      "info": "Joe's hutt lets customers enjoy nice outback style foods in an outdoors setting.",
       "rating": 3
     },
     {
@@ -154,15 +172,19 @@
       "postcode": "2133",
       "email": "contact@smokeyskebabs.com",
       "contactnumber": "93427443",
+      "imageUrl": "images/restaurant_images/Smokeys.png",
+      "info": "Smokey's newly opened Kebab shop provides customers with the Turkish cuisine favourites such as kebabs and pide.",
       "rating": 1
     },
     {
       "id": 17,
-      "name": "Paul's Pies",
+      "name": "Paul's Pot Pies",
       "address": "75 Hydra Street, North Ryde, NSW",
       "postcode": "2113",
       "email": "paulspies@gmail.com",
       "contactnumber": "93401592",
+      "imageUrl": "images/restaurant_images/PaulsPies.png",
+      "info": "Paul's Pies are not for the faint of heart, our restaurant creates innovative pies to widen the palette of our customers.",
       "rating": 2
     },
     {
@@ -172,6 +194,8 @@
       "postcode": "2037",
       "email": "wrapking@yahoo.com",
       "contactnumber": "97128932",
+      "imageUrl": "images/restaurant_images/WrapKing.png",
+      "info": "Wrap King, as the name suggests, are the kings of wrap making, giving customers a large variety of ingredients to choose from when ordering.",
       "rating": 1
     },
     {
@@ -181,6 +205,8 @@
       "postcode": "2134",
       "email": "contact@kfcburwood.com",
       "contactnumber": "97869502",
+      "imageUrl": "images/restaurant_images/KFC.png",
+      "info": "Built from the work of Colonel Sanders, our KFC chicken is the best that the world has to offer.",
       "rating": 2
     },
     {
@@ -190,6 +216,8 @@
       "postcode": "2144",
       "email": "contact@turkishparadise.com",
       "contactnumber": "99819204",
+      "imageUrl": "images/restaurant_images/TurkishParadise.png",
+      "info": "Our restaurant places customers in a Turkish setting of belly dancers, friendly service, and envelops their tastebuds with the tastes of traditional Turkish cuisine.",
       "rating": 4
     },
     {
@@ -199,6 +227,8 @@
       "postcode": "2144",
       "email": "contact@lebanesehouse@gmail.com",
       "contactnumber": "91023752",
+      "imageUrl": "images/restaurant_images/LebaneseHouse.png",
+      "info": "As the name entitles, our restaurant, once a standard house, is packed with the essence of lebanese style eating.",
       "rating": 3
     },
     {
@@ -208,6 +238,8 @@
       "postcode": "2132",
       "email": "redrooster@yahoo.com",
       "contactnumber": "92374827",
+      "imageUrl": "images/restaurant_images/RedRooster.png",
+      "info": "For fast, delicious food, Red Rooster is the place to be.",
       "rating": 5
     },
     {
@@ -217,6 +249,8 @@
       "postcode": "2132",
       "email": "hungryjackscroydon@yahoo.com",
       "contactnumber": "99934666",
+      "imageUrl": "images/restaurant_images/HungryJacks.png",
+      "info": "For fast, delicious food, Hungry Jacks is the place to be.",
       "rating": 4
     },
     {
@@ -226,6 +260,8 @@
       "postcode": "2133",
       "email": "subwaycroydonpark@yahoo.com",
       "contactnumber": "97000003",
+      "imageUrl": "images/restaurant_images/Subway.png",
+      "info": "In our restaurant, customers may choose from a large selection of ingredients to create their own healthy, subway-style, sandwich.",
       "rating": 5
     },
     {
@@ -235,6 +271,8 @@
       "postcode": "2137",
       "email": "stans@gmail.com",
       "contactnumber": "91023456",
+      "imageUrl": "images/restaurant_images/FishAndChips.png",
+      "info": "Stan's fish and chips is a classic fast-food restaurant for oceanic based eating.",
       "rating": 4
     },
     {
@@ -244,6 +282,8 @@
       "postcode": "2200",
       "email": "contact@bobsburgers.com",
       "contactnumber": "90504030",
+      "imageUrl": "images/restaurant_images/BobsBurgers.png",
+      "info": "We at Bob's Burgers aim to not only sell amazing burgers to our customers but also to get people to re-think what a burger truly is.",
       "rating": 3
     },
     {
@@ -253,6 +293,8 @@
       "postcode": "2040",
       "email": "pastapalace@gmai.com",
       "contactnumber": "90807060",
+      "imageUrl": "images/restaurant_images/PastaPalace.png",
+      "info": "Pasta Palace places its customers in a luxurious setting, giving them the sense of being royalty.",
       "rating": 1
     },
     {
@@ -262,6 +304,8 @@
       "postcode": "2135",
       "email": "outbacksteakhouse@yahoo.com",
       "contactnumber": "91122334",
+      "imageUrl": "images/restaurant_images/OutbackSteakhouse.png",
+      "info": "For amazing and delicious ribs, burgers, and steaks, come to Outback Steakhouse. A long-time favourite for all meat lovers. ",
       "rating": 2
     },
     {
@@ -271,6 +315,8 @@
       "postcode": "2135",
       "email": "oportostrathfield@yahoo.com",
       "contactnumber": "99887766",
+      "imageUrl": "images/restaurant_images/Oporto.png",
+      "info": "With our restaurant located world-wide, we here at Oporto aim to provide customers with the best fast-food possible.",
       "rating": 1
     },
     {
@@ -280,6 +326,8 @@
       "postcode": "2195",
       "email": "oportolakemba@yahoo.com",
       "contactnumber": "98979695",
+      "imageUrl": "images/restaurant_images/Oporto.png",
+      "info": "With our restaurant located world-wide, we here at Oporto aim to provide customers with the best fast-food possible.",
       "rating": 5
     },
     {
@@ -289,6 +337,8 @@
       "postcode": "2114",
       "email": "contact@shermansseafood.com",
       "contactnumber": "95837415",
+      "imageUrl": "images/restaurant_images/ShermansSeafood.png",
+      "info": "Sherman's seafood, located underwater, provides customers with not only excellent seafoood but a magnificent view of the ocean.",
       "rating": 4
     },
     {
@@ -298,24 +348,30 @@
       "postcode": "2135",
       "email": "contact@koreanbbq.com",
       "contactnumber": "91234567",
+      "imageUrl": "images/restaurant_images/KoreanBBQ.png",
+      "info": "We aim to provide a stunning Korean BBQ experience to all our customers.",
       "rating": 5
     },
     {
       "id": 33,
-      "name": "Alexander's Sweets",
+      "name": "Shree Sweets",
       "address": "1092 Riders Lane, North Ryde, NSW",
       "postcode": "2113",
       "email": "alexanderssweets@gmail.com",
       "contactnumber": "98765432",
+      "imageUrl": "images/restaurant_images/ShreeSweets.png",
+      "info": "Shree, the owner of Shree Sweets, claims 'Shree Sweets will become the ultimate restaurant for desserts'.",
       "rating": 4
     },
     {
       "id": 34,
-      "name": "Sweet Tooth Heaven",
+      "name": "Heaven's Sweet Tooth",
       "address": "291 Elizabeth Road, Ashfield, NSW",
       "postcode": "2131",
-      "email": "sweettoothheaven@gmail.com",
+      "email": "heavenssweettooth@gmail.com",
       "contactnumber": "91827364",
+      "imageUrl": "images/restaurant_images/HeavensSweetTooth.png",
+      "info": "Heaven's Sweet Tooth will satisfy every sweet toothed customer who enters this restaurant with exquisite desserts like cakes, and macarons.",
       "rating": 3
     },
     {
@@ -325,16 +381,20 @@
       "postcode": "3121",
       "email": "subwayrichmond@yahoo.com",
       "contactnumber": "97999999",
+      "imageUrl": "images/restaurant_images/Subway.png",
+      "info": "In our restaurant, customers may choose from a large selection of ingredients to create their own healthy, subway-style, sandwich.",
       "rating": 1
     },
     {
       "id": 36,
-      "name": "Chocolate Del Mundo",
+      "name": "Chocolates Del Mondo",
       "address": "98 Burwood Road, Burwood, NSW",
       "postcode": "2134",
-      "email": "contact@chocolatedelmundo.com",
+      "email": "contact@chocolatesdelmondo.com",
       "contactnumber": "90898081",
-      "rating": 4
+      "imageUrl": "images/restaurant_images/ChocolateDelMondo.png",
+      "info": "Chocolates Del Mondo is a chocolate lovers paradise filled with a large variety of chocolate goods.",
+      "rating": 1
     },
     {
       "id": 37,
@@ -343,7 +403,9 @@
       "postcode": "2134",
       "email": "georgescafe@gmail.com",
       "contactnumber": "97648392",
-      "rating": 2
+      "imageUrl": "images/restaurant_images/GeorgesCafe.png",
+      "info": "Our restaurant gives customers value for their money, providing large portion sizes for a wide variety of meals.",
+      "rating": 5
     },
     {
       "id": 38,
@@ -352,6 +414,8 @@
       "postcode": "2150",
       "email": "contact@harryscafedewheels.com",
       "contactnumber": "90837232",
+      "imageUrl": "images/restaurant_images/HarrysCafeDeWheels.png",
+      "info": "Harry's Cafe De Wheels presents interesting, out of the ordinary pies for our customers, changing their perspective on the glory of pies.",
       "rating": 4
     },
     {
@@ -361,6 +425,8 @@
       "postcode": "2045",
       "email": "patrickspizzeria@gmail.com",
       "contactnumber": "94749732",
+      "imageUrl": "images/restaurant_images/PatricksPizzeria.png",
+      "info": "A classic Italian pizzeria, Patrick's is an excellent quality restaurant that shows its customers the true essence of Italian style cooking.",
       "rating": 5
     },
     {
@@ -370,6 +436,8 @@
       "postcode": "2195",
       "email": "destinysplatoon@yahoo.com",
       "contactnumber": "94803920",
+      "imageUrl": "images/restaurant_images/DestinysPlatoon.png",
+      "info": "A restaurant located on water, Destiny's Platoon serves classic seafood dishes to its customers in a unique, and beautiful setting.",
       "rating": 1
     }
   ],
