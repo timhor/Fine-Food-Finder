@@ -6,41 +6,41 @@
 <h4 ng-if="!restdata.length"><br>No restaurants found. Try searching for something else.</h4>
 
 <div ng-controller="resultsCtrl">
-<div ng-cloak ng-if="restdata.length">
-  <div style="float: right;">
-    <label>Sort by: </label> 
-    <div class="btn-group demoPadder" role="group" aria-label="Default button group">
-      <button type="button" class="btn btn-labeled btn-default" ng-click="rating = !rating; sortRatings()" ng-show = "!rating">
-        <span class="btn-label"><i class="glyphicon glyphicon-chevron-up"></i></span> Rating</button>
-      <button type="button" class="btn btn-labeled btn-default" ng-click="rating = !rating; sortRatings()" ng-show = "rating">
-        <span class="btn-label"><i class="glyphicon glyphicon-chevron-down"></i></span> Rating</button>
-      <button type="button" class="btn btn-labeled btn-default" ng-click="price = !price; sortPrice()" ng-show = "!price">
-        <span class="btn-label"><i class="glyphicon glyphicon-chevron-up"></i></span> Avg. Price</button>
-      <button type="button" class="btn btn-labeled btn-default" ng-click="price = !price; sortPrice()" ng-show = "price">
-        <span class="btn-label"><i class="glyphicon glyphicon-chevron-down"></i></span> Avg. Price</button>
+  <div ng-cloak ng-if="restdata.length">
+    <div style="float: right;">
+      <label>Sort by: </label> 
+      <div class="btn-group demoPadder" role="group" aria-label="Default button group">
+        <button type="button" class="btn btn-labeled btn-default" ng-click="rating = !rating; sortRatings()" ng-show = "!rating">
+          <span class="btn-label"><i class="glyphicon glyphicon-chevron-up"></i></span> Rating</button>
+        <button type="button" class="btn btn-labeled btn-default" ng-click="rating = !rating; sortRatings()" ng-show = "rating">
+          <span class="btn-label"><i class="glyphicon glyphicon-chevron-down"></i></span> Rating</button>
+        <button type="button" class="btn btn-labeled btn-default" ng-click="price = !price; sortPrice()" ng-show = "!price">
+          <span class="btn-label"><i class="glyphicon glyphicon-chevron-up"></i></span> Avg. Price</button>
+        <button type="button" class="btn btn-labeled btn-default" ng-click="price = !price; sortPrice()" ng-show = "price">
+          <span class="btn-label"><i class="glyphicon glyphicon-chevron-down"></i></span> Avg. Price</button>
+      </div>
     </div>
-  </div>
-  <br>
-  <br>
-  <table class="table table-hover">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Address</th>
-        <th>Postcode</th>
-        <th>Rating</th>
-        <th>Avg. Price</th>
+    <br>
+    <br>
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Address</th>
+          <th>Postcode</th>
+          <th>Rating</th>
+          <th>Avg. Price</th>
+        </tr>
+      </thead>
+      <tr ng-repeat="(key,val) in restdata"> <!--| filter: query">-->
+        <td ng-click="viewRestaurant(val)">{{val.name}}</td>
+        <td ng-click="viewRestaurant(val)">{{val.address}}</td>
+        <td ng-click="viewRestaurant(val)">{{val.postcode}}</td>
+        <td ng-click="viewRestaurant(val)">{{val.rating}}/5</td>
+        <td ng-click="viewRestaurant(val)">${{val.avgPrice}}</td>
       </tr>
-    </thead>
-    <tr ng-repeat="(key,val) in restdata"> <!--| filter: query">-->
-      <td ng-click="viewRestaurant(val)">{{val.name}}</td>
-      <td ng-click="viewRestaurant(val)">{{val.address}}</td>
-      <td ng-click="viewRestaurant(val)">{{val.postcode}}</td>
-      <td ng-click="viewRestaurant(val)">{{val.rating}}/5</td>
-      <td ng-click="viewRestaurant(val)">${{val.avgPrice}}</td>
-    </tr>
-  </table>
-</div>
+    </table>
+  </div>
 </div>
 <br>
 <form action="#!/">
