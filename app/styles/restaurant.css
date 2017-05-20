@@ -36,17 +36,10 @@ ul.rating {
   cursor: pointer;
   font-size: 30px;
   -webkit-text-stroke: 1px black;
-   color: white;
-   text-shadow:
-       3px 3px 0 #000,
-     -1px -1px 0 #000,  
-      1px -1px 0 #000,
-      -1px 1px 0 #000,
-       1px 1px 0 #000;
 }
 
 .rating .filled {
-  color: #ffff00;
+  color: #fdeb06;
 }
 
 .starSize {
