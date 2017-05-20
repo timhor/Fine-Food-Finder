@@ -58,12 +58,12 @@ ul.rating {
 }
 
 .table-hover tbody tr:hover td, .table-hover tbody tr:hover th{
-  background-color: gainsboro;
+  cursor: pointer;
 }
 
 .inactiveLink {
-   pointer-events: none;
-   cursor: default;
+  pointer-events: none;
+  cursor: default;
 }
 
 .menuTitle {

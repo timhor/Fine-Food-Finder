@@ -3,7 +3,12 @@ table tr td a {
     height:100%;
     width:100%;
 }
+
 table tr td {
     padding-left: 0;
     padding-right: 0;
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th{
+  cursor: pointer;
 }
