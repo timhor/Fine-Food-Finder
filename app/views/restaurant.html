@@ -35,13 +35,13 @@
 
       <div class="row">
         <div class="col-sm-12">
-          <div class="well" align="left" id="lowerBorder" ng-init="count=0">
+          <div class="well" align="left" id="lowerBorder">
             <div ng-if="menuData.length" style="float: right;">
               <button type="button" class="btn btn-labeled btn-default" ng-click="resetMenu(); count = 0">
                   <span class="btn-label"><i class="glyphicon glyphicon-refresh"></i></span></button>
-              <button type="button" class="btn btn-labeled btn-default" ng-click="count=count+1; descendingSort()" ng-hide="count==1">
+              <button type="button" class="btn btn-labeled btn-default" ng-click="sort = !sort; ascendingSort()" ng-show="!sort">
                   <span class="btn-label"><i class="glyphicon glyphicon-chevron-up"></i></span> $</button>
-              <button type="button" class="btn btn-labeled btn-default" ng-click="count=count-1; ascendingSort()" ng-hide="count==0">
+              <button type="button" class="btn btn-labeled btn-default" ng-click="sort = !sort; descendingSort()" ng-show="sort">
                   <span class="btn-label"><i class="glyphicon glyphicon-chevron-down"></i></span> $</button>
               <br>
               <br>
