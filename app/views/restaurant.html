@@ -4,7 +4,7 @@
   <div class="row" style="padding-right: 15px;">
     <div class="col-sm-4 well" id="mainBorder">
       <div class="well" id="lowerBorder">
-        <h2 style="font-weight: bolder;"><u>{{rest.name}}</u></h2>
+        <h2 style="font-weight: bolder;">{{rest.name}}</h2>
         <img src="{{rest.imageUrl}}" class="img" height="100" alt="Avatar">
       </div>
       <div class="well" align="left" id="starBorder">
@@ -25,9 +25,9 @@
     <div class="col-sm-8">
       <div class="row">
         <div class="col-sm-12">
-          <div class="panel panel-default" id="menuBorder">
+          <div class="panel panel-default" id="mainBorder">
             <div class="panel-body">
-              <p id="menuFont">Menu:</p>
+              <h2>Menu:</h2>
             </div>
           </div>
         </div>
@@ -37,11 +37,11 @@
         <div class="col-sm-12">
           <div class="well" align="left" id="lowerBorder" ng-init="count=0">
             <div ng-if="menuData.length" style="float: right;">
-              <button type="button" class="btn btn-labeled btn-default" ng-click="resetMenu(); count = 0" style="border: 2px solid brown;">
+              <button type="button" class="btn btn-labeled btn-default" ng-click="resetMenu(); count = 0">
                   <span class="btn-label"><i class="glyphicon glyphicon-refresh"></i></span></button>
-              <button type="button" class="btn btn-labeled btn-default" ng-click="count=count+1; descendingSort()" ng-hide="count==1" style="border: 2px solid brown;">
+              <button type="button" class="btn btn-labeled btn-default" ng-click="count=count+1; descendingSort()" ng-hide="count==1">
                   <span class="btn-label"><i class="glyphicon glyphicon-chevron-up"></i></span> $</button>
-              <button type="button" class="btn btn-labeled btn-default" ng-click="count=count-1; ascendingSort()" ng-hide="count==0" style="border: 2px solid brown;">
+              <button type="button" class="btn btn-labeled btn-default" ng-click="count=count-1; ascendingSort()" ng-hide="count==0">
                   <span class="btn-label"><i class="glyphicon glyphicon-chevron-down"></i></span> $</button>
               <br>
               <br>
@@ -53,16 +53,16 @@
                   <th id="tableHeadSize">Price</th>
                 </tr>
               </thead>
-              <tr ng-repeat="menu in menuData" id="tableBodySize">
+              <tr ng-repeat="menu in menuData">
                 <td ng-click="show = !show">
-                  <u style="font-weight: bold">{{menu.name}}</u>
+                  <u>{{menu.name}}</u>
                   <br>
                   <p ng-show="show">
                     <br>
                     <i>{{menu.description}}</i>
                   </p>
                 </td>
-                <td style="font-weight: bold">${{menu.price}}</td>
+                <td>${{menu.price}}</td>
               </tr>
             </table>
             <p ng-if="!menuData.length">

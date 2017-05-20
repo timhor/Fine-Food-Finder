@@ -1,34 +1,18 @@
 #lowerBorder{
-  background-image: url(../images/menu_background.png);
-  background-blend-mode: hard-light;
   border-color: darkblue;
-  border-width: 2px;
-  color:black;
-  /*background-color: #f2ffe5;*/
+  border-width: 1px;
+  background-color: #f2ffe5;
 }
 
-#menuBorder{
-  background-image: url(../images/menu_background.png);
-  background-blend-mode: hard-light;
-  color:black;
+#mainBorder{
   border-color: black;
   border-width: 2px;
   background-color:  #e5fff2;
 
 }
 
-#mainBorder{
-  color:black;
-  border-color: black;
-  border-width: 2px;
-  background-color: #ffff99;
-
-}
-
 #starBorder{
-  background-image: url(../images/menu_background.png);
-  background-blend-mode: hard-light;
-  border: 2px solid darkblue;
+  border: 1px solid grey;
   border-radius: 10px;
   background-color:  #ffffff;
 }
@@ -70,31 +54,14 @@ ul.rating {
 }
 
 #tableHeadSize{
-  font-size: 20px;
-  color: black;
-  font-weight: bold;
-}
-
-#tableBodySize{
-  color:black;
-  font-weight: normal;
+  font-size: 18px;
 }
 
 .table-hover tbody tr:hover td, .table-hover tbody tr:hover th{
-  background-color: gold;
+  background-color: gainsboro;
 }
 
 .inactiveLink {
    pointer-events: none;
    cursor: default;
-}
-
-#menuFont{
-  font-family: Georgia;
-  font-size: 40px;
-}
-
-#menuBack{
-  background-image: url(../images/menu_background.png);
-  opacity: 0.7;
 }
