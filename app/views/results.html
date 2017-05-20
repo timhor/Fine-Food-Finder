@@ -3,7 +3,7 @@
 
 <h1>Restaurants</h1>
 
-<h4 ng-if="!restdata.length"><br>No restaurants found. Try searching for something else.</h4>
+<h4 ng-if="!restdata.length" ng-cloak><br>No restaurants found. Try searching for something else.</h4>
 
 <div ng-controller="resultsCtrl">
   <div ng-cloak ng-if="restdata.length">

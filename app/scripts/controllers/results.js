@@ -120,4 +120,3 @@ angular.module('fineFoodFinderApp')
       $location.path('/restaurant').search({restdata: value});
     };
   });
-

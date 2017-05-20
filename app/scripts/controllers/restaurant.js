@@ -80,10 +80,6 @@ angular.module('fineFoodFinderApp')
           }
         };
 
-        scope.toggle = function(index) {
-          scope.ratingValue = index + 1;
-          scope.onRatingSelected({rating: index + 1});
-        };
 
         scope.$watch('ratingValue', function(newVal, oldVal) {
           if (newVal || newVal === 0) {
