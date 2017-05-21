@@ -56,6 +56,60 @@ angular.module('fineFoodFinderApp')
         $log.log("Clicked Reset!");
         $scope.menuData = angular.copy($scope.originalMenu);
       };
+
+      $scope.saveRatingToServer = function(rating) {
+        $http.get('http://localhost:3000/restaurants').then(function(response) {
+          angular.forEach(response.data, function(value) {
+            if (value.id === $scope.rest.id) {
+              let oldRest = {
+                "id": value.id,
+                "name": value.name,
+                "address": value.address,
+                "postcode": value.postcode,
+                "email": value.email,
+                "contactnumber": value.contactnumber,
+                "imageUrl": value.imageUrl,
+                "info": value.info,
+                "rating":value.rating,
+                "numRating": value.numRating
+              };
+
+              let temp = value.rating*value.numRating;
+              value.numRating = value.numRating+1;
+              value.rating = (temp+rating)/value.numRating;
+              $log.log($scope.rating);
+
+              let updateRest = {
+                "id": value.id,
+                "name": value.name,
+                "address": value.address,
+                "postcode": value.postcode,
+                "email": value.email,
+                "contactnumber": value.contactnumber,
+                "imageUrl": value.imageUrl,
+                "info": value.info,
+                "rating":value.rating,
+                "numRating": value.numRating
+              };
+
+              $http.delete('http://localhost:3000/restaurants', JSON.stringify(oldRest)).then(
+                function(response) {
+                  $log.log("Deleted succesfully");
+                }, function(response) {
+                  $log.error("Deletion Error");
+                });
+              $http.post('http://localhost:3000/restaurants', JSON.stringify(updateRest)).then(
+                function(response) {
+                  $log.log("Updated succesfully");
+                }, function(response) {
+                  $log.error("Update Error");
+                });
+              
+              $scope.rating = value.rating;
+            }
+          });
+        });
+      };
   	});
   })
   .directive('fundooRating', function () {
@@ -69,6 +123,7 @@ angular.module('fineFoodFinderApp')
       scope: {
         ratingValue: '=',
         max: '=',
+        readonly: '@',
         onRatingSelected: '&'
       },
       link: function (scope, elem, attrs) {
@@ -80,6 +135,13 @@ angular.module('fineFoodFinderApp')
           }
         };
 
+        scope.toggle = function(index) {
+          if (scope.readonly && scope.readonly === 'true') {
+            return;
+          }
+          scope.ratingValue = index + 1;
+          scope.onRatingSelected({rating: index + 1});
+        };
 
         scope.$watch('ratingValue', function(newVal, oldVal) {
           if (newVal || newVal === 0) {

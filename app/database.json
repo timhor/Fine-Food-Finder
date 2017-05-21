@@ -9,7 +9,8 @@
       "contactnumber": "0423960364",
       "imageUrl": "images/restaurant_images/CurryWorld.png",
       "info": "Using the freshest ingredients, Curry World offers flavorful curries from Thailand, India, Japan, and other countries. Pick a hearty deep red Mussaman curry from northern Thailand.  Or, how about a creamy and rich Tikka Masala?  A smooth traditional Japanese brown curry?  No matter what flavor your customers desire, Curry World has the right variety to satisfy your curry cravings.",
-      "rating": 4
+      "rating": 4,
+      "numRating": 4
     },
     {
       "id": 2,
