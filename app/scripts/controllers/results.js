@@ -3,8 +3,8 @@
 angular.module('fineFoodFinderApp')
   .controller('resultsCtrl', function($scope, $routeParams, $location, $http, $log){
     $scope.query = $routeParams.query;
-    $scope.ratingsCount = 0;
-    $scope.priceCount = 0;
+    $scope.ratingsCount = 1;
+    $scope.priceCount = 1;
     $http.get('http://localhost:3000/restaurants').then(function(response) {
       $scope.restdata = [];
       angular.forEach(response.data, function(value) {
