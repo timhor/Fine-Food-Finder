@@ -13,11 +13,9 @@ angular.module('fineFoodFinderApp')
             $http.get('http://localhost:3000/menus').then(function(response) {
               $scope.priceSum = 0.00;
               $scope.counter = 0;
-              // console.log("Set to " + $scope.priceSum);
               angular.forEach(response.data, function(menuVal) {
                 if (menuVal.id === value.id) {
                   angular.forEach(menuVal.items, function(value1) {
-                    // console.log("Adding " + value1.price);
                     $scope.priceSum = $scope.priceSum +  parseFloat(value1.price);
                     $scope.counter += 1;
                   });
@@ -41,7 +39,7 @@ angular.module('fineFoodFinderApp')
     $scope.sortRatings = function() {
       $scope.ratingsCount = ($scope.ratingsCount + 1) % 2;
       if ($scope.ratingsCount === 1) {
-        // TODO CHANGE TO NEW SORT
+        // DESCENDING BUBBLE SORT
         if ($scope.restdata.length > 1) {
           let i = 0;
           while (i < $scope.restdata.length) {
