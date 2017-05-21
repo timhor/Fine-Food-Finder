@@ -489,6 +489,12 @@
       "username": "soham",
       "password": "helloworld",
       "email": "soham@soham.com"
+    },
+    {
+      "id": 9,
+      "username": "CoolBoy100",
+      "password": "password1234",
+      "email": "coolboy100@xmail.com"
     }
   ],
   "menus": [
@@ -508,7 +514,7 @@
         {
           "name": "Samosa",
           "description": "A spiced potato and green pea filled indian dumpling served with coriander chutney.",
-          "price": 2.50
+          "price": 2.5
         },
         {
           "name": "Yellow Curry (Thailand)",
@@ -523,7 +529,7 @@
         {
           "name": "Murgh Masala",
           "description": "Classic Indian tomato based curry. Kind of like a standard tikka masala.",
-          "price": 8.99         
+          "price": 8.99
         },
         {
           "name": "Coconut Ice Cream",
@@ -533,7 +539,7 @@
         {
           "name": "Banana Fritters",
           "description": "A banana sprinkled with sugar, fried in a crispy egg roll wrapper and drizzled with caramel sauce.",
-          "price": 3.50
+          "price": 3.5
         }
       ]
     },
@@ -543,42 +549,42 @@
         {
           "name": "House Loaf",
           "description": "Aged balsamic vinegar, virgin olive oil & olive tapenade.",
-          "price": 9.00
+          "price": 9
         },
         {
           "name": "Soup Of The Day",
           "description": "Fresh crusty bread.",
-          "price": 12.00
+          "price": 12
         },
         {
           "name": "Potato Gnocchi",
           "description": "Tomato & okra ragu.",
-          "price": 25.00
+          "price": 25
         },
         {
           "name": "Tasmanian Black Mussels",
           "description": "Steamed thai green curry sauce, basmati rice & bok choi.",
-          "price": 25.00
+          "price": 25
         },
         {
           "name": "Linguini Pasta",
           "description": "Black mussels, tiger prawns, scallops, chilli, garlic, fresh herbs & olive oil.",
-          "price": 31.00
+          "price": 31
         },
         {
           "name": "Chicken Breast",
           "description": "Potatoes, carrot pudding souffles and mango relish.",
-          "price": 35        
+          "price": 35
         },
         {
           "name": "Lemon Tart",
           "description": "Cream or ice cream.",
-          "price": 12.00
+          "price": 12
         },
         {
           "name": "Warm Chocolate Cake",
           "description": "With cream or ice cream.",
-          "price": 12.00
+          "price": 12
         }
       ]
     },
@@ -588,42 +594,42 @@
         {
           "name": "Shallot Pancakes",
           "description": "Unleavened flatbread folded with oil and minced scallions.",
-          "price": 6.00
+          "price": 6
         },
         {
           "name": "Hot & Sour Soup with Pork",
           "description": "Meat soup with day lily buds, wood ear fungus, bamboo shoots, and tofu flavored with pork blood.",
-          "price": 9.80
+          "price": 9.8
         },
         {
           "name": "Fried Rice",
           "description": "Fried rice with individual grains and is lightly seasoned to allow the flavor of the rice to dominate.",
-          "price": 10.00
+          "price": 10
         },
         {
           "name": "Stirfried Noodles",
           "description": "Noodles fried with ginger, garlic, carrot, pepper and mangetout, and frozen peas.",
-          "price": 10.80
+          "price": 10.8
         },
         {
           "name": "Egg and Tomato Vegetarian Stir-fry",
           "description": "Juicy tomatoes mingle with softly scrambled eggs in a saucy dish that's delicious over rice.",
-          "price": 13.80
+          "price": 13.8
         },
         {
           "name": "Spicy Jelly Noodles",
           "description": "Jelly noodles made with starch and water, with a spicy flavor.",
-          "price": 7.00        
+          "price": 7
         },
         {
           "name": "Dumplings in Veggie Soup",
           "description": "Dumplings served in a mixed vegetable soup.",
-          "price": 10.90
+          "price": 10.9
         },
         {
           "name": "Softdrink",
           "description": "Choice between Fanta, Coke, Solo and Mountain Dew.",
-          "price": 2.00
+          "price": 2
         }
       ]
     },
@@ -633,42 +639,42 @@
         {
           "name": "Brekkie Wrap",
           "description": "Scrambled eggs, baby spinach & bacon on toasted wrap.",
-          "price": 13.50
+          "price": 13.5
         },
         {
           "name": "Omlette",
           "description": "Omlette with roasted vegetables and cheese.",
-          "price": 15.90
+          "price": 15.9
         },
         {
           "name": "Eggs on Toast",
           "description": "Two free range eggs on toast with house made tomato relish.",
-          "price": 9.50
+          "price": 9.5
         },
         {
           "name": "Fruit Salad",
           "description": "Seasonal fruit salad with creamy vanilla yoghurt and house muesli.",
-          "price": 11.50
+          "price": 11.5
         },
         {
           "name": "Vanilla Pancakes",
           "description": "Pancakes served with maple syrup, chocolate sause & nutella.",
-          "price": 15.00
+          "price": 15
         },
         {
           "name": "Banana, Pear or Raspberry Bread",
           "description": "Choice of bread with Banana, Pear or Raspberry falvor.",
-          "price": 4.00        
+          "price": 4
         },
         {
           "name": "Chocolate Frappe",
           "description": "Iced drink with blended chocolate explosion topped with whipped cream and chocolate drizzle.",
-          "price": 6.50
+          "price": 6.5
         },
         {
           "name": "Iced Coffee, Iced Chocolate, Spiders",
           "description": "Irresistable cold beverages, Iced Coffee, Iced Chocolate or Spiders.",
-          "price": 6.50
+          "price": 6.5
         }
       ]
     },
@@ -678,42 +684,42 @@
         {
           "name": "Signature Hot Chocolate",
           "description": "Our finest flowing milk or dark chocolate, combined with freshly frothed milk for a pure chocolate indulgence.",
-          "price": 7.70
+          "price": 7.7
         },
         {
           "name": "Iced Chocolate",
           "description": "Choose from milk or dark chocolate, blended with ice cream, ice, milk and topped with ice cream and chocolate flakes.",
-          "price": 9.00
+          "price": 9
         },
         {
           "name": "Ham and Cheese Croissant",
           "description": "Crossiant served warm made with ham and melted cheese.",
-          "price": 7.30
+          "price": 7.3
         },
         {
           "name": "Chicken and Herb Roll",
           "description": "Chicken with garlic and herb mayonnaise on a seeded roll.",
-          "price": 11.50
+          "price": 11.5
         },
         {
           "name": "Salted Caramel Cake",
           "description": "Dark chocolate mousse, crunchy hazelnut and salted caramel ganache on a Lindt chocolate brownie base.",
-          "price": 11.00
+          "price": 11
         },
         {
           "name": "Opera",
           "description": "A layered cake of dark chocolate ganache, coffee buttercream and almond sponge.",
-          "price": 11.00        
+          "price": 11
         },
         {
           "name": "Signature Waffle",
           "description": "A freshly made waffle served with vanilla white chocolate ice cream and a pot of chocolate.",
-          "price": 15.00
+          "price": 15
         },
         {
           "name": "Molten Lava Cake",
           "description": "An indulgent chocolate cake with a molten chocolate centre served with vanilla white chocolate ice cream.",
-          "price": 12.00
+          "price": 12
         }
       ]
     },
@@ -723,42 +729,42 @@
         {
           "name": "Mud Crab Salad",
           "description": "Hand-picked mud crab salad with salted duck egg mayonnaise.",
-          "price": 54.00
+          "price": 54
         },
         {
           "name": "Sashimi",
           "description": "Hiramasa Kingfish sashimi with sushi rice, celery and aged mirin.",
-          "price": 36.00
+          "price": 36
         },
         {
           "name": "Chinese Roast Pigeon",
           "description": "Chinese roast pigeon with native tamarind, shark's fin melon, hot sweet and sour sauce.",
-          "price": 72.00
+          "price": 72
         },
         {
           "name": "Lamb Pastrami",
           "description": "Tea smoked lamb pastrami with lap chuong, eggplant and black bean sauce.",
-          "price": 59.00
+          "price": 59
         },
         {
           "name": "Chestnut and Artichoke Pie",
           "description": "Chestnut and Jerusalem artichoke pie with barigoule sauce.",
-          "price": 42.00
+          "price": 42
         },
         {
           "name": "Passionfruit Souffle",
           "description": "Passionfruit souffle served with passionfruit ice cream.",
-          "price": 25.00
+          "price": 25
         },
         {
           "name": "Date Tart",
           "description": "Interplay between the barely sweet aromatic custard, the sticky candy sweet dates and crisp short pastry.",
-          "price": 20.00
+          "price": 20
         },
         {
           "name": "Apricot Fondant",
           "description": "Warm apricot fondant with spiced biscuit and almond ice cream.",
-          "price": 26.00
+          "price": 26
         }
       ]
     },
@@ -768,42 +774,42 @@
         {
           "name": "Minestrone Soup",
           "description": "Seasonal vegetables, white beans, kidney beans, borlotti beans, parmesan cheese, crusty Italian bread.",
-          "price": 10.90
+          "price": 10.9
         },
         {
           "name": "Bruschetta di Pomodoro",
           "description": "Cherry tomatoes, Spanish onion, basil, salt, extra virgin olive oil, balsamic reduction, parmesan, crusty ciabatta.",
-          "price": 14.00
+          "price": 14
         },
         {
           "name": "Oven Baked Crusty Ciabatta Bread",
           "description": "Crusty Italian bread, pesto or semi-dried tomato tapenade.",
-          "price": 8.90
+          "price": 8.9
         },
         {
           "name": "Spaghetti Meatballs",
           "description": "Traditional home-made meatballs, Napoli sauce.",
-          "price": 26.90
+          "price": 26.9
         },
         {
           "name": "Carbonara",
           "description": "Smoky bacon, garlic, cracked pepper, shallots, egg, cream, parmesan cheese sauce.",
-          "price": 26.90
+          "price": 26.9
         },
         {
           "name": "Lasagne di Casa",
           "description": "Homemade pasta sheets, béchamel, bolognese, parmesan.",
-          "price": 25.90
+          "price": 25.9
         },
         {
           "name": "Mexicana Pizza",
           "description": "Ham, pepperoni, capsicum, onion.",
-          "price": 21.90
+          "price": 21.9
         },
         {
           "name": "Vegetarian Pizza",
           "description": "Mushrooms, onion, capsicum, pineapple, olives.",
-          "price": 21.90
+          "price": 21.9
         }
       ]
     },
@@ -858,42 +864,42 @@
         {
           "name": "Entree Platter For Two",
           "description": "Hervey Bay Scallops served in shell, Chargrilled King Prawns, Assorted Mixed Mornay and Kilpatrick Oysters.",
-          "price": 85.00
+          "price": 85
         },
         {
           "name": "Fisherman’s Basket",
           "description": "Fried Catch of the Day , Tempura Soft Shell Crab, Golden Tempura King Prawns, Panko Crumbed Calamari Rings with Chips & Homemade Tartare Sauce.",
-          "price": 40.00
+          "price": 40
         },
         {
           "name": "Vegetable Linguine",
           "description": "In a Roast Tomato & Chilli Sauce with assorted seasonal Sauteed Vegetables & Parmesan.",
-          "price": 32.00
+          "price": 32
         },
         {
           "name": "Crab Ravioli",
           "description": "Wilted Baby Spinach and Pernod Cream.",
-          "price": 22.00
+          "price": 22
         },
         {
           "name": "Salt and Pepper Calamari",
           "description": "Baby Calamari with Passionfruit Dressing.",
-          "price": 24.00
+          "price": 24
         },
         {
           "name": "Crème Brulee",
           "description": "Served with a Chocolate & Almond Biscotti.",
-          "price": 16.00
+          "price": 16
         },
         {
           "name": "Dessert Extravaganza (to Share)",
           "description": "Platter of Chocolate Coated Crunchy Tiramisu with Salted Caramel & Hazelnut Crunch Filling served with a Macaron & Snickers Ice Cream, Crème Brulee of the day with Chocolate & Almond Biscotti & Seasonal fruits.",
-          "price": 40.00
+          "price": 40
         },
         {
           "name": "Sundae Dream",
           "description": "Trio of Ice Creams, Marshmallows & Chocolate Surprise.",
-          "price": 15.00
+          "price": 15
         }
       ]
     },
@@ -903,12 +909,12 @@
         {
           "name": "Big Mac",
           "description": "Big Mac® Bun, Big Mac® Sauce, Regular Onions, Shredded Lettuce, Pickles, Sliced Cheese, 2 x Regular Meat Patties, Salt & Pepper.",
-          "price": 6.50
+          "price": 6.5
         },
         {
           "name": "Filet-O-Fish",
           "description": "Regular Bun, Tartare Sauce, Fillet- O- Fish® Portion, 1/2 Cheese Slice.",
-          "price": 5.50
+          "price": 5.5
         },
         {
           "name": "Double Quarter Pounder Value Meal",
@@ -918,7 +924,7 @@
         {
           "name": "Hotcakes with Butter & Syrup",
           "description": "Start your day the McDonald's® way, with the great feeling of pouring sweet syrup over melting whipped butter, watching while it seeps between the layers of fluffy, warm hotcakes. Soft, sweet and delicious breakfast.",
-          "price": 4.90
+          "price": 4.9
         },
         {
           "name": "Hash Brown",
@@ -933,12 +939,12 @@
         {
           "name": "Choc Whirl Frappe",
           "description": "Creamy chocolate syrup with whipped cream.",
-          "price": 5.60
+          "price": 5.6
         },
         {
           "name": "Frozen Coke",
           "description": "Thirst-quenching made extra cold and extra refreshing.",
-          "price": 1.00
+          "price": 1
         }
       ]
     },
@@ -948,12 +954,12 @@
         {
           "name": "Big Mac",
           "description": "Big Mac® Bun, Big Mac® Sauce, Regular Onions, Shredded Lettuce, Pickles, Sliced Cheese, 2 x Regular Meat Patties, Salt & Pepper.",
-          "price": 6.50
+          "price": 6.5
         },
         {
           "name": "Filet-O-Fish",
           "description": "Regular Bun, Tartare Sauce, Fillet- O- Fish® Portion, 1/2 Cheese Slice.",
-          "price": 5.50
+          "price": 5.5
         },
         {
           "name": "Double Quarter Pounder Value Meal",
@@ -963,7 +969,7 @@
         {
           "name": "Hotcakes with Butter & Syrup",
           "description": "Start your day the McDonald's® way, with the great feeling of pouring sweet syrup over melting whipped butter, watching while it seeps between the layers of fluffy, warm hotcakes. Soft, sweet and delicious breakfast.",
-          "price": 4.90
+          "price": 4.9
         },
         {
           "name": "Hash Brown",
@@ -978,12 +984,12 @@
         {
           "name": "Choc Whirl Frappe",
           "description": "Creamy chocolate syrup with whipped cream.",
-          "price": 5.60
+          "price": 5.6
         },
         {
           "name": "Frozen Coke",
           "description": "Thirst-quenching made extra cold and extra refreshing.",
-          "price": 1.00
+          "price": 1
         }
       ]
     },
@@ -993,42 +999,42 @@
         {
           "name": "Agedashi Tofu",
           "description": "Fresh silken soya bean curd fried and served in bonito stock soup.",
-          "price": 6.80
+          "price": 6.8
         },
         {
           "name": "Scallops Katsu",
           "description": "Crumbled scallop pieces served with tartar sauce.",
-          "price": 13.80
+          "price": 13.8
         },
         {
           "name": "Miso Soup",
           "description": "Stock Dashi with softened Miso paste.",
-          "price": 2.50
+          "price": 2.5
         },
         {
           "name": "Sashimi Salad",
           "description": "Daily fresh fish with season vegetables & vinaigrette.",
-          "price": 4.90
+          "price": 4.9
         },
         {
           "name": "Salad Sushi",
           "description": "Crisp strips of nori soften with chewy brown rice, crunchy vegetables and plump pieces of crab.",
-          "price": 3.20
+          "price": 3.2
         },
         {
           "name": "Salmon California Shushi",
           "description": "Delectable combination of salmon, avocado and a spicy Japanese mayonnaise that gets its kick from a hot chili sauce.",
-          "price": 4.50
+          "price": 4.5
         },
         {
           "name": "Shushi Train's Special",
           "description": "Salmon, Tuna, King Fish, Prawn, Scallops, Wagyu Beef & california roll.",
-          "price": 29.80
+          "price": 29.8
         },
         {
           "name": "Maccha-affogato",
           "description": "A scoop of vanilla ice cream topped with a shot of maccha (green tea of rich flavour).",
-          "price": 6.80
+          "price": 6.8
         }
       ]
     },
@@ -1038,42 +1044,42 @@
         {
           "name": "Bruschetta Bread",
           "description": "Diced tomatoes marinated in basil, Spanish onion, garlic & olive oil.",
-          "price": 5.90
+          "price": 5.9
         },
         {
           "name": "Italian Salad",
           "description": "Iceberg lettuce, tomato, cucumber, Spanish onion & olives with home-made dressing.",
-          "price": 9.90
+          "price": 9.9
         },
         {
           "name": "Italian Meatballs",
           "description": "Homemade Italian meatballs served in a nepolitana sauce with crusty bread.",
-          "price": 15.90
+          "price": 15.9
         },
         {
           "name": "Spaghetti Marinara",
           "description": "A fresh selection of seafood, sauteed with garlic in a napolitana sauce & dash of chilli.",
-          "price": 23.90
+          "price": 23.9
         },
         {
           "name": "Lasagne",
           "description": "Layers of pasta with Bolognese sauce and mozzarella cheese, served with napolitana sauce.",
-          "price": 18.90
+          "price": 18.9
         },
         {
           "name": "Calzone Pizza",
           "description": "Tomato base, ricotta, ham, mushroom, mozzarella cheese.",
-          "price": 19.90
+          "price": 19.9
         },
         {
           "name": "Margherita Pizza",
           "description": "Tomato base, oregano, mozzarella cheese.",
-          "price": 12.90
+          "price": 12.9
         },
         {
           "name": "Creme Brulee",
           "description": "Rich vanilla bean custard with a caramelized sugar topping.",
-          "price": 11.90
+          "price": 11.9
         }
       ]
     },
@@ -1083,42 +1089,42 @@
         {
           "name": "Churros with Nutella",
           "description": "Baked Spanish Churros dusted in cinnamon sugar & served with a side of warm Nutella.",
-          "price": 12.00
+          "price": 12
         },
         {
           "name": "Chocolate Brownie",
           "description": "A rich milk chocolate & crunchy walnut brownie topped with creamy vanilla ice cream.",
-          "price": 7.00
+          "price": 7
         },
         {
           "name": "Seasoned Wedges",
           "description": "Crispy seasoned potato wedges served with sweet chilli sauce & sour cream.",
-          "price": 9.00
+          "price": 9
         },
         {
           "name": "Cheese Garlic Pizza",
           "description": "A large 8 slice pizza with roasted garlic, a mix of Italian mozzarella & buffalo cheese & a hint of fresh Australian herbs.",
-          "price": 13.00
+          "price": 13
         },
         {
           "name": "Sirloin & Chips",
           "description": "Darling Downs 300g MSA, 120-day grain-fed New York cut served with hot crispy chips & dark mushroom sauce.",
-          "price": 27.00
+          "price": 27
         },
         {
           "name": "Spicy Chicken Strips",
           "description": "Hand-crumbed spicy chicken strips served with our house-made sweet chilli mayo dipping sauce.",
-          "price": 25.00
+          "price": 25
         },
         {
           "name": "Seafood Basket",
           "description": "Tender salt & pepper squid, crispy tempura flathead fillets & panko crumbed prawns served with hot crispy chips, fresh lemon & creamy tart...",
-          "price": 25.00
+          "price": 25
         },
         {
           "name": "Tandoori Chicken Pizza",
           "description": "Premium crushed gourmet tomato sauce with our slow-cooked Tandoori marinated chicken breast topped with freshly roasted capsicum, Spanish onions &...",
-          "price": 21.00
+          "price": 21
         }
       ]
     },
@@ -1128,42 +1134,42 @@
         {
           "name": "Muesli",
           "description": "Toasted macadamia, cashew nuts, rolled oats, almonds and coconut with natural yoghurt and freshly grated apple.",
-          "price": 8.80
+          "price": 8.8
         },
         {
           "name": "Fruit Crumble",
           "description": "Warm rhubarb, apple, plum, crispy oats and coconut with natural yoghurt or cream.",
-          "price": 8.80
+          "price": 8.8
         },
         {
           "name": "Roast Vege Salad",
           "description": "Roasted vegetable medley with rocket, cashews, feta and aioli.",
-          "price": 16.80
+          "price": 16.8
         },
         {
           "name": "Beef Burger",
           "description": "Beef pattie, streaky bacon, swiss cheese, caramelised onions, lettuce and aioli with chips.",
-          "price": 15.80
+          "price": 15.8
         },
         {
           "name": "Friday Flash",
           "description": "Grilled panko crumbed fresh fish and tartare sauce with Joe’s green salad and chips.",
-          "price": 27.00
+          "price": 27
         },
         {
           "name": "New York Baked Cheesecake",
           "description": "Vanilla classic with berry compote and fresh cream.",
-          "price": 9.00
+          "price": 9
         },
         {
           "name": "Chocolate Brownie",
           "description": "Freshly made brownie served warm with premium vanilla bean ice cream and chocolate sauce.",
-          "price": 8.00
+          "price": 8
         },
         {
           "name": "Hot Juice",
           "description": "Blackcurrent + Lemon, Honey & Ginger.",
-          "price": 4.00
+          "price": 4
         }
       ]
     }
