@@ -5,30 +5,32 @@ angular.module('fineFoodFinderApp')
     $scope.query = $routeParams.query;
     $scope.ratingsCount = 0;
     $scope.priceCount = 0;
+    $http.get('http://localhost:3000/menus').then(function(response) {
+      $scope.menuList = response.data;
+    });
     $http.get('http://localhost:3000/restaurants').then(function(response) {
       $scope.restdata = [];
       angular.forEach(response.data, function(value) {
         if ($scope.query.address !== undefined) {
           if (value.address.toLowerCase().includes($scope.query.address.toLowerCase())) {
-            $http.get('http://localhost:3000/menus').then(function(response) {
-              $scope.priceSum = 0.00;
-              $scope.counter = 0;
-              angular.forEach(response.data, function(menuVal) {
-                if (menuVal.id === value.id) {
-                  angular.forEach(menuVal.items, function(value1) {
-                    $scope.priceSum = $scope.priceSum +  parseFloat(value1.price);
-                    $scope.counter += 1;
-                  });
-                }
-              });
-              var defaultPrice = 15;
-              if ($scope.priceSum !== 0) {
-                value.avgPrice = $scope.priceSum / $scope.counter;
-                value.avgPrice = value.avgPrice.toFixed(2);
-              } else {
-                value.avgPrice = defaultPrice.toFixed(2);
+            $scope.priceSum = 0.00;
+            $scope.counter = 0;
+            angular.forEach($scope.menuList, function(menuVal) {
+              if (menuVal.id === value.id) {
+                angular.forEach(menuVal.items, function(value1) {
+                  $scope.priceSum = $scope.priceSum +  parseFloat(value1.price);
+                  $scope.counter += 1;
+                });
               }
             });
+            var defaultPrice = 15;
+            if ($scope.priceSum !== 0) {
+              value.avgPrice = $scope.priceSum / $scope.counter;
+              value.avgPrice = value.avgPrice.toFixed(2);
+            } else {
+              value.avgPrice = defaultPrice.toFixed(2);
+            }
+
             $scope.restdata.push(value);
 
           }
