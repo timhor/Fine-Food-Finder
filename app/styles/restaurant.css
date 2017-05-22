@@ -50,6 +50,7 @@ ul.rating {
 
 .table-hover tbody tr:hover td, .table-hover tbody tr:hover th{
   cursor: pointer;
+  background-color: #ffc107;
 }
 
 .inactiveLink {
