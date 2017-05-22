@@ -7,8 +7,9 @@
         <h2 style="font-weight: bolder;">{{rest.name}}</h2>
         <img src="{{rest.imageUrl}}" class="img" height="100" alt="Avatar">
       </div>
-      <div class="well" align="left" id="lowerBorder">
-        <div fundoo-rating rating-value="rating" max="5" on-rating-selected="saveRatingToServer(rating)" align="center"></div>
+      <div class="well" align="center" id="lowerBorder">
+        <div fundoo-rating rating-value="rating" max="5" on-rating-selected="saveRatingToServer(rating)"></div>
+        <p><b>Current Ratng: {{rest.rating}}<b></p>
       </div>
       <div class="well" align="left" id="lowerBorder">
         <h2>About</h2>

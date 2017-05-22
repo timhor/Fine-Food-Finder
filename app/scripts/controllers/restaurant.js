@@ -64,7 +64,7 @@ angular.module('fineFoodFinderApp')
 
               let temp = value.rating*value.numRating;
               value.numRating = value.numRating+1;
-              value.rating = (temp+rating)/value.numRating;
+              value.rating = Math.round((temp+rating)/value.numRating * 100)/100;
 
               let updateRest = {
                 "id": value.id,
@@ -86,7 +86,9 @@ angular.module('fineFoodFinderApp')
                   $log.error("Update Error");
                 });
 
-              $scope.rating = value.rating;
+              $log.log(value.rating);
+              $scope.rest.rating = value.rating;
+              $scope.rating = Math.round(value.rating);
               $log.log($scope.rating);
             }
           });
