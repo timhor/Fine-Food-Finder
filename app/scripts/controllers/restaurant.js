@@ -4,6 +4,25 @@ angular.module('fineFoodFinderApp')
   .controller('RestCtrl', function($scope, $routeParams, $location, $http, $log) {
   	$scope.rest = $routeParams.restdata;
     $scope.rating = $scope.rest.rating;
+    $scope.options = {
+      values              : [ 1, 2, 3, 4, 5 ],
+      valueInitial        : null,
+      cssBase             : "rating-star fa",
+      cssBaseSelected     : "fa-star",
+      cssBaseUnselected   : "fa-star-o",
+      cssValuesSelected   : null,
+      cssValuesUnselected : null,
+      cssHover            : "rating-star-hover",
+      cssFractional       : "rating-star-fractional",
+      targetSelector      : null,
+      htmlBase            : "<div></div>",
+      htmlEvent           : "click",
+      applyHoverCss       : true,
+      readonly            : false,
+      allowFractional     : false,
+      calculateFractional : false,
+      eventName           : "rated"
+    };
 
     $http.get('http://localhost:3000/menus').then(function(response) {
   		angular.forEach(response.data, function(value) {
@@ -64,7 +83,7 @@ angular.module('fineFoodFinderApp')
 
               let temp = value.rating*value.numRating;
               value.numRating = value.numRating+1;
-              value.rating = (temp+rating)/value.numRating;
+              value.rating = Math.round((temp+rating)/value.numRating * 10)/10;
 
               let updateRest = {
                 "id": value.id,
@@ -87,49 +106,74 @@ angular.module('fineFoodFinderApp')
                 });
 
               $scope.rating = value.rating;
+              $scope.awesomeRating = value.rating;
               $log.log($scope.rating);
             }
           });
         });
       };
   	});
-  })
-  .directive('fundooRating', function () {
-    return {
-      restrict: 'A',
-      template: '<ul class="rating">' +
-                  '<li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" size="20">' +
-                    '\u2605' +
-                  '</li>' +
-                '</ul>',
-      scope: {
-        ratingValue: '=',
-        max: '=',
-        readonly: '@',
-        onRatingSelected: '&'
-      },
-      link: function (scope, elem, attrs) {
-
-        var updateStars = function() {
-          scope.stars = [];
-          for (var  i = 0; i < scope.max; i++) {
-            scope.stars.push({filled: i < scope.ratingValue});
-          }
+  }).directive('awesomeRating', ['$timeout', function($timeout) {
+        return {
+            restrict: 'A',
+            scope: {
+                awesomeRating: '=',
+                awesomeRatingOptions: '=',
+                onRatingSelected: '&'
+            },
+            link: function($scope, element) {
+                var options = $scope.awesomeRatingOptions || {};
+                options.valueInitial = $scope.awesomeRating;
+                element = element.awesomeRating(options)
+                    .on('rated', function(event, rate){
+                        $timeout(function() {
+                            $scope.awesomeRating = rate;
+                            //console.log(rate);
+                            $scope.onRatingSelected({rating: rate});
+                        });
+                    });
+                $scope.$watch($scope.awesomeRating, function(value){
+                    element.each(function() { this._awesomeRatingApi.val(value); });
+                });
+            }
         };
+    }]);
+  // .directive('fundooRating', function () {
+  //   return {
+  //     restrict: 'A',
+  //     template: '<ul class="rating">' +
+  //                 '<li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" size="20">' +
+  //                   '\u2605' +
+  //                 '</li>' +
+  //               '</ul>',
+  //     scope: {
+  //       ratingValue: '=',
+  //       max: '=',
+  //       readonly: '@',
+  //       onRatingSelected: '&'
+  //     },
+  //     link: function (scope, elem, attrs) {
 
-        scope.toggle = function(index) {
-          if (scope.readonly && scope.readonly === 'true') {
-            return;
-          }
-          scope.ratingValue = index + 1;
-          scope.onRatingSelected({rating: index + 1});
-        };
+  //       var updateStars = function() {
+  //         scope.stars = [];
+  //         for (var  i = 0; i < scope.max; i++) {
+  //           scope.stars.push({filled: i < scope.ratingValue});
+  //         }
+  //       };
 
-        scope.$watch('ratingValue', function(newVal, oldVal) {
-          if (newVal || newVal === 0) {
-            updateStars();
-          }
-        });
-      }
-    };
-  });
+  //       scope.toggle = function(index) {
+  //         if (scope.readonly && scope.readonly === 'true') {
+  //           return;
+  //         }
+  //         scope.ratingValue = index + 1;
+  //         scope.onRatingSelected({rating: index + 1});
+  //       };
+
+  //       scope.$watch('ratingValue', function(newVal, oldVal) {
+  //         if (newVal || newVal === 0) {
+  //           updateStars();
+  //         }
+  //       });
+  //     }
+  //   };
+  // });
