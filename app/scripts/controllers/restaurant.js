@@ -61,18 +61,6 @@ angular.module('fineFoodFinderApp')
         $http.get('http://localhost:3000/restaurants').then(function(response) {
           angular.forEach(response.data, function(value) {
             if (value.id === $scope.rest.id) {
-              let oldRest = {
-                "id": value.id,
-                "name": value.name,
-                "address": value.address,
-                "postcode": value.postcode,
-                "email": value.email,
-                "contactnumber": value.contactnumber,
-                "imageUrl": value.imageUrl,
-                "info": value.info,
-                "rating":value.rating,
-                "numRating": value.numRating
-              };
 
               let temp = value.rating*value.numRating;
               value.numRating = value.numRating+1;
@@ -92,19 +80,13 @@ angular.module('fineFoodFinderApp')
                 "numRating": value.numRating
               };
 
-              $http.delete('http://localhost:3000/restaurants', JSON.stringify(oldRest)).then(
-                function(response) {
-                  $log.log("Deleted succesfully");
-                }, function(response) {
-                  $log.error("Deletion Error");
-                });
-              $http.post('http://localhost:3000/restaurants', JSON.stringify(updateRest)).then(
+              $http.put('http://localhost:3000/restaurants', JSON.stringify(updateRest)).then(
                 function(response) {
                   $log.log("Updated succesfully");
                 }, function(response) {
                   $log.error("Update Error");
                 });
-              
+
               $scope.rating = value.rating;
             }
           });
