@@ -65,7 +65,6 @@ angular.module('fineFoodFinderApp')
               let temp = value.rating*value.numRating;
               value.numRating = value.numRating+1;
               value.rating = (temp+rating)/value.numRating;
-              $log.log($scope.rating);
 
               let updateRest = {
                 "id": value.id,
@@ -80,7 +79,7 @@ angular.module('fineFoodFinderApp')
                 "numRating": value.numRating
               };
 
-              $http.put('http://localhost:3000/restaurants', JSON.stringify(updateRest)).then(
+              $http.put('http://localhost:3000/restaurants/'+ value.id, JSON.stringify(updateRest)).then(
                 function(response) {
                   $log.log("Updated succesfully");
                 }, function(response) {
@@ -88,6 +87,7 @@ angular.module('fineFoodFinderApp')
                 });
 
               $scope.rating = value.rating;
+              $log.log($scope.rating);
             }
           });
         });
