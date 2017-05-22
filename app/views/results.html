@@ -10,9 +10,9 @@
     <div style="float: right;">
       <label>Sort by: </label> 
       <div class="btn-group demoPadder" role="group" aria-label="Default button group">
-        <button type="button" class="btn btn-labeled btn-default" title="Sort ratings in increasing order" ng-click="rating = !rating; sortRatings()" ng-show = "!rating">
+        <button type="button" class="btn btn-labeled btn-default" title="Sort ratings in increasing order" ng-click="rating = !rating; sortRatings()" ng-show = "rating">
           <span class="btn-label"><i class="glyphicon glyphicon-chevron-up"></i></span> Rating</button>
-        <button type="button" class="btn btn-labeled btn-default" title="Sort ratings in decreasing order" ng-click="rating = !rating; sortRatings()" ng-show = "rating">
+        <button type="button" class="btn btn-labeled btn-default" title="Sort ratings in decreasing order" ng-click="rating = !rating; sortRatings()" ng-show = "!rating">
           <span class="btn-label"><i class="glyphicon glyphicon-chevron-down"></i></span> Rating</button>
         <button type="button" class="btn btn-labeled btn-default" title="Sort prices in increasing order" ng-click="price = !price; sortPrice()" ng-show = "!price">
           <span class="btn-label"><i class="glyphicon glyphicon-chevron-up"></i></span> Avg. Price</button>
