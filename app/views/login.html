@@ -1,5 +1,9 @@
 <link rel="stylesheet" href="styles/login.css">
 
+<div ng-if="loginService.loginVars.incorrectCredentials" class="alert alert-warning alert-dismissible" role="alert">
+  <strong>Error:</strong> Incorrect username or password.
+</div>
+
 <h3>Log in to personalise your search</h3>
 
 <br>

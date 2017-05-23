@@ -27,7 +27,9 @@ angular.module('fineFoodFinderApp')
             loginService.loginVars.loggedIn = true;
             loginService.loginVars.loginBtnText = "Log out";
             loginService.loginVars.currentUser = ", " + $scope.username;
+            loginService.loginVars.incorrectCredentials = false;
           } else {
+            loginService.loginVars.incorrectCredentials = true;
             $log.log("Invalid credentials");
           }
         });
@@ -39,6 +41,7 @@ angular.module('fineFoodFinderApp')
         loginService.loginVars.loggedIn = false;
         loginService.loginVars.loginBtnText = "Log in";
         loginService.loginVars.currentUser = "";
+        loginService.loginVars.incorrectCredentials = false;
       }
     };
   });
@@ -48,7 +51,8 @@ angular.module('fineFoodFinderApp')
     this.loginVars = {
       loginBtnText: "Log in",
       currentUser: "",
-      loggedIn: false
+      loggedIn: false,
+      incorrectCredentials: false
     };
   });
 
