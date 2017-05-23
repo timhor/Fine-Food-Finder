@@ -4,7 +4,7 @@ angular.module('fineFoodFinderApp')
   .controller('resultsCtrl', function($scope, $routeParams, $location, $http, $log){
     $scope.query = $routeParams.query;
     $scope.ratingsCount = 0;
-    $scope.priceCount = 0;
+    $scope.priceCount = 1;
     $http.get('http://localhost:3000/menus').then(function(response) {
       $scope.menuList = response.data;
     });
