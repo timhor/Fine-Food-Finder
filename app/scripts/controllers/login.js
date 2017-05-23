@@ -13,22 +13,24 @@ angular.module('fineFoodFinderApp')
       $http.get('http://localhost:3000/users').then(function(response) {
         $scope.allUsers = response.data;
         let loginSuccess = false;
-        for (let i = 0; i < $scope.allUsers.length; i++) {
-          let currentUser = $scope.allUsers[i];
-          if ($scope.username === currentUser.username && $scope.password === currentUser.password) {
-            $log.log($scope.username + " logged in");
-            loginSuccess = true;
-            break;
+        sha256($scope.password).then(function(digest) {
+          for (let i = 0; i < $scope.allUsers.length; i++) {
+            let currentUser = $scope.allUsers[i];
+            if ($scope.username === currentUser.username && digest === currentUser.password) {
+              $log.log($scope.username + " logged in");
+              loginSuccess = true;
+              break;
+            }
           }
-        }
-        if (loginSuccess) {
-          $location.path('/');
-          loginService.loginVars.loggedIn = true;
-          loginService.loginVars.loginBtnText = "Log out";
-          loginService.loginVars.currentUser = ", " + $scope.username;
-        } else {
-          $log.log("Invalid credentials");
-        }
+          if (loginSuccess) {
+            $location.path('/');
+            loginService.loginVars.loggedIn = true;
+            loginService.loginVars.loginBtnText = "Log out";
+            loginService.loginVars.currentUser = ", " + $scope.username;
+          } else {
+            $log.log("Invalid credentials");
+          }
+        });
       });
     };
 
@@ -49,3 +51,25 @@ angular.module('fineFoodFinderApp')
       loggedIn: false
     };
   });
+
+// the following code is taken verbatim from https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto/digest
+
+function sha256(str) {
+  var buffer = new TextEncoder("utf-8").encode(str);
+  return crypto.subtle.digest("SHA-256", buffer).then(function(hash) {
+    return hex(hash);
+  });
+}
+
+function hex(buffer) {
+  var hexCodes = [];
+  var view = new DataView(buffer);
+  for (var i = 0; i < view.byteLength; i += 4) {
+    var value = view.getUint32(i);
+    var stringValue = value.toString(16);
+    var padding = '00000000';
+    var paddedValue = (padding + stringValue).slice(-padding.length);
+    hexCodes.push(paddedValue);
+  }
+  return hexCodes.join("");
+}
