@@ -86,3 +86,16 @@ html {
   overflow-x:auto; 
   overflow-y:scroll; 
 }
+
+p {
+  text-align: justify;
+}
+
+ol li {
+  text-align: justify;
+  margin-top: 7px;
+}
+
+ol, ul {
+  padding-left: 1.2em;
+}​
