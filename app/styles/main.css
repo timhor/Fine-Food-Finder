@@ -58,6 +58,12 @@ body {
     padding-left: 0;
     padding-right: 0;
   }
+
+  .searchPadding {
+    padding-top: 140px;
+    padding-bottom: 70px;
+  }
+
   /* Space out the masthead */
   .header {
     margin-bottom: 30px;
