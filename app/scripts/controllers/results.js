@@ -127,4 +127,8 @@ angular.module('fineFoodFinderApp')
     $scope.viewRestaurant = function(value) {
       $location.path('/restaurant').search({restdata: value});
     };
+
+    $scope.viewHome = function() {
+      $location.path('/');
+    };
   });
