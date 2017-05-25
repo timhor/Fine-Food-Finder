@@ -83,7 +83,8 @@
       "imageUrl": "images/restaurant_images/Marios.png",
       "info": "Mario's welcomes you to a delightful and intriguing restaurant to satisfy your Italian taste buds.",
       "rating": 3,
-      "numRating": 5
+      "numRating": 5,
+      "diet": "Vegan"
     },
     {
       "id": 8,
@@ -500,7 +501,12 @@
       "username": "test1",
       "password": "3e3d6a28351293395ba3a345e79593de3780723a42321204c54b7da49bf3da45",
       "email": "testing@testing.com",
-      "diet": "Vegetarian"
+      "diet": {
+        "value1": "Vegetarian",
+        "value2": "Vegan",
+        "value3": false,
+        "value4": false
+      }
     }
   ],
   "menus": [
