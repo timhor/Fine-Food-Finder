@@ -10,7 +10,8 @@
       "imageUrl": "images/restaurant_images/CurryWorld.png",
       "info": "Using the freshest ingredients, Curry World offers flavorful curries from Thailand, India, Japan, and other countries. Pick a hearty deep red Mussaman curry from northern Thailand.  Or, how about a creamy and rich Tikka Masala?  A smooth traditional Japanese brown curry?  No matter what flavor your customers desire, Curry World has the right variety to satisfy your curry cravings.",
       "rating": 4,
-      "numRating": 5
+      "numRating": 5,
+      "diet": "Vegetarian"
     },
     {
       "id": 2,
@@ -493,6 +494,13 @@
       "username": "test",
       "password": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8",
       "email": "test@example.com"
+    },
+    {
+      "id": 3,
+      "username": "test1",
+      "password": "3e3d6a28351293395ba3a345e79593de3780723a42321204c54b7da49bf3da45",
+      "email": "testing@testing.com",
+      "diet": "Vegetarian"
     }
   ],
   "menus": [

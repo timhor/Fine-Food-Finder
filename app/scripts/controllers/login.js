@@ -14,7 +14,8 @@ angular.module('fineFoodFinderApp')
         $scope.allUsers = response.data;
         let loginSuccess = false;
         sha256($scope.password).then(function(digest) {
-          for (let i = 0; i < $scope.allUsers.length; i++) {
+          let i = 0;
+          for (i = 0; i < $scope.allUsers.length; i++) {
             let currentUser = $scope.allUsers[i];
             if ($scope.username === currentUser.username && digest === currentUser.password) {
               $log.log($scope.username + " logged in");
@@ -28,6 +29,7 @@ angular.module('fineFoodFinderApp')
             loginService.loginVars.loginBtnText = "Log out";
             loginService.loginVars.currentUser = ", " + $scope.username;
             loginService.loginVars.incorrectCredentials = false;
+            loginService.loginVars.diet = $scope.allUsers[i].diet;
           } else {
             loginService.loginVars.incorrectCredentials = true;
             $log.log("Invalid credentials");
@@ -42,6 +44,7 @@ angular.module('fineFoodFinderApp')
         loginService.loginVars.loginBtnText = "Log in";
         loginService.loginVars.currentUser = "";
         loginService.loginVars.incorrectCredentials = false;
+        loginService.loginVars.diet = "";
       }
     };
   });
@@ -52,7 +55,8 @@ angular.module('fineFoodFinderApp')
       loginBtnText: "Log in",
       currentUser: "",
       loggedIn: false,
-      incorrectCredentials: false
+      incorrectCredentials: false,
+      diet: ""
     };
   });
 

@@ -3,6 +3,9 @@
 angular.module('fineFoodFinderApp')
   .controller('SignUpCtrl', function($scope, $http, $log, $window, $location) {
         $scope.list = [];
+        $scope.checkboxModel = {
+          value1 : false
+        };
         $scope.submit = function() {
           if ($scope.password1 === $scope.password2) {
             $http.get('http://localhost:3000/users').then(function(response) {
@@ -12,7 +15,8 @@ angular.module('fineFoodFinderApp')
                   "id": parseInt(numUsers) + 1,
                   "username": $scope.username,
                   "password": digest,
-                  "email": $scope.email
+                  "email": $scope.email,
+                  "diet": $scope.checkboxModel.value1
                 };
                 $http.post('http://localhost:3000/users', JSON.stringify(newUser)).then(
                   function(response) {

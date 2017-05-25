@@ -31,7 +31,11 @@ angular.module('fineFoodFinderApp')
               value.avgPrice = defaultPrice.toFixed(2);
             }
 
-            $scope.restdata.push(value);
+            if (!$scope.loginService.loginVars.diet) {
+              $scope.restdata.push(value);
+            } else if ($scope.loginService.loginVars.diet === value.diet) {
+              $scope.restdata.push(value);
+            }
 
           }
           
