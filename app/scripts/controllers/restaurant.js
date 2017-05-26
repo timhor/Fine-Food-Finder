@@ -57,6 +57,18 @@ angular.module('fineFoodFinderApp')
         $scope.menuData = angular.copy($scope.originalMenu);
       };
 
+      $scope.delete = function() {
+        $log.log("Clicked Delete!");
+        $http.delete('http://localhost:3000/restaurants/'+ $scope.rest.id).then(
+          function(response) {
+          $log.log("Deleted succesfully");
+          $location.path('#!/');
+        }, function(response) {
+          $log.error("Deleted Error");
+        });
+
+      };
+
       $scope.saveRatingToServer = function(rating) {
         $http.get('http://localhost:3000/restaurants').then(function(response) {
           angular.forEach(response.data, function(value) {
