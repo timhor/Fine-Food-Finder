@@ -8,7 +8,7 @@
         <img src="{{rest.imageUrl}}" class="img" height="100" alt="Avatar">
       </div>
       <div class="well" align="center" id="lowerBorder">
-        <div fundoo-rating rating-value="rating" max="5" on-rating-selected="saveRatingToServer(rating)" ng-if="loginService.loginVars.loggedIn"></div>
+        <div fundoo-rating rating-value="rating" max="5" on-rating-selected="saveRatingToServer(rating)" ng-show="loginService.loginVars.loggedIn"></div>
         <div fundoo-rating rating-value="rating" max="5" class="inactiveLink" ng-if="!loginService.loginVars.loggedIn"></div>
         <p><b>Current Rating: {{rest.rating}}<b></p>
       </div>

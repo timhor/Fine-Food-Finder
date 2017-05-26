@@ -3,7 +3,7 @@
 angular.module('fineFoodFinderApp')
   .controller('RestCtrl', function($scope, $routeParams, $location, $http, $log) {
   	$scope.rest = $routeParams.restdata;
-    $scope.rating = $scope.rest.rating;
+    $scope.rating = Math.round($scope.rest.rating);
 
     $http.get('http://localhost:3000/menus').then(function(response) {
   		angular.forEach(response.data, function(value) {
@@ -76,7 +76,8 @@ angular.module('fineFoodFinderApp')
                 "imageUrl": value.imageUrl,
                 "info": value.info,
                 "rating":value.rating,
-                "numRating": value.numRating
+                "numRating": value.numRating,
+                "diet": value.diet
               };
 
               $http.put('http://localhost:3000/restaurants/'+ value.id, JSON.stringify(updateRest)).then(
