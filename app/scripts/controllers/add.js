@@ -1,8 +1,7 @@
 'use strict';
 
 angular.module('fineFoodFinderApp')
-  .controller('ModifyCtrl', function($scope, $http, $log, $window, $location) {
-        $scope.list = [];
+  .controller('AddCtrl', function($scope, $http, $log, $window, $location) {
         $scope.checkboxModel = {
           value1 : false,
           value2 : false,

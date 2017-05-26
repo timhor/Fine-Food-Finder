@@ -44,10 +44,10 @@ angular
         controller: 'RestCtrl',
         controllerAs: 'rest'
       })
-      .when('/modify', {
-        templateUrl: 'views/modify.html',
-        controller: 'ModifyCtrl',
-        controllerAs: 'modify'
+      .when('/add', {
+        templateUrl: 'views/add.html',
+        controller: 'AddCtrl',
+        controllerAs: 'add'
       })
       .otherwise({
         redirectTo: '/'
