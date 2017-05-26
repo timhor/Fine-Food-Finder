@@ -1,0 +1,50 @@
+<link rel="stylesheet" href="styles/signup.css">
+
+<h3>Add a restaurant</h3>
+
+<br>
+
+<form ng-submit="submit()" ng-controller="ModifyCtrl">
+  <div class="form-group">
+    <label for="name"><b>Name</b></label>
+    <input class="form-control" type="text" placeholder="Enter Restaurant Name" name="name" ng-model="name" required>
+  </div>
+  <div class="form-group">
+    <label for="address"><b>Address</b></label>
+    <input class="form-control" type="text" placeholder="Enter Address (Street, Suburb)" name="address" ng-model="address" required>
+  </div>
+  <div class="form-group">
+    <label for="postcode"><b>Post Code</b></label>
+    <input class="form-control" type="number" placeholder="Enter Post Code" name="postcode" ng-model="postcode" required>
+  </div>
+  <div class="form-group">
+    <label for="email"><b>Email</b></label>
+    <input class="form-control" type="email" placeholder="Enter email" name="email" ng-model="email" required>
+  </div>
+  <div class="form-group">
+    <label for="contactnumber"><b>Contact Number</b></label>
+    <input class="form-control" type="number" placeholder="Enter Contact Number" name="contactnumber" ng-model="contactnumber" required>
+  </div>
+  <div class="form-group">
+    <label for="imgUrl"><b>Avatar Image</b></label>
+    <input class="form-control" type="url" placeholder="Enter an Avatar URL" name="imgUrl" ng-model="imgUrl">
+  </div>
+  <div class="form-group">
+    <label for="info"><b>Info</b></label>
+    <textarea rows="4" cols="100" placeholder="  Enter Restaurant Info" name="info" ng-model="info"></textarea>
+  </div>
+  <div class="form-group">
+    <label for="diet"><b>Available Diets:</b></label><br>
+    <label><input type="checkbox" ng-model="checkboxModel.value1" ng-true-value="'Vegetarian'" ng-false-value="false"> Vegetarian</label><br/>
+    <label><input type="checkbox" ng-model="checkboxModel.value2" ng-true-value="'Vegan'" ng-false-value="false"> Vegan</label>
+    <br/>
+    <label><input type="checkbox" ng-model="checkboxModel.value3" ng-true-value="'Halal'" ng-false-value="false"> Halal</label>
+    <br/>
+    <label><input type="checkbox" ng-model="checkboxModel.value4" ng-true-value="'Gluten Free'" ng-false-value="false"> Gluten Free</label>
+    <br/>
+  </div>
+  <div class="form-group">
+    <button type="submit" class="btn btn-success">Add Restaurant</button>
+  </div>
+</div>
+<br>

@@ -44,6 +44,11 @@ angular
         controller: 'RestCtrl',
         controllerAs: 'rest'
       })
+      .when('/modify', {
+        templateUrl: 'views/modify.html',
+        controller: 'ModifyCtrl',
+        controllerAs: 'modify'
+      })
       .otherwise({
         redirectTo: '/'
       });

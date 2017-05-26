@@ -34,10 +34,12 @@ angular.module('fineFoodFinderApp')
             if (!$scope.loginService.loginVars.diet) {
               $scope.restdata.push(value);
             } else {
-              angular.forEach($scope.loginService.loginVars.diet, function(value2) {
-                if (value2 === value.diet) {
-                  $scope.restdata.push(value);
-                }
+              angular.forEach($scope.loginService.loginVars.diet, function(userDiet) {
+                angular.forEach(value.diet, function(restDiet) {
+                  if (userDiet !== false && userDiet === restDiet) {
+                    $scope.restdata.push(value);
+                  }
+                });
               });
             }
 
