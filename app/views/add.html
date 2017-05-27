@@ -1,21 +1,20 @@
 <link rel="stylesheet" href="styles/signup.css">
 
-<h3>Add a restaurant</h3>
-
-<br>
+<h2>Add a new restaurant</h2>
 
 <form ng-submit="submit()" ng-controller="AddCtrl">
+  <h3>General Details</h3>
   <div class="form-group">
     <label for="name"><b>Name</b></label>
-    <input class="form-control" type="text" placeholder="Enter Restaurant Name" name="name" ng-model="name" required>
+    <input class="form-control" type="text" placeholder="Enter restaurant name" name="name" ng-model="name" required>
   </div>
   <div class="form-group">
     <label for="address"><b>Address</b></label>
-    <input class="form-control" type="text" placeholder="Enter Address (Street, Suburb)" name="address" ng-model="address" required>
+    <input class="form-control" type="text" placeholder="Enter address (street, suburb)" name="address" ng-model="address" required>
   </div>
   <div class="form-group">
     <label for="postcode"><b>Post Code</b></label>
-    <input class="form-control" type="number" placeholder="Enter Post Code" name="postcode" ng-model="postcode" required>
+    <input class="form-control" type="number" placeholder="Enter postcode" name="postcode" ng-model="postcode" required>
   </div>
   <div class="form-group">
     <label for="email"><b>Email</b></label>
@@ -23,15 +22,15 @@
   </div>
   <div class="form-group">
     <label for="contactnumber"><b>Contact Number</b></label>
-    <input class="form-control" type="number" placeholder="Enter Contact Number" name="contactnumber" ng-model="contactnumber" required>
+    <input class="form-control" type="number" placeholder="Enter contact number" name="contactnumber" ng-model="contactnumber" required>
   </div>
   <div class="form-group">
     <label for="imgUrl"><b>Avatar Image</b></label>
-    <input class="form-control" type="url" placeholder="Enter an Avatar URL" name="imgUrl" ng-model="imgUrl">
+    <input class="form-control" type="url" placeholder="Enter an avatar URL" name="imgUrl" ng-model="imgUrl">
   </div>
   <div class="form-group">
     <label for="info"><b>Info</b></label>
-    <textarea rows="4" cols="97" placeholder="  Enter Restaurant Info" name="info" ng-model="info"></textarea>
+    <textarea class="form-control" rows="4" cols="97" placeholder="Enter restaurant info" name="info" ng-model="info"></textarea>
   </div>
   <div class="form-group">
     <label for="diet"><b>Available Diets:</b></label><br>
@@ -43,8 +42,7 @@
     <label><input type="checkbox" ng-model="checkboxModel.value4" ng-true-value="'Gluten Free'" ng-false-value="false"> Gluten Free</label>
     <br/>
   </div>
-  <br>
-  <h3>Add Menu items</h3>
+  <h3>Menu items</h3>
   <div class="form-group" ng-repeat="item in items track by $index">
     <div class="form-group">
       <label for="menuName"><b>Name</b></label>
@@ -55,15 +53,17 @@
       <input class="form-control" type="text" placeholder="Enter description of menu item" name="menuDesc" ng-model="items[$index].description">
     </div>
     <div class="form-group">
-      <label for="menuPrice"><b>Price $</b></label>
+      <label for="menuPrice"><b>Price ($)</b></label>
       <input class="form-control" type="number" placeholder="Enter price of menu item" name="menuPrice" ng-model="items[$index].price">
     </div>    
-    <input type="button" class="btn btn-primary" ng-click="addRow()" value="Add More" ng-show="$last">
     <input type="button" class="btn btn-warning" ng-click="deleteRow($index)" value="Remove item" ng-show="items.length != 1">
+    <input type="button" class="btn btn-primary" ng-click="addRow()" value="Add more" ng-show="$last">
     <br>
   </div>
+  <br>
+  <br>
   <div class="form-group">
-    <button type="submit" class="btn btn-success">Add Restaurant</button>
+    <button type="submit" class="btn btn-success">Add restaurant</button>
   </div>
 </div>
 <br>
