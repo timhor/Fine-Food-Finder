@@ -43,6 +43,25 @@
     <label><input type="checkbox" ng-model="checkboxModel.value4" ng-true-value="'Gluten Free'" ng-false-value="false"> Gluten Free</label>
     <br/>
   </div>
+  <br>
+  <h3>Add Menu items</h3>
+  <div class="form-group" ng-repeat="item in items track by $index">
+    <div class="form-group">
+      <label for="menuName"><b>Name</b></label>
+      <input class="form-control" type="text" placeholder="Enter name of menu item" name="menuName" ng-model="items[$index].name">
+    </div>
+    <div class="form-group">
+      <label for="menuDesc"><b>Description</b></label>
+      <input class="form-control" type="text" placeholder="Enter description of menu item" name="menuDesc" ng-model="items[$index].description">
+    </div>
+    <div class="form-group">
+      <label for="menuPrice"><b>Price $</b></label>
+      <input class="form-control" type="number" placeholder="Enter price of menu item" name="menuPrice" ng-model="items[$index].price">
+    </div>    
+    <input type="button" class="btn btn-primary" ng-click="addRow()" value="Add More" ng-show="$last">
+    <input type="button" class="btn btn-warning" ng-click="deleteRow($index)" value="Remove item" ng-show="items.length != 1">
+    <br>
+  </div>
   <div class="form-group">
     <button type="submit" class="btn btn-success">Add Restaurant</button>
   </div>
