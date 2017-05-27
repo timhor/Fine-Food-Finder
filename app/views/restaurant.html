@@ -31,6 +31,30 @@
     <div class="col-sm-8">
       <div class="row">
         <div class="col-sm-12">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="2000">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" style="border-color: black; border-width: 2px;" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" style="border-color: black; border-width: 2px;" data-slide-to="1"></li>
+              <li data-target="#myCarousel" style="border-color: black; border-width: 2px;" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" >
+              <div class="item active">
+                <img src="images/menu_images/placeholder1.png">
+              </div>
+
+              <div class="item">
+                <img src="images/menu_images/placeholder2.png">
+              </div>
+
+              <div class="item">
+                <img src="images/menu_images/placeholder3.png">
+              </div>
+            </div>
+          </div>
+          <br>
           <div class="well" align="left" id="lowerBorder">
             <span class="menuTitle">MENU</span>
             <div ng-if="menuData.length" style="float: right;">
@@ -68,34 +92,6 @@
             <p ng-if="!menuData.length">
               <em>Menu currently not available.</em>
             </p>
-          </div>
-          <br>
-          <div>
-            <span class="menuTitle">Gallary</span>
-          </div>
-          <br>
-          <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="2000">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-              <li data-target="#myCarousel" style="border-color: black; border-width: 2px;" data-slide-to="0" class="active"></li>
-              <li data-target="#myCarousel" style="border-color: black; border-width: 2px;" data-slide-to="1"></li>
-              <li data-target="#myCarousel" style="border-color: black; border-width: 2px;" data-slide-to="2"></li>
-            </ol>
-
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" >
-              <div class="item active">
-                <img src="{{rest.menuImages.image1}}">
-              </div>
-
-              <div class="item">
-                <img src="{{rest.menuImages.image2}}">
-              </div>
-
-              <div class="item">
-                <img src="{{rest.menuImages.image3}}">
-              </div>
-            </div>
           </div>
         </div>
       </div> 
