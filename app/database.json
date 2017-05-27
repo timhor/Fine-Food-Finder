@@ -16,6 +16,11 @@
         "value2": false,
         "value3": false,
         "value4": false
+      },
+      "menuImages": {
+        "image1": "images/menu_images/placeholder1.png",
+        "image2": "images/menu_images/placeholder2.png",
+        "image3": "images/menu_images/placeholder3.png"
       }
     },
     {
@@ -28,7 +33,12 @@
       "imageurl": "images/restaurant_images/GrandPacific.png",
       "info": "Our restaurant is relaxing and friendly, with large floor to ceiling windows to take in the stunning views.",
       "rating": 3,
-      "numRating": 5
+      "numRating": 5,
+      "menuImages": {
+        "image1": "images/menu_images/placeholder1.png",
+        "image2": "images/menu_images/placeholder2.png",
+        "image3": "images/menu_images/placeholder3.png"
+      }
     },
     {
       "id": 3,
@@ -40,7 +50,12 @@
       "imageUrl": "images/restaurant_images/ChineseNoodles.png",
       "info": "We are specialised in the art of noodle making. With over 30 years of experiece, Chinese Noodles is bound to satisfy your needs of various noodle varieties.",
       "rating": 5,
-      "numRating": 5
+      "numRating": 5,
+      "menuImages": {
+        "image1": "images/menu_images/placeholder1.png",
+        "image2": "images/menu_images/placeholder2.png",
+        "image3": "images/menu_images/placeholder3.png"
+      }
     },
     {
       "id": 4,
@@ -52,7 +67,12 @@
       "imageUrl": "images/restaurant_images/HeartCafe.png",
       "info": "Heart Cafe is now nourishing both the body and the soul with organic, gluten free and vegan options in a warm, connecting space where friends and neighbors come together.",
       "rating": 5,
-      "numRating": 5
+      "numRating": 5,
+      "menuImages": {
+        "image1": "images/menu_images/placeholder1.png",
+        "image2": "images/menu_images/placeholder2.png",
+        "image3": "images/menu_images/placeholder3.png"
+      }
     },
     {
       "id": 5,
@@ -64,7 +84,12 @@
       "imageUrl": "images/restaurant_images/Chocolatier.png",
       "info": "Chocolatier places you in a world of pleasure, fulfilling your chocolate desires.",
       "rating": 3,
-      "numRating": 5
+      "numRating": 5,
+      "menuImages": {
+        "image1": "images/menu_images/placeholder1.png",
+        "image2": "images/menu_images/placeholder2.png",
+        "image3": "images/menu_images/placeholder3.png"
+      }
     },
     {
       "id": 6,
@@ -76,7 +101,12 @@
       "imageUrl": "images/restaurant_images/ElevenBridge.png",
       "info": "Our goal is to provide excellent food and outstanding customer to service to all our guests.",
       "rating": 1,
-      "numRating": 5
+      "numRating": 5,
+      "menuImages": {
+        "image1": "images/menu_images/placeholder1.png",
+        "image2": "images/menu_images/placeholder2.png",
+        "image3": "images/menu_images/placeholder3.png"
+      }
     },
     {
       "id": 7,
@@ -94,6 +124,11 @@
         "value2": "Vegan",
         "value3": false,
         "value4": false
+      },
+      "menuImages": {
+        "image1": "images/menu_images/placeholder1.png",
+        "image2": "images/menu_images/placeholder2.png",
+        "image3": "images/menu_images/placeholder3.png"
       }
     },
     {
@@ -106,7 +141,12 @@
       "imageUrl": "images/restaurant_images/Wonka.png",
       "info": "The OG outlet for all the chocolate a customer could want.",
       "rating": 5,
-      "numRating": 5
+      "numRating": 5,
+      "menuImages": {
+        "image1": "images/menu_images/placeholder1.png",
+        "image2": "images/menu_images/placeholder2.png",
+        "image3": "images/menu_images/placeholder3.png"
+      }
     },
     {
       "id": 9,
@@ -118,7 +158,12 @@
       "imageUrl": "images/restaurant_images/SeafoodPalace.png",
       "info": "If it isn't delicious, scrumptious seafood, it isn't Alvin's. A remarkable establishment providing seafood of a wide variety.",
       "rating": 4,
-      "numRating": 5
+      "numRating": 5,
+      "menuImages": {
+        "image1": "images/menu_images/placeholder1.png",
+        "image2": "images/menu_images/placeholder2.png",
+        "image3": "images/menu_images/placeholder3.png"
+      }
     },
     {
       "id": 10,
@@ -129,8 +174,13 @@
       "contactnumber": "0410809434",
       "imageUrl": "images/restaurant_images/McDonald'sLiverpool.png",
       "info": "With more than one million of you coming through our restaurants every day, it’s our priority to maintain your trust and integrity. To do this we make sure our customers and employees receive the respect they deserve.",
-      "rating": 4,
-      "numRating": 5
+      "rating": 3.76,
+      "numRating": 37,
+      "menuImages": {
+        "image1": "images/menu_images/placeholder1.png",
+        "image2": "images/menu_images/placeholder2.png",
+        "image3": "images/menu_images/placeholder3.png"
+      }
     },
     {
       "id": 11,
@@ -142,7 +192,12 @@
       "imageUrl": "images/restaurant_images/McDonald'sLiverpool.png",
       "info": "With more than one million of you coming through our restaurants every day, it’s our priority to maintain your trust and integrity. To do this we make sure our customers and employees receive the respect they deserve.",
       "rating": 5,
-      "numRating": 5
+      "numRating": 5,
+      "menuImages": {
+        "image1": "images/menu_images/placeholder1.png",
+        "image2": "images/menu_images/placeholder2.png",
+        "image3": "images/menu_images/placeholder3.png"
+      }
     },
     {
       "id": 12,
@@ -154,7 +209,12 @@
       "imageUrl": "images/restaurant_images/SushiTrain.png",
       "info": "Ever wanted a sushi restaurant with an interesting twist? Well Sushi Train is the place for you, presenting their sushi dishes on a mobile conveyor belt for any customer to take.",
       "rating": 4,
-      "numRating": 5
+      "numRating": 5,
+      "menuImages": {
+        "image1": "images/menu_images/placeholder1.png",
+        "image2": "images/menu_images/placeholder2.png",
+        "image3": "images/menu_images/placeholder3.png"
+      }
     },
     {
       "id": 13,
@@ -166,7 +226,12 @@
       "imageUrl": "images/restaurant_images/Luigis.png",
       "info": "Luigi's welcomes you to a delightful and intriguing restaurant to satisfy your Italian taste buds.",
       "rating": 2,
-      "numRating": 5
+      "numRating": 5,
+      "menuImages": {
+        "image1": "images/menu_images/placeholder1.png",
+        "image2": "images/menu_images/placeholder2.png",
+        "image3": "images/menu_images/placeholder3.png"
+      }
     },
     {
       "id": 14,
@@ -178,7 +243,12 @@
       "imageUrl": "images/restaurant_images/DexsDiner.png",
       "info": "Our popular restaurant has just moved from Coruscant to a brand new location for Earth's inhabitants to enjoy, allowing humans to experience a new type of food.",
       "rating": 4,
-      "numRating": 5
+      "numRating": 5,
+      "menuImages": {
+        "image1": "images/menu_images/placeholder1.png",
+        "image2": "images/menu_images/placeholder2.png",
+        "image3": "images/menu_images/placeholder3.png"
+      }
     },
     {
       "id": 15,
@@ -190,7 +260,12 @@
       "imageUrl": "images/restaurant_images/JoesHutt.png",
       "info": "Joe's hutt lets customers enjoy nice outback style foods in an outdoors setting.",
       "rating": 3,
-      "numRating": 5
+      "numRating": 5,
+      "menuImages": {
+        "image1": "images/menu_images/placeholder1.png",
+        "image2": "images/menu_images/placeholder2.png",
+        "image3": "images/menu_images/placeholder3.png"
+      }
     },
     {
       "id": 16,
@@ -202,7 +277,12 @@
       "imageUrl": "images/restaurant_images/Smokeys.png",
       "info": "Smokey's newly opened Kebab shop provides customers with the Turkish cuisine favourites such as kebabs and pide.",
       "rating": 1,
-      "numRating": 5
+      "numRating": 5,
+      "menuImages": {
+        "image1": "images/menu_images/placeholder1.png",
+        "image2": "images/menu_images/placeholder2.png",
+        "image3": "images/menu_images/placeholder3.png"
+      }
     },
     {
       "id": 17,
@@ -214,7 +294,12 @@
       "imageUrl": "images/restaurant_images/PaulsPies.png",
       "info": "Paul's Pies are not for the faint of heart, our restaurant creates innovative pies to widen the palette of our customers.",
       "rating": 2,
-      "numRating": 5
+      "numRating": 5,
+      "menuImages": {
+        "image1": "images/menu_images/placeholder1.png",
+        "image2": "images/menu_images/placeholder2.png",
+        "image3": "images/menu_images/placeholder3.png"
+      }
     },
     {
       "id": 18,
@@ -226,7 +311,12 @@
       "imageUrl": "images/restaurant_images/WrapKing.png",
       "info": "Wrap King, as the name suggests, are the kings of wrap making, giving customers a large variety of ingredients to choose from when ordering.",
       "rating": 1,
-      "numRating": 5
+      "numRating": 5,
+      "menuImages": {
+        "image1": "images/menu_images/placeholder1.png",
+        "image2": "images/menu_images/placeholder2.png",
+        "image3": "images/menu_images/placeholder3.png"
+      }
     },
     {
       "id": 19,
@@ -238,7 +328,12 @@
       "imageUrl": "images/restaurant_images/KFC.png",
       "info": "Built from the work of Colonel Sanders, our KFC chicken is the best that the world has to offer.",
       "rating": 2,
-      "numRating": 5
+      "numRating": 5,
+      "menuImages": {
+        "image1": "images/menu_images/placeholder1.png",
+        "image2": "images/menu_images/placeholder2.png",
+        "image3": "images/menu_images/placeholder3.png"
+      }
     },
     {
       "id": 20,
@@ -250,7 +345,12 @@
       "imageUrl": "images/restaurant_images/TurkishParadise.png",
       "info": "Our restaurant places customers in a Turkish setting of belly dancers, friendly service, and envelops their tastebuds with the tastes of traditional Turkish cuisine.",
       "rating": 4,
-      "numRating": 5
+      "numRating": 5,
+      "menuImages": {
+        "image1": "images/menu_images/placeholder1.png",
+        "image2": "images/menu_images/placeholder2.png",
+        "image3": "images/menu_images/placeholder3.png"
+      }
     },
     {
       "id": 21,
@@ -262,7 +362,12 @@
       "imageUrl": "images/restaurant_images/LebaneseHouse.png",
       "info": "As the name entitles, our restaurant, once a standard house, is packed with the essence of lebanese style eating.",
       "rating": 3,
-      "numRating": 5
+      "numRating": 5,
+      "menuImages": {
+        "image1": "images/menu_images/placeholder1.png",
+        "image2": "images/menu_images/placeholder2.png",
+        "image3": "images/menu_images/placeholder3.png"
+      }
     },
     {
       "id": 22,
@@ -274,7 +379,12 @@
       "imageUrl": "images/restaurant_images/RedRooster.png",
       "info": "For fast, delicious food, Red Rooster is the place to be.",
       "rating": 5,
-      "numRating": 5
+      "numRating": 5,
+      "menuImages": {
+        "image1": "images/menu_images/placeholder1.png",
+        "image2": "images/menu_images/placeholder2.png",
+        "image3": "images/menu_images/placeholder3.png"
+      }
     },
     {
       "id": 23,
@@ -286,7 +396,12 @@
       "imageUrl": "images/restaurant_images/HungryJacks.png",
       "info": "For fast, delicious food, Hungry Jacks is the place to be.",
       "rating": 4,
-      "numRating": 5
+      "numRating": 5,
+      "menuImages": {
+        "image1": "images/menu_images/placeholder1.png",
+        "image2": "images/menu_images/placeholder2.png",
+        "image3": "images/menu_images/placeholder3.png"
+      }
     },
     {
       "id": 24,
@@ -298,7 +413,12 @@
       "imageUrl": "images/restaurant_images/Subway.png",
       "info": "In our restaurant, customers may choose from a large selection of ingredients to create their own healthy, subway-style, sandwich.",
       "rating": 5,
-      "numRating": 5
+      "numRating": 5,
+      "menuImages": {
+        "image1": "images/menu_images/placeholder1.png",
+        "image2": "images/menu_images/placeholder2.png",
+        "image3": "images/menu_images/placeholder3.png"
+      }
     },
     {
       "id": 25,
@@ -310,7 +430,12 @@
       "imageUrl": "images/restaurant_images/FishAndChips.png",
       "info": "Stan's fish and chips is a classic fast-food restaurant for oceanic based eating.",
       "rating": 4,
-      "numRating": 5
+      "numRating": 5,
+      "menuImages": {
+        "image1": "images/menu_images/placeholder1.png",
+        "image2": "images/menu_images/placeholder2.png",
+        "image3": "images/menu_images/placeholder3.png"
+      }
     },
     {
       "id": 26,
@@ -322,7 +447,12 @@
       "imageUrl": "images/restaurant_images/BobsBurgers.png",
       "info": "We at Bob's Burgers aim to not only sell amazing burgers to our customers but also to get people to re-think what a burger truly is.",
       "rating": 3,
-      "numRating": 5
+      "numRating": 5,
+      "menuImages": {
+        "image1": "images/menu_images/placeholder1.png",
+        "image2": "images/menu_images/placeholder2.png",
+        "image3": "images/menu_images/placeholder3.png"
+      }
     },
     {
       "id": 27,
@@ -334,7 +464,12 @@
       "imageUrl": "images/restaurant_images/PastaPalace.png",
       "info": "Pasta Palace places its customers in a luxurious setting, giving them the sense of being royalty.",
       "rating": 1,
-      "numRating": 5
+      "numRating": 5,
+      "menuImages": {
+        "image1": "images/menu_images/placeholder1.png",
+        "image2": "images/menu_images/placeholder2.png",
+        "image3": "images/menu_images/placeholder3.png"
+      }
     },
     {
       "id": 28,
@@ -346,7 +481,12 @@
       "imageUrl": "images/restaurant_images/OutbackSteakhouse.png",
       "info": "For amazing and delicious ribs, burgers, and steaks, come to Outback Steakhouse. A long-time favourite for all meat lovers. ",
       "rating": 2,
-      "numRating": 5
+      "numRating": 5,
+      "menuImages": {
+        "image1": "images/menu_images/placeholder1.png",
+        "image2": "images/menu_images/placeholder2.png",
+        "image3": "images/menu_images/placeholder3.png"
+      }
     },
     {
       "id": 29,
@@ -358,7 +498,12 @@
       "imageUrl": "images/restaurant_images/Oporto.png",
       "info": "With our restaurant located world-wide, we here at Oporto aim to provide customers with the best fast-food possible.",
       "rating": 1,
-      "numRating": 5
+      "numRating": 5,
+      "menuImages": {
+        "image1": "images/menu_images/placeholder1.png",
+        "image2": "images/menu_images/placeholder2.png",
+        "image3": "images/menu_images/placeholder3.png"
+      }
     },
     {
       "id": 30,
@@ -370,7 +515,12 @@
       "imageUrl": "images/restaurant_images/Oporto.png",
       "info": "With our restaurant located world-wide, we here at Oporto aim to provide customers with the best fast-food possible.",
       "rating": 5,
-      "numRating": 5
+      "numRating": 5,
+      "menuImages": {
+        "image1": "images/menu_images/placeholder1.png",
+        "image2": "images/menu_images/placeholder2.png",
+        "image3": "images/menu_images/placeholder3.png"
+      }
     },
     {
       "id": 31,
@@ -382,7 +532,12 @@
       "imageUrl": "images/restaurant_images/ShermansSeafood.png",
       "info": "Sherman's seafood, located underwater, provides customers with not only excellent seafoood but a magnificent view of the ocean.",
       "rating": 4,
-      "numRating": 5
+      "numRating": 5,
+      "menuImages": {
+        "image1": "images/menu_images/placeholder1.png",
+        "image2": "images/menu_images/placeholder2.png",
+        "image3": "images/menu_images/placeholder3.png"
+      }
     },
     {
       "id": 32,
@@ -394,7 +549,12 @@
       "imageUrl": "images/restaurant_images/KoreanBBQ.png",
       "info": "We aim to provide a stunning Korean BBQ experience to all our customers.",
       "rating": 5,
-      "numRating": 5
+      "numRating": 5,
+      "menuImages": {
+        "image1": "images/menu_images/placeholder1.png",
+        "image2": "images/menu_images/placeholder2.png",
+        "image3": "images/menu_images/placeholder3.png"
+      }
     },
     {
       "id": 33,
@@ -406,7 +566,12 @@
       "imageUrl": "images/restaurant_images/ShreeSweets.png",
       "info": "Shree, the owner of Shree Sweets, claims 'Shree Sweets will become the ultimate restaurant for desserts'.",
       "rating": 4,
-      "numRating": 5
+      "numRating": 5,
+      "menuImages": {
+        "image1": "images/menu_images/placeholder1.png",
+        "image2": "images/menu_images/placeholder2.png",
+        "image3": "images/menu_images/placeholder3.png"
+      }
     },
     {
       "id": 34,
@@ -418,7 +583,12 @@
       "imageUrl": "images/restaurant_images/HeavensSweetTooth.png",
       "info": "Heaven's Sweet Tooth will satisfy every sweet toothed customer who enters this restaurant with exquisite desserts like cakes, and macarons.",
       "rating": 3,
-      "numRating": 5
+      "numRating": 5,
+      "menuImages": {
+        "image1": "images/menu_images/placeholder1.png",
+        "image2": "images/menu_images/placeholder2.png",
+        "image3": "images/menu_images/placeholder3.png"
+      }
     },
     {
       "id": 35,
@@ -430,7 +600,12 @@
       "imageUrl": "images/restaurant_images/Subway.png",
       "info": "In our restaurant, customers may choose from a large selection of ingredients to create their own healthy, subway-style, sandwich.",
       "rating": 1,
-      "numRating": 5
+      "numRating": 5,
+      "menuImages": {
+        "image1": "images/menu_images/placeholder1.png",
+        "image2": "images/menu_images/placeholder2.png",
+        "image3": "images/menu_images/placeholder3.png"
+      }
     },
     {
       "id": 36,
@@ -442,7 +617,12 @@
       "imageUrl": "images/restaurant_images/ChocolateDelMondo.png",
       "info": "Chocolates Del Mondo is a chocolate lovers paradise filled with a large variety of chocolate goods.",
       "rating": 1,
-      "numRating": 5
+      "numRating": 5,
+      "menuImages": {
+        "image1": "images/menu_images/placeholder1.png",
+        "image2": "images/menu_images/placeholder2.png",
+        "image3": "images/menu_images/placeholder3.png"
+      }
     },
     {
       "id": 37,
@@ -454,7 +634,12 @@
       "imageUrl": "images/restaurant_images/GeorgesCafe.png",
       "info": "Our restaurant gives customers value for their money, providing large portion sizes for a wide variety of meals.",
       "rating": 5,
-      "numRating": 5
+      "numRating": 5,
+      "menuImages": {
+        "image1": "images/menu_images/placeholder1.png",
+        "image2": "images/menu_images/placeholder2.png",
+        "image3": "images/menu_images/placeholder3.png"
+      }
     },
     {
       "id": 38,
@@ -466,7 +651,12 @@
       "imageUrl": "images/restaurant_images/HarrysCafeDeWheels.png",
       "info": "Harry's Cafe De Wheels presents interesting, out of the ordinary pies for our customers, changing their perspective on the glory of pies.",
       "rating": 4,
-      "numRating": 5
+      "numRating": 5,
+      "menuImages": {
+        "image1": "images/menu_images/placeholder1.png",
+        "image2": "images/menu_images/placeholder2.png",
+        "image3": "images/menu_images/placeholder3.png"
+      }
     },
     {
       "id": 39,
@@ -478,7 +668,12 @@
       "imageUrl": "images/restaurant_images/PatricksPizzeria.png",
       "info": "A classic Italian pizzeria, Patrick's is an excellent quality restaurant that shows its customers the true essence of Italian style cooking.",
       "rating": 5,
-      "numRating": 5
+      "numRating": 5,
+      "menuImages": {
+        "image1": "images/menu_images/placeholder1.png",
+        "image2": "images/menu_images/placeholder2.png",
+        "image3": "images/menu_images/placeholder3.png"
+      }
     },
     {
       "id": 40,
@@ -490,7 +685,12 @@
       "imageUrl": "images/restaurant_images/DestinysPlatoon.png",
       "info": "A restaurant located on water, Destiny's Platoon serves classic seafood dishes to its customers in a unique, and beautiful setting.",
       "rating": 1,
-      "numRating": 5
+      "numRating": 5,
+      "menuImages": {
+        "image1": "images/menu_images/placeholder1.png",
+        "image2": "images/menu_images/placeholder2.png",
+        "image3": "images/menu_images/placeholder3.png"
+      }
     }
   ],
   "users": [
