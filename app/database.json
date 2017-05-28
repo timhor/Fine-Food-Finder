@@ -28,7 +28,13 @@
       "imageurl": "images/restaurant_images/GrandPacific.png",
       "info": "Our restaurant is relaxing and friendly, with large floor to ceiling windows to take in the stunning views.",
       "rating": 3,
-      "numRating": 5
+      "numRating": 5,
+      "diet": {
+        "value1": false,
+        "value2": false,
+        "value3": "Halal",
+        "value4": false
+      }
     },
     {
       "id": 3,
@@ -40,7 +46,13 @@
       "imageUrl": "images/restaurant_images/ChineseNoodles.png",
       "info": "We are specialised in the art of noodle making. With over 30 years of experiece, Chinese Noodles is bound to satisfy your needs of various noodle varieties.",
       "rating": 5,
-      "numRating": 5
+      "numRating": 5,
+      "diet": {
+        "value1": "Vegetarian",
+        "value2": "Vegan",
+        "value3": "Halal",
+        "value4": false
+      }
     },
     {
       "id": 4,
@@ -52,7 +64,13 @@
       "imageUrl": "images/restaurant_images/HeartCafe.png",
       "info": "Heart Cafe is now nourishing both the body and the soul with organic, gluten free and vegan options in a warm, connecting space where friends and neighbors come together.",
       "rating": 5,
-      "numRating": 5
+      "numRating": 5,
+      "diet": {
+        "value1": "Vegetarian",
+        "value2": false,
+        "value3": false,
+        "value4": false
+      }
     },
     {
       "id": 5,
@@ -64,7 +82,13 @@
       "imageUrl": "images/restaurant_images/Chocolatier.png",
       "info": "Chocolatier places you in a world of pleasure, fulfilling your chocolate desires.",
       "rating": 3,
-      "numRating": 5
+      "numRating": 5,
+      "diet": {
+        "value1": "Vegetarian",
+        "value2": false,
+        "value3": false,
+        "value4": false
+      }
     },
     {
       "id": 6,
@@ -76,7 +100,13 @@
       "imageUrl": "images/restaurant_images/ElevenBridge.png",
       "info": "Our goal is to provide excellent food and outstanding customer to service to all our guests.",
       "rating": 1,
-      "numRating": 5
+      "numRating": 5,
+      "diet": {
+        "value1": false,
+        "value2": false,
+        "value3": false,
+        "value4": false
+      }
     },
     {
       "id": 7,
@@ -93,7 +123,7 @@
         "value1": false,
         "value2": "Vegan",
         "value3": false,
-        "value4": false
+        "value4": "Gluten Free"
       }
     },
     {
@@ -106,7 +136,13 @@
       "imageUrl": "images/restaurant_images/Wonka.png",
       "info": "The OG outlet for all the chocolate a customer could want.",
       "rating": 5,
-      "numRating": 5
+      "numRating": 5,
+      "diet": {
+        "value1": "Vegetarian",
+        "value2": false,
+        "value3": false,
+        "value4": false
+      }
     },
     {
       "id": 9,
@@ -118,7 +154,13 @@
       "imageUrl": "images/restaurant_images/SeafoodPalace.png",
       "info": "If it isn't delicious, scrumptious seafood, it isn't Alvin's. A remarkable establishment providing seafood of a wide variety.",
       "rating": 4,
-      "numRating": 5
+      "numRating": 5,
+      "diet": {
+        "value1": false,
+        "value2": false,
+        "value3": false,
+        "value4": "Gluten Free"
+      }
     },
     {
       "id": 10,
@@ -130,7 +172,13 @@
       "imageUrl": "images/restaurant_images/McDonald'sLiverpool.png",
       "info": "With more than one million of you coming through our restaurants every day, it’s our priority to maintain your trust and integrity. To do this we make sure our customers and employees receive the respect they deserve.",
       "rating": 4,
-      "numRating": 5
+      "numRating": 5,
+      "diet": {
+        "value1": false,
+        "value2": false,
+        "value3": "Halal",
+        "value4": false
+      }
     },
     {
       "id": 11,
@@ -142,7 +190,13 @@
       "imageUrl": "images/restaurant_images/McDonald'sLiverpool.png",
       "info": "With more than one million of you coming through our restaurants every day, it’s our priority to maintain your trust and integrity. To do this we make sure our customers and employees receive the respect they deserve.",
       "rating": 5,
-      "numRating": 5
+      "numRating": 5,
+      "diet": {
+        "value1": false,
+        "value2": false,
+        "value3": "Halal",
+        "value4": false
+      }
     },
     {
       "id": 12,
@@ -154,7 +208,13 @@
       "imageUrl": "images/restaurant_images/SushiTrain.png",
       "info": "Ever wanted a sushi restaurant with an interesting twist? Well Sushi Train is the place for you, presenting their sushi dishes on a mobile conveyor belt for any customer to take.",
       "rating": 4,
-      "numRating": 5
+      "numRating": 5,
+      "diet": {
+        "value1": "Vegetarian",
+        "value2": false,
+        "value3": false,
+        "value4": false
+      }
     },
     {
       "id": 13,
@@ -166,7 +226,13 @@
       "imageUrl": "images/restaurant_images/Luigis.png",
       "info": "Luigi's welcomes you to a delightful and intriguing restaurant to satisfy your Italian taste buds.",
       "rating": 2,
-      "numRating": 5
+      "numRating": 5,
+      "diet": {
+        "value1": false,
+        "value2": false,
+        "value3": "Halal",
+        "value4": false
+      }
     },
     {
       "id": 14,
@@ -178,7 +244,13 @@
       "imageUrl": "images/restaurant_images/DexsDiner.png",
       "info": "Our popular restaurant has just moved from Coruscant to a brand new location for Earth's inhabitants to enjoy, allowing humans to experience a new type of food.",
       "rating": 4,
-      "numRating": 5
+      "numRating": 5,
+      "diet": {
+        "value1": false,
+        "value2": false,
+        "value3": "Halal",
+        "value4": "Gluten Free"
+      }
     },
     {
       "id": 15,
@@ -190,7 +262,13 @@
       "imageUrl": "images/restaurant_images/JoesHutt.png",
       "info": "Joe's hutt lets customers enjoy nice outback style foods in an outdoors setting.",
       "rating": 3,
-      "numRating": 5
+      "numRating": 5,
+      "diet": {
+        "value1": false,
+        "value2": false,
+        "value3": "Halal",
+        "value4": false
+      }
     },
     {
       "id": 16,
@@ -202,7 +280,13 @@
       "imageUrl": "images/restaurant_images/Smokeys.png",
       "info": "Smokey's newly opened Kebab shop provides customers with the Turkish cuisine favourites such as kebabs and pide.",
       "rating": 1,
-      "numRating": 5
+      "numRating": 5,
+      "diet": {
+        "value1": false,
+        "value2": false,
+        "value3": "Halal",
+        "value4": false
+      }
     },
     {
       "id": 17,
@@ -214,7 +298,13 @@
       "imageUrl": "images/restaurant_images/PaulsPies.png",
       "info": "Paul's Pies are not for the faint of heart, our restaurant creates innovative pies to widen the palette of our customers.",
       "rating": 2,
-      "numRating": 5
+      "numRating": 5,
+      "diet": {
+        "value1": "Vegetarian",
+        "value2": false,
+        "value3": "Halal",
+        "value4": false
+      }
     },
     {
       "id": 18,
@@ -226,7 +316,13 @@
       "imageUrl": "images/restaurant_images/WrapKing.png",
       "info": "Wrap King, as the name suggests, are the kings of wrap making, giving customers a large variety of ingredients to choose from when ordering.",
       "rating": 1,
-      "numRating": 5
+      "numRating": 5,
+      "diet": {
+        "value1": "Vegetarian",
+        "value2": "Vegan",
+        "value3": "Halal",
+        "value4": false
+      }
     },
     {
       "id": 19,
@@ -238,7 +334,13 @@
       "imageUrl": "images/restaurant_images/KFC.png",
       "info": "Built from the work of Colonel Sanders, our KFC chicken is the best that the world has to offer.",
       "rating": 2,
-      "numRating": 5
+      "numRating": 5,
+      "diet": {
+        "value1": false,
+        "value2": false,
+        "value3": false,
+        "value4": false
+      }
     },
     {
       "id": 20,
@@ -250,7 +352,13 @@
       "imageUrl": "images/restaurant_images/TurkishParadise.png",
       "info": "Our restaurant places customers in a Turkish setting of belly dancers, friendly service, and envelops their tastebuds with the tastes of traditional Turkish cuisine.",
       "rating": 4,
-      "numRating": 5
+      "numRating": 5,
+      "diet": {
+        "value1": "Vegetarian",
+        "value2": false,
+        "value3": false,
+        "value4": "Gluten Free"
+      }
     },
     {
       "id": 21,
@@ -262,7 +370,13 @@
       "imageUrl": "images/restaurant_images/LebaneseHouse.png",
       "info": "As the name entitles, our restaurant, once a standard house, is packed with the essence of lebanese style eating.",
       "rating": 3,
-      "numRating": 5
+      "numRating": 5,
+      "diet": {
+        "value1": "Vegetarian",
+        "value2": false,
+        "value3": "Halal",
+        "value4": false
+      }
     },
     {
       "id": 22,
