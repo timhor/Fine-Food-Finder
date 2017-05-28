@@ -34,3 +34,10 @@
 
 <h3>Rating restaurants</h3>
 <p>After you log in, you will be able to give restaurants a rating out of 5. Simply click on the number of stars you wish to give the restaurant to submit it, and the new average rating will be displayed. Note that only whole stars are shown, rounded to the nearest 0.5 (for example, a rating of 4.3 will show 4 stars whereas a rating of 4.7 will show 5 stars). Refer to the numerical rating underneath for the actual value.</p>
+
+<h2 ng-if="loginVars().admin">Admin Privileges</h2>
+<h3 ng-if="loginVars().admin">Adding restaurants</h3>
+<p ng-if="loginVars().admin">The admin can add restaurants to the database by clicking 'Add Restaurant' on the top of the webpage. Clicking this button will redirect the admin to a page where they can input the details of a new restaurant, including its menu. Once the admin clicks 'Add restaurant' at the bottom of this page, the new restaurant will be added to the database for users to see.</p>
+
+<h3 ng-if="loginVars().admin">Deleting restaurants</h3>
+<p ng-if="loginVars().admin">The admin can delete restaurants within the database by simply clicking 'Delete' on a restaurant's page.</p>
