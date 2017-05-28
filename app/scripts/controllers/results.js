@@ -75,7 +75,7 @@ angular.module('fineFoodFinderApp')
           }
         }
       } else {
-        // TODO CHANGE TO NEW SORT
+        // ASCENDING BUBBLE SORT
         if ($scope.restdata.length > 1) {
           let i = 0;
           while (i < $scope.restdata.length) {
@@ -97,35 +97,43 @@ angular.module('fineFoodFinderApp')
     $scope.sortPrice = function() {
       $scope.priceCount = ($scope.priceCount + 1) % 2;
       if ($scope.priceCount === 1) {
-        // TODO CHANGE TO NEW SORT
+        // DESCENDING SELECTION SORT
         if ($scope.restdata.length > 1) {
           let i = 0;
           while (i < $scope.restdata.length) {
-            let j = $scope.restdata.length - 1;
-            while (j > i) {
-              if (parseFloat($scope.restdata[j].avgPrice) > parseFloat($scope.restdata[j-1].avgPrice)) {
-                let t = $scope.restdata[j];
-                $scope.restdata[j] = $scope.restdata[j-1];
-                $scope.restdata[j-1] = t;
+              let min = i;
+              let j = i + 1;
+            while (j < $scope.restdata.length) {
+              if (parseFloat($scope.restdata[j].avgPrice) > parseFloat($scope.restdata[min].avgPrice)) {
+                min = j
               }
-              j = j - 1;
+              j = j + 1;
+            }
+            if (min != i) {
+              let t = $scope.restdata[min];
+              $scope.restdata[min] = $scope.restdata[i];
+              $scope.restdata[i] = t;
             }
             i = i + 1;
           }
         }
       } else {
-        // TODO CHANGE TO NEW SORT
+        // ASCENDING SELECTION SORT
         if ($scope.restdata.length > 1) {
           let i = 0;
           while (i < $scope.restdata.length) {
-            let j = $scope.restdata.length - 1;
-            while (j > i) {
-              if (parseFloat($scope.restdata[j].avgPrice) < parseFloat($scope.restdata[j-1].avgPrice)) {
-                let t = $scope.restdata[j];
-                $scope.restdata[j] = $scope.restdata[j-1];
-                $scope.restdata[j-1] = t;
+              let min = i;
+              let j = i + 1;
+            while (j < $scope.restdata.length) {
+              if (parseFloat($scope.restdata[j].avgPrice) < parseFloat($scope.restdata[min].avgPrice)) {
+                min = j
               }
-              j = j - 1;
+              j = j + 1;
+            }
+            if (min != i) {
+              let t = $scope.restdata[min];
+              $scope.restdata[min] = $scope.restdata[i];
+              $scope.restdata[i] = t;
             }
             i = i + 1;
           }
