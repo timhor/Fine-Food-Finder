@@ -36,13 +36,14 @@ angular.module('fineFoodFinderApp')
             let newRestaurantMenu = {
               "id": parseInt(numRests) + 1,
               "items": $scope.items
-            }
+            };
 
             $http.post('http://localhost:3000/restaurants', JSON.stringify(newRestaurant)).then(
               function(response) {
               $http.post('http://localhost:3000/menus', JSON.stringify(newRestaurantMenu)).then(
                 function(response) {
-                  $log.log($scope.name + " Menu added to database");
+                  $log.log($scope.name + " added to database");
+                  $window.alert($scope.name + " added to database!")
                   $location.path('#!/');
                 }, function(response) {
                   $log.error("Error adding new restaurant menu");

@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('fineFoodFinderApp')
-  .controller('RestCtrl', function($scope, $routeParams, $location, $http, $log) {
+  .controller('RestCtrl', function($scope, $routeParams, $location, $http, $log, $window) {
   	$scope.rest = $routeParams.restdata;
     $scope.rating = Math.round($scope.rest.rating);
 
@@ -61,10 +61,16 @@ angular.module('fineFoodFinderApp')
         $log.log("Clicked Delete!");
         $http.delete('http://localhost:3000/restaurants/'+ $scope.rest.id).then(
           function(response) {
-          $log.log("Deleted succesfully");
-          $location.path('#!/');
+          $http.delete('http://localhost:3000/menus/'+ $scope.rest.id).then(
+            function(response) {
+            $log.log("Deleted succesfully");
+            $window.alert($scope.rest.name + " deleted succesfully!");
+            $location.path('#!/');
+          }, function(response) {
+            $log.error("Menu delete Error");
+          });
         }, function(response) {
-          $log.error("Deleted Error");
+          $log.error("Delete Error");
         });
 
       };
@@ -147,4 +153,18 @@ angular.module('fineFoodFinderApp')
         });
       }
     };
-  });
+  })
+  .directive('ngConfirmClick', [
+        function(){
+            return {
+                link: function (scope, element, attr) {
+                    var msg = attr.ngConfirmClick || "Are you sure?";
+                    var clickAction = attr.confirmedClick;
+                    element.bind('click',function (event) {
+                        if ( window.confirm(msg) ) {
+                            scope.$eval(clickAction);
+                        }
+                    });
+                }
+            };
+    }]);

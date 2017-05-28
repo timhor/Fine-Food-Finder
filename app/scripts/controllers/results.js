@@ -105,11 +105,11 @@ angular.module('fineFoodFinderApp')
               let j = i + 1;
             while (j < $scope.restdata.length) {
               if (parseFloat($scope.restdata[j].avgPrice) > parseFloat($scope.restdata[min].avgPrice)) {
-                min = j
+                min = j;
               }
               j = j + 1;
             }
-            if (min != i) {
+            if (min !== i) {
               let t = $scope.restdata[min];
               $scope.restdata[min] = $scope.restdata[i];
               $scope.restdata[i] = t;
@@ -126,11 +126,11 @@ angular.module('fineFoodFinderApp')
               let j = i + 1;
             while (j < $scope.restdata.length) {
               if (parseFloat($scope.restdata[j].avgPrice) < parseFloat($scope.restdata[min].avgPrice)) {
-                min = j
+                min = j;
               }
               j = j + 1;
             }
-            if (min != i) {
+            if (min !== i) {
               let t = $scope.restdata[min];
               $scope.restdata[min] = $scope.restdata[i];
               $scope.restdata[i] = t;
